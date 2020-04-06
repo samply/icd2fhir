@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y53",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y53",
+  "name": "Y53",
+  "title": "Primär auf den Magen-Darmtrakt wirkende Mittel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y53"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y53.0",
+        "display": "Histamin-H_2-Rezeptorenblocker "
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y53.1",
+        "display": "Sonstige Antazida und Magensekretionshemmer"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y53.2",
+        "display": "Stimulierende Laxanzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y53.3",
+        "display": "Salinische und osmotische Laxanzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y53.4",
+        "display": "Sonstige Laxanzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y53.5",
+        "display": "Digestiva"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y53.6",
+        "display": "Antidiarrhoika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y53.7",
+        "display": "Emetika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y53.8",
+        "display": "Sonstige primär auf den Magen-Darmtrakt wirkende Mittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y53.9",
+        "display": "Primär auf den Magen-Darmtrakt wirkendes Mittel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

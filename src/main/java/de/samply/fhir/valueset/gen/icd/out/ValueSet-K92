@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K92",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K92",
+  "name": "K92",
+  "title": "Sonstige Krankheiten des Verdauungssystems",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K92"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K92.0",
+        "display": "Hämatemesis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K92.1",
+        "display": "Meläna"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K92.2",
+        "display": "Gastrointestinale Blutung, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K92.8",
+        "display": "Sonstige näher bezeichnete Krankheiten des Verdauungssystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K92.9",
+        "display": "Krankheit des Verdauungssystems, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C00",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C00",
+  "name": "C00",
+  "title": "Bösartige Neubildung der Lippe",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C00"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C00.0",
+        "display": "Äußere Oberlippe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C00.1",
+        "display": "Äußere Unterlippe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C00.2",
+        "display": "Äußere Lippe, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C00.3",
+        "display": "Oberlippe, Innenseite"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C00.4",
+        "display": "Unterlippe, Innenseite"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C00.5",
+        "display": "Lippe, nicht näher bezeichnet, Innenseite"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C00.6",
+        "display": "Lippenkommissur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C00.8",
+        "display": "Lippe, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C00.9",
+        "display": "Lippe, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

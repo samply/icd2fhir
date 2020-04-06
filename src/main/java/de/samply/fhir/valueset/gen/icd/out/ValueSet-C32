@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C32",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C32",
+  "name": "C32",
+  "title": "Bösartige Neubildung des Larynx",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C32"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C32.0",
+        "display": "Glottis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C32.1",
+        "display": "Supraglottis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C32.2",
+        "display": "Subglottis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C32.3",
+        "display": "Larynxknorpel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C32.8",
+        "display": "Larynx, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C32.9",
+        "display": "Larynx, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

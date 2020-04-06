@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E44",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E44",
+  "name": "E44",
+  "title": "Energie- und Eiweißmangelernährung mäßigen und leichten Grades",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E44"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E44.0",
+        "display": "Mäßige Energie- und Eiweißmangelernährung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E44.1",
+        "display": "Leichte Energie- und Eiweißmangelernährung"
+      }
+    ]
+  }
+}

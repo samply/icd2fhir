@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L62",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L62",
+  "name": "L62",
+  "title": "Krankheiten der Nägel bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L62"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L62.0",
+        "display": "Pachydermoperiostose mit Uhrglasnägeln [M89.4 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L62.8",
+        "display": "Krankheiten der Nägel bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E71",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E71",
+  "name": "E71",
+  "title": "Störungen des Stoffwechsels verzweigter Aminosäuren und des Fettsäurestoffwechsels",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E71"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E71.0",
+        "display": "Ahornsirup- (Harn-) Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E71.1",
+        "display": "Sonstige Störungen des Stoffwechsels verzweigter Aminosäuren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E71.2",
+        "display": "Störung des Stoffwechsels verzweigter Aminosäuren, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E71.3",
+        "display": "Störungen des Fettsäurestoffwechsels"
+      }
+    ]
+  }
+}

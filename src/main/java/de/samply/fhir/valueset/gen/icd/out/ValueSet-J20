@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J20",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J20",
+  "name": "J20",
+  "title": "Akute Bronchitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J20"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J20.0",
+        "display": "Akute Bronchitis durch Mycoplasma pneumoniae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J20.1",
+        "display": "Akute Bronchitis durch Haemophilus influenzae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J20.2",
+        "display": "Akute Bronchitis durch Streptokokken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J20.3",
+        "display": "Akute Bronchitis durch Coxsackieviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J20.4",
+        "display": "Akute Bronchitis durch Parainfluenzaviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J20.5",
+        "display": "Akute Bronchitis durch Respiratory-Syncytial-Viren [RS-Viren]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J20.6",
+        "display": "Akute Bronchitis durch Rhinoviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J20.7",
+        "display": "Akute Bronchitis durch ECHO-Viren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J20.8",
+        "display": "Akute Bronchitis durch sonstige näher bezeichnete Erreger"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J20.9",
+        "display": "Akute Bronchitis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

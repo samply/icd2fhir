@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A88",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A88",
+  "name": "A88",
+  "title": "Sonstige Virusinfektionen des Zentralnervensystems, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A88"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A88.0",
+        "display": "Fieber und Exanthem durch Enteroviren [Boston-Exanthem]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A88.1",
+        "display": "Epidemischer Schwindel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A88.8",
+        "display": "Sonstige näher bezeichnete Virusinfektionen des Zentralnervensystems"
+      }
+    ]
+  }
+}

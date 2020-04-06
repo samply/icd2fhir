@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H95",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H95",
+  "name": "H95",
+  "title": "Krankheiten des Ohres und des Warzenfortsatzes nach medizinischen Maßnahmen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H95"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H95.0",
+        "display": "Rezidivierendes Cholesteatom in der Mastoidhöhle nach Mastoidektomie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H95.1",
+        "display": "Sonstige Krankheiten nach Mastoidektomie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H95.8",
+        "display": "Sonstige Krankheiten des Ohres und des Warzenfortsatzes nach medizinischen Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H95.9",
+        "display": "Krankheit des Ohres und des Warzenfortsatzes nach medizinischen Maßnahmen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

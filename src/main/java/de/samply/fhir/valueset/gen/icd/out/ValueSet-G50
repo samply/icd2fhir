@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G50",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G50",
+  "name": "G50",
+  "title": "Krankheiten des N. trigeminus [V. Hirnnerv]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G50"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G50.0",
+        "display": "Trigeminusneuralgie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G50.1",
+        "display": "Atypischer Gesichtsschmerz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G50.8",
+        "display": "Sonstige Krankheiten des N. trigeminus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G50.9",
+        "display": "Krankheit des N. trigeminus, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q53",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q53",
+  "name": "Q53",
+  "title": "Nondescensus testis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q53"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q53.0",
+        "display": "Ektopia testis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q53.1",
+        "display": "Nondescensus testis, einseitig"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q53.2",
+        "display": "Nondescensus testis, beidseitig"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q53.9",
+        "display": "Nondescensus testis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

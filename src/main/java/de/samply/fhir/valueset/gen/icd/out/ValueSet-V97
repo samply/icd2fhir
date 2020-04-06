@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "V97",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/V97",
+  "name": "V97",
+  "title": "Sonstige näher bezeichnete Luftverkehrsunfälle",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "V97"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V97.0",
+        "display": "Insasse eines Luftfahrzeuges bei sonstigen näher bezeichneten Luftverkehrsunfällen verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V97.1",
+        "display": "Person beim Ein- oder Aussteigen aus Luftfahrzeug verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V97.2",
+        "display": "Fallschirmspringer bei Luftverkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V97.3",
+        "display": "Person am Boden bei Luftverkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V97.8",
+        "display": "Sonstige Luftverkehrsunfälle, anderenorts nicht klassifiziert"
+      }
+    ]
+  }
+}

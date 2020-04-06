@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O96",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O96",
+  "name": "O96",
+  "title": "Tod infolge jeder gestationsbedingten Ursache nach mehr als 42 Tagen bis unter einem Jahr nach der Entbindung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O96"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O96.0",
+        "display": "Tod infolge direkt gestationsbedingter Ursachen nach mehr als 42 Tagen bis unter einem Jahr nach der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O96.1",
+        "display": "Tod infolge indirekt gestationsbedingter Ursachen nach mehr als 42 Tagen bis unter einem Jahr nach der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O96.9",
+        "display": "Tod infolge nicht näher bezeichneter gestationsbedingter Ursachen nach mehr als 42 Tagen bis unter einem Jahr nach der Entbindung"
+      }
+    ]
+  }
+}

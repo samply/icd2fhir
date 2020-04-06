@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B19",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B19",
+  "name": "B19",
+  "title": "Nicht näher bezeichnete Virushepatitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B19"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B19.0",
+        "display": "Nicht näher bezeichnete Virushepatitis mit hepatischem Koma"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B19.9",
+        "display": "Nicht näher bezeichnete Virushepatitis ohne hepatisches Koma"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H45",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H45",
+  "name": "H45",
+  "title": "Affektionen des Glaskörpers und des Augapfels bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H45"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H45.0",
+        "display": "Glaskörperblutung bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H45.1",
+        "display": "Endophthalmitis bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H45.8",
+        "display": "Sonstige Affektionen des Glaskörpers und des Augapfels bei anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

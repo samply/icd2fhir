@@ -1,0 +1,444 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm",
+  "version": "2016",
+  "property": [
+    {
+      "code": "kind",
+      "type": "code"
+    },
+    {
+      "code": "coding-hint",
+      "type": "string"
+    },
+    {
+      "code": "exclusion",
+      "type": "string"
+    },
+    {
+      "code": "inclusion",
+      "type": "string"
+    },
+    {
+      "code": "introduction",
+      "type": "string"
+    },
+    {
+      "code": "modifierlink",
+      "type": "string"
+    },
+    {
+      "code": "note",
+      "type": "string"
+    },
+    {
+      "code": "text",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "I",
+      "display": "Bestimmte infektiöse und parasitäre Krankheiten",
+      "definition": "Bestimmte infektiöse und parasitäre Krankheiten",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "chapter"
+        },
+        {
+          "code": "child",
+          "valueCode": "A00-A09"
+        },
+        {
+          "code": "child",
+          "valueCode": "A15-A19"
+        },
+        {
+          "code": "child",
+          "valueCode": "A20-A28"
+        },
+        {
+          "code": "child",
+          "valueCode": "A30-A49"
+        },
+        {
+          "code": "child",
+          "valueCode": "A50-A64"
+        },
+        {
+          "code": "child",
+          "valueCode": "A65-A69"
+        },
+        {
+          "code": "child",
+          "valueCode": "A70-A74"
+        },
+        {
+          "code": "child",
+          "valueCode": "A75-A79"
+        },
+        {
+          "code": "child",
+          "valueCode": "A80-A89"
+        },
+        {
+          "code": "child",
+          "valueCode": "A92-A99"
+        },
+        {
+          "code": "child",
+          "valueCode": "B00-B09"
+        },
+        {
+          "code": "child",
+          "valueCode": "B15-B19"
+        },
+        {
+          "code": "child",
+          "valueCode": "B20-B24"
+        },
+        {
+          "code": "child",
+          "valueCode": "B25-B34"
+        },
+        {
+          "code": "child",
+          "valueCode": "B35-B49"
+        },
+        {
+          "code": "child",
+          "valueCode": "B50-B64"
+        },
+        {
+          "code": "child",
+          "valueCode": "B65-B83"
+        },
+        {
+          "code": "child",
+          "valueCode": "B85-B89"
+        },
+        {
+          "code": "child",
+          "valueCode": "B90-B94"
+        },
+        {
+          "code": "child",
+          "valueCode": "B95-B98"
+        },
+        {
+          "code": "child",
+          "valueCode": "B99-B99"
+        },
+        {
+          "code": "inclusion",
+          "valueString": "Krankheiten, die allgemein als ansteckend oder übertragbar anerkannt sind"
+        },
+        {
+          "code": "coding-hint",
+          "valueString": "Benutze eine zusätzliche Schlüsselnummer (U82-U84), um das Vorliegen einer Resistenz gegen antimikrobielle Medikamente anzugeben."
+        },
+        {
+          "code": "exclusion",
+          "valueString": "Keimträger oder -ausscheider, einschließlich Verdachtsfällen [Z22.-]"
+        },
+        {
+          "code": "exclusion",
+          "valueString": "Bestimmte lokalisierte Infektionen - siehe im entsprechenden Kapitel des jeweiligen Körpersystems"
+        },
+        {
+          "code": "exclusion",
+          "valueString": "Infektiöse und parasitäre Krankheiten, die Schwangerschaft, Geburt und Wochenbett komplizieren [ausgenommen Tetanus in diesem Zeitabschnitt] [O98.-]"
+        },
+        {
+          "code": "exclusion",
+          "valueString": "Infektiöse und parasitäre Krankheiten, die spezifisch für die Perinatalperiode sind [ausgenommen Tetanus neonatorum, Syphilis connata, perinatale Gonokokkeninfektion und perinatale HIV-Krankheit] [P35-P39]"
+        },
+        {
+          "code": "exclusion",
+          "valueString": "Grippe und sonstige akute Infektionen der Atemwege [J00-J22]"
+        }
+      ]
+    },
+    {
+      "code": "A00-A09",
+      "display": "Infektiöse Darmkrankheiten",
+      "definition": "Infektiöse Darmkrankheiten",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "block"
+        },
+        {
+          "code": "child",
+          "valueCode": "A00"
+        },
+        {
+          "code": "child",
+          "valueCode": "A01"
+        },
+        {
+          "code": "child",
+          "valueCode": "A02"
+        },
+        {
+          "code": "child",
+          "valueCode": "A03"
+        },
+        {
+          "code": "child",
+          "valueCode": "A04"
+        },
+        {
+          "code": "child",
+          "valueCode": "A05"
+        },
+        {
+          "code": "child",
+          "valueCode": "A06"
+        },
+        {
+          "code": "child",
+          "valueCode": "A07"
+        },
+        {
+          "code": "child",
+          "valueCode": "A08"
+        },
+        {
+          "code": "child",
+          "valueCode": "A09"
+        },
+        {
+          "code": "parent",
+          "valueCode": "I"
+        }
+      ]
+    },
+    {
+      "code": "A00",
+      "display": "Cholera",
+      "definition": "Cholera",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "child",
+          "valueCode": "A00.0"
+        },
+        {
+          "code": "child",
+          "valueCode": "A00.1"
+        },
+        {
+          "code": "child",
+          "valueCode": "A00.9"
+        },
+        {
+          "code": "parent",
+          "valueCode": "A00-A09"
+        }
+      ]
+    },
+    {
+      "code": "A00.0",
+      "display": "Cholera durch Vibrio cholerae O:1, Biovar cholerae",
+      "definition": "Cholera durch Vibrio cholerae O:1, Biovar cholerae",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "parent",
+          "valueCode": "A00"
+        },
+        {
+          "code": "inclusion",
+          "valueString": "Klassische Cholera"
+        }
+      ]
+    },
+    {
+      "code": "A00.1",
+      "display": "Cholera durch Vibrio cholerae O:1, Biovar eltor",
+      "definition": "Cholera durch Vibrio cholerae O:1, Biovar eltor",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "parent",
+          "valueCode": "A00"
+        },
+        {
+          "code": "inclusion",
+          "valueString": "El-Tor-Cholera"
+        }
+      ]
+    },
+    {
+      "code": "A00.9",
+      "display": "Cholera, nicht näher bezeichnet",
+      "definition": "Cholera, nicht näher bezeichnet",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "parent",
+          "valueCode": "A00"
+        }
+      ]
+    },
+    {
+      "code": "A01",
+      "display": "Typhus abdominalis und Paratyphus",
+      "definition": "Typhus abdominalis und Paratyphus",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "child",
+          "valueCode": "A01.0"
+        },
+        {
+          "code": "child",
+          "valueCode": "A01.1"
+        },
+        {
+          "code": "child",
+          "valueCode": "A01.2"
+        },
+        {
+          "code": "child",
+          "valueCode": "A01.3"
+        },
+        {
+          "code": "child",
+          "valueCode": "A01.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "A00-A09"
+        }
+      ]
+    },
+    {
+      "code": "A01.0",
+      "display": "Typhus abdominalis",
+      "definition": "Typhus abdominalis",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "parent",
+          "valueCode": "A01"
+        },
+        {
+          "code": "inclusion",
+          "valueString": "Infektion durch Salmonella typhi"
+        },
+        {
+          "code": "inclusion",
+          "valueString": "Typhoides Fieber"
+        }
+      ]
+    },
+    {
+      "code": "A01.1",
+      "display": "Paratyphus A",
+      "definition": "Paratyphus A",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "parent",
+          "valueCode": "A01"
+        }
+      ]
+    },
+    {
+      "code": "A01.2",
+      "display": "Paratyphus B",
+      "definition": "Paratyphus B",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "parent",
+          "valueCode": "A01"
+        }
+      ]
+    },
+    {
+      "code": "A01.3",
+      "display": "Paratyphus C",
+      "definition": "Paratyphus C",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "parent",
+          "valueCode": "A01"
+        }
+      ]
+    },
+    {
+      "code": "A01.4",
+      "display": "Paratyphus, nicht näher bezeichnet",
+      "definition": "Paratyphus, nicht näher bezeichnet",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "parent",
+          "valueCode": "A01"
+        },
+        {
+          "code": "inclusion",
+          "valueString": "Infektion durch Salmonella paratyphi o.n.A."
+        }
+      ]
+    },
+    {
+      "code": "U85",
+      "display": "Resistenz gegen antineoplastische Medikamente",
+      "definition": "Resistenz gegen antineoplastische Medikamente",
+      "property": [
+        {
+          "code": "kind",
+          "valueCode": "category"
+        },
+        {
+          "code": "parent",
+          "valueCode": "U82-U85"
+        },
+        {
+          "code": "inclusion",
+          "valueString": "Nicht-Ansprechen auf antineoplastische Medikamente"
+        },
+        {
+          "code": "inclusion",
+          "valueString": "Therapie-refraktärer Krebs"
+        }
+      ]
+    }
+  ]
+}

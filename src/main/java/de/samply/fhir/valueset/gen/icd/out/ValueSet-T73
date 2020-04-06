@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T73",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T73",
+  "name": "T73",
+  "title": "Schäden durch sonstigen Mangel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T73"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T73.0",
+        "display": "Schäden durch Hunger"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T73.1",
+        "display": "Schäden durch Durst"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T73.2",
+        "display": "Erschöpfung durch Ausgesetztsein (gegenüber Witterungsunbilden)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T73.3",
+        "display": "Erschöpfung durch übermäßige Anstrengung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T73.8",
+        "display": "Sonstige Schäden durch Mangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T73.9",
+        "display": "Schaden durch Mangel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

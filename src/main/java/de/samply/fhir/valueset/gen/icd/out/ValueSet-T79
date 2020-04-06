@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T79",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T79",
+  "name": "T79",
+  "title": "Bestimmte Frühkomplikationen eines Traumas, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T79"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T79.0",
+        "display": "Luftembolie (traumatisch)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T79.1",
+        "display": "Fettembolie (traumatisch)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T79.2",
+        "display": "Traumatisch bedingte sekundäre oder rezidivierende Blutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T79.3",
+        "display": "Posttraumatische Wundinfektion, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T79.4",
+        "display": "Traumatischer Schock"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T79.5",
+        "display": "Traumatische Anurie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T79.6",
+        "display": "Traumatische Muskelischämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T79.7",
+        "display": "Traumatisches subkutanes Emphysem"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T79.8",
+        "display": "Sonstige Frühkomplikationen eines Traumas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T79.9",
+        "display": "Nicht näher bezeichnete Frühkomplikation eines Traumas"
+      }
+    ]
+  }
+}

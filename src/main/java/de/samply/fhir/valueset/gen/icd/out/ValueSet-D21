@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D21",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D21",
+  "name": "D21",
+  "title": "Sonstige gutartige Neubildungen des Bindegewebes und anderer Weichteilgewebe",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D21"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D21.0",
+        "display": "Bindegewebe und andere Weichteilgewebe des Kopfes, des Gesichtes und des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D21.1",
+        "display": "Bindegewebe und andere Weichteilgewebe der oberen Extremität, einschließlich Schulter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D21.2",
+        "display": "Bindegewebe und andere Weichteilgewebe der unteren Extremität, einschließlich Hüfte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D21.3",
+        "display": "Bindegewebe und andere Weichteilgewebe des Thorax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D21.4",
+        "display": "Bindegewebe und andere Weichteilgewebe des Abdomens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D21.5",
+        "display": "Bindegewebe und andere Weichteilgewebe des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D21.6",
+        "display": "Bindegewebe und andere Weichteilgewebe des Rumpfes, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D21.9",
+        "display": "Bindegewebe und andere Weichteilgewebe, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

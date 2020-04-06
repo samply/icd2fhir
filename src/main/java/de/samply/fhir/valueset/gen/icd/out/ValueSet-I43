@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I43",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I43",
+  "name": "I43",
+  "title": "Kardiomyopathie bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I43"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I43.0",
+        "display": "Kardiomyopathie bei anderenorts klassifizierten infektiösen und parasitären Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I43.1",
+        "display": "Kardiomyopathie bei Stoffwechselkrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I43.2",
+        "display": "Kardiomyopathie bei alimentären Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I43.8",
+        "display": "Kardiomyopathie bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

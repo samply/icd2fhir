@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M08",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M08",
+  "name": "M08",
+  "title": "Juvenile Arthritis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M08"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M08.0",
+        "display": "Juvenile chronische Polyarthritis, adulter Typ"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M08.1",
+        "display": "Juvenile Spondylitis ankylosans"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M08.2",
+        "display": "Juvenile chronische Arthritis, systemisch beginnende Form"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M08.3",
+        "display": "Juvenile chronische Arthritis (seronegativ), polyartikulär beginnende Form"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M08.4",
+        "display": "Juvenile chronische Arthritis, oligoartikulär beginnende Form"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M08.8",
+        "display": "Sonstige juvenile Arthritis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M08.9",
+        "display": "Juvenile Arthritis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

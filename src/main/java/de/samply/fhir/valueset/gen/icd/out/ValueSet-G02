@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G02",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G02",
+  "name": "G02",
+  "title": "Meningitis bei sonstigen anderenorts klassifizierten infektiösen und parasitären Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G02"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G02.0",
+        "display": "Meningitis bei anderenorts klassifizierten Viruskrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G02.1",
+        "display": "Meningitis bei anderenorts klassifizierten Mykosen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G02.8",
+        "display": "Meningitis bei sonstigen näher bezeichneten anderenorts klassifizierten infektiösen und parasitären Krankheiten"
+      }
+    ]
+  }
+}

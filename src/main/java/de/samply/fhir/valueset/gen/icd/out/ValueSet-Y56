@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y56",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y56",
+  "name": "Y56",
+  "title": "Primär auf Haut und Schleimhaut wirkende sowie in der Augen-, der Hals-Nasen-Ohren- und der Zahnheilkunde topisch angewendete Arzneimittel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y56"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y56.0",
+        "display": "Antimykotika, Antiinfektiva und Antiphlogistika zur lokalen Anwendung, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y56.1",
+        "display": "Antipruriginosa"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y56.2",
+        "display": "Adstringenzien und Detergenzien zur lokalen Anwendung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y56.3",
+        "display": "Hauterweichende [Emollienzien], hautpflegende [Demulzenzien] und hautschützende Mittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y56.4",
+        "display": "Keratolytika, Keratoplastika und sonstige Arzneimittel und Präparate zur Haarbehandlung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y56.5",
+        "display": "Ophthalmika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y56.6",
+        "display": "In der Hals-Nasen-Ohrenheilkunde angewendete Arzneimittel und Präparate"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y56.7",
+        "display": "Dentalpharmaka bei topischer Anwendung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y56.8",
+        "display": "Sonstige Mittel bei topischer Anwendung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y56.9",
+        "display": "Mittel bei topischer Anwendung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

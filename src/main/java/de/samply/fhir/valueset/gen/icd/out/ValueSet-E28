@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E28",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E28",
+  "name": "E28",
+  "title": "Ovarielle Dysfunktion",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E28"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E28.0",
+        "display": "Östrogenüberschuss"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E28.1",
+        "display": "Androgenüberschuss"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E28.2",
+        "display": "Syndrom polyzystischer Ovarien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E28.3",
+        "display": "Primäre Ovarialinsuffizienz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E28.8",
+        "display": "Sonstige ovarielle Dysfunktion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E28.9",
+        "display": "Ovarielle Dysfunktion, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

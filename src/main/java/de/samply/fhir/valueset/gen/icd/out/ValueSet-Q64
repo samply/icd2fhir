@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q64",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q64",
+  "name": "Q64",
+  "title": "Sonstige angeborene Fehlbildungen des Harnsystems",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q64"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q64.0",
+        "display": "Epispadie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q64.1",
+        "display": "Ekstrophie der Harnblase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q64.2",
+        "display": "Angeborene Urethralklappen im hinteren Teil der Harnröhre"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q64.3",
+        "display": "Sonstige Atresie und (angeborene) Stenose der Urethra und des Harnblasenhalses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q64.4",
+        "display": "Fehlbildung des Urachus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q64.5",
+        "display": "Angeborenes Fehlen der Harnblase und der Urethra"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q64.6",
+        "display": "Angeborenes Divertikel der Harnblase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q64.7",
+        "display": "Sonstige angeborene Fehlbildungen der Harnblase und der Urethra"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q64.8",
+        "display": "Sonstige näher bezeichnete angeborene Fehlbildungen des Harnsystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q64.9",
+        "display": "Angeborene Fehlbildung des Harnsystems, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G52",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G52",
+  "name": "G52",
+  "title": "Krankheiten sonstiger Hirnnerven",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G52"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G52.0",
+        "display": "Krankheiten der Nn. olfactorii [I. Hirnnerv]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G52.1",
+        "display": "Krankheiten des N. glossopharyngeus [IX. Hirnnerv]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G52.2",
+        "display": "Krankheiten des N. vagus [X. Hirnnerv]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G52.3",
+        "display": "Krankheiten des N. hypoglossus [XII. Hirnnerv]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G52.7",
+        "display": "Krankheiten mehrerer Hirnnerven"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G52.8",
+        "display": "Krankheiten sonstiger näher bezeichneter Hirnnerven"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G52.9",
+        "display": "Krankheit eines Hirnnerven, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

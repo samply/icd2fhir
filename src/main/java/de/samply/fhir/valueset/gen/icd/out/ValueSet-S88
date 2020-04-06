@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S88",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S88",
+  "name": "S88",
+  "title": "Traumatische Amputation am Unterschenkel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S88"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S88.0",
+        "display": "Traumatische Amputation in Höhe des Knies"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S88.1",
+        "display": "Traumatische Amputation zwischen Knie und oberem Sprunggelenk"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S88.9",
+        "display": "Traumatische Amputation am Unterschenkel, Höhe nicht näher bezeichnet"
+      }
+    ]
+  }
+}

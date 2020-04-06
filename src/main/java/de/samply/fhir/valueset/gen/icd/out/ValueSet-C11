@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C11",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C11",
+  "name": "C11",
+  "title": "Bösartige Neubildung des Nasopharynx",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C11"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C11.0",
+        "display": "Obere Wand des Nasopharynx"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C11.1",
+        "display": "Hinterwand des Nasopharynx"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C11.2",
+        "display": "Seitenwand des Nasopharynx"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C11.3",
+        "display": "Vorderwand des Nasopharynx"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C11.8",
+        "display": "Nasopharynx, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C11.9",
+        "display": "Nasopharynx, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

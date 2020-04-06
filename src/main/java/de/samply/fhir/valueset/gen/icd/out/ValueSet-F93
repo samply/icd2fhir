@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F93",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F93",
+  "name": "F93",
+  "title": "Emotionale Störungen des Kindesalters",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F93"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F93.0",
+        "display": "Emotionale Störung mit Trennungsangst des Kindesalters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F93.1",
+        "display": "Phobische Störung des Kindesalters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F93.2",
+        "display": "Störung mit sozialer Ängstlichkeit des Kindesalters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F93.3",
+        "display": "Emotionale Störung mit Geschwisterrivalität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F93.8",
+        "display": "Sonstige emotionale Störungen des Kindesalters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F93.9",
+        "display": "Emotionale Störung des Kindesalters, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

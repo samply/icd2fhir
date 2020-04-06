@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I22",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I22",
+  "name": "I22",
+  "title": "Rezidivierender Myokardinfarkt",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I22"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I22.0",
+        "display": "Rezidivierender Myokardinfarkt der Vorderwand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I22.1",
+        "display": "Rezidivierender Myokardinfarkt der Hinterwand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I22.8",
+        "display": "Rezidivierender Myokardinfarkt an sonstigen Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I22.9",
+        "display": "Rezidivierender Myokardinfarkt an nicht näher bezeichneter Lokalisation"
+      }
+    ]
+  }
+}

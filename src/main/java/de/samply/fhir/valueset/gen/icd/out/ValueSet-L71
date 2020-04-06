@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L71",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L71",
+  "name": "L71",
+  "title": "Rosazea",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L71"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L71.0",
+        "display": "Periorale Dermatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L71.1",
+        "display": "Rhinophym"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L71.8",
+        "display": "Sonstige Rosazea"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L71.9",
+        "display": "Rosazea, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

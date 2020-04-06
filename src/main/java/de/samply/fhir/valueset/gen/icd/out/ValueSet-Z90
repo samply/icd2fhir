@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z90",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z90",
+  "name": "Z90",
+  "title": "Verlust von Organen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z90"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z90.0",
+        "display": "Verlust von Teilen des Kopfes oder des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z90.1",
+        "display": "Verlust der Mamma(e) [Brustdrüse]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z90.2",
+        "display": "Verlust der Lunge [Teile der Lunge]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z90.3",
+        "display": "Verlust von Teilen des Magens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z90.4",
+        "display": "Verlust anderer Teile des Verdauungstraktes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z90.5",
+        "display": "Verlust der Niere(n)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z90.6",
+        "display": "Verlust anderer Teile des Harntraktes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z90.7",
+        "display": "Verlust eines oder mehrerer Genitalorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z90.8",
+        "display": "Verlust sonstiger Organe"
+      }
+    ]
+  }
+}

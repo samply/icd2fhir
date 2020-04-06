@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G12",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G12",
+  "name": "G12",
+  "title": "Spinale Muskelatrophie und verwandte Syndrome",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G12"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G12.0",
+        "display": "Infantile spinale Muskelatrophie, Typ I [Typ Werdnig-Hoffmann]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G12.1",
+        "display": "Sonstige vererbte spinale Muskelatrophie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G12.2",
+        "display": "Motoneuron-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G12.8",
+        "display": "Sonstige spinale Muskelatrophien und verwandte Syndrome"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G12.9",
+        "display": "Spinale Muskelatrophie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

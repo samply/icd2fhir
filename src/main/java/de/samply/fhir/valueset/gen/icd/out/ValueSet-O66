@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O66",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O66",
+  "name": "O66",
+  "title": "Sonstiges Geburtshindernis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O66"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O66.0",
+        "display": "Geburtshindernis durch Schulterdystokie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O66.1",
+        "display": "Geburtshindernis durch verhakte Zwillinge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O66.2",
+        "display": "Geburtshindernis durch ungewöhnlich großen Fetus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O66.3",
+        "display": "Geburtshindernis durch sonstige Anomalien des Fetus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O66.4",
+        "display": "Misslungener Versuch der Geburtsbeendigung, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O66.5",
+        "display": "Misslungener Versuch einer Vakuum- oder Zangenextraktion, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O66.8",
+        "display": "Sonstiges näher bezeichnetes Geburtshindernis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O66.9",
+        "display": "Geburtshindernis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

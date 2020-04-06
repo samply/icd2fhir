@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "V96",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/V96",
+  "name": "V96",
+  "title": "Unfall eines Luftfahrzeuges ohne Kraftantrieb mit Verletzung von Insassen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "V96"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V96.0",
+        "display": "Unfall eines Ballons mit Verletzung von Insassen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V96.1",
+        "display": "Unfall eines Hängegleiters mit Verletzung von Benutzern"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V96.2",
+        "display": "Unfall eines Gleiters (ohne Kraftantrieb) mit Verletzung von Benutzern"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V96.8",
+        "display": "Unfälle sonstiger Luftfahrzeuge ohne Kraftantrieb mit Verletzung von Benutzern"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V96.9",
+        "display": "Unfall eines nicht näher bezeichneten Luftfahrzeuges ohne Kraftantrieb mit Verletzung von Insassen"
+      }
+    ]
+  }
+}

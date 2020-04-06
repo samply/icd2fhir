@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N80",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N80",
+  "name": "N80",
+  "title": "Endometriose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N80"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N80.0",
+        "display": "Endometriose des Uterus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N80.1",
+        "display": "Endometriose des Ovars"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N80.2",
+        "display": "Endometriose der Tuba uterina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N80.3",
+        "display": "Endometriose des Beckenperitoneums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N80.4",
+        "display": "Endometriose des Septum rectovaginale und der Vagina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N80.5",
+        "display": "Endometriose des Darmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N80.6",
+        "display": "Endometriose in Hautnarbe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N80.8",
+        "display": "Sonstige Endometriose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N80.9",
+        "display": "Endometriose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

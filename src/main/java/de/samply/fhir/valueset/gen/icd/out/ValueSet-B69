@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B69",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B69",
+  "name": "B69",
+  "title": "Zystizerkose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B69"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B69.0",
+        "display": "Zystizerkose des Zentralnervensystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B69.1",
+        "display": "Zystizerkose der Augen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B69.8",
+        "display": "Zystizerkose an sonstigen Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B69.9",
+        "display": "Zystizerkose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

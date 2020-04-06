@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z94",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z94",
+  "name": "Z94",
+  "title": "Zustand nach Organ- oder Gewebetransplantation",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z94"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z94.0",
+        "display": "Zustand nach Nierentransplantation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z94.1",
+        "display": "Zustand nach Herztransplantation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z94.2",
+        "display": "Zustand nach Lungentransplantation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z94.3",
+        "display": "Zustand nach Herz-Lungen-Transplantation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z94.4",
+        "display": "Zustand nach Lebertransplantation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z94.5",
+        "display": "Zustand nach Hauttransplantation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z94.6",
+        "display": "Zustand nach Knochentransplantation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z94.7",
+        "display": "Zustand nach Keratoplastik"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z94.8",
+        "display": "Zustand nach sonstiger Organ- oder Gewebetransplantation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z94.9",
+        "display": "Zustand nach Organ- oder Gewebetransplantation, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

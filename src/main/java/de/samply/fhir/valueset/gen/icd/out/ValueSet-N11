@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N11",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N11",
+  "name": "N11",
+  "title": "Chronische tubulointerstitielle Nephritis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N11"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N11.0",
+        "display": "Nichtobstruktive, mit Reflux verbundene chronische Pyelonephritis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N11.1",
+        "display": "Chronische obstruktive Pyelonephritis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N11.8",
+        "display": "Sonstige chronische tubulointerstitielle Nephritis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N11.9",
+        "display": "Chronische tubulointerstitielle Nephritis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

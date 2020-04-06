@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B57",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B57",
+  "name": "B57",
+  "title": "Chagas-Krankheit",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B57"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B57.0",
+        "display": "Akute Chagas-Krankheit mit Herzbeteiligung [I41.2 ][I98.1 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B57.1",
+        "display": "Akute Chagas-Krankheit ohne Herzbeteiligung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B57.2",
+        "display": "Chagas-Krankheit (chronisch) mit Herzbeteiligung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B57.3",
+        "display": "Chagas-Krankheit (chronisch) mit Beteiligung des Verdauungssystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B57.4",
+        "display": "Chagas-Krankheit (chronisch) mit Beteiligung des Nervensystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B57.5",
+        "display": "Chagas-Krankheit (chronisch) mit Beteiligung sonstiger Organe"
+      }
+    ]
+  }
+}

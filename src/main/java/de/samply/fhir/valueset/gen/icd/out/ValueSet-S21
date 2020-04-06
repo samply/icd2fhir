@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S21",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S21",
+  "name": "S21",
+  "title": "Offene Wunde des Thorax",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S21"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S21.0",
+        "display": "Offene Wunde der Mamma [Brustdrüse]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S21.1",
+        "display": "Offene Wunde der vorderen Thoraxwand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S21.2",
+        "display": "Offene Wunde der hinteren Thoraxwand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S21.7",
+        "display": "Multiple offene Wunden der Thoraxwand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S21.8",
+        "display": "Offene Wunde sonstiger Teile des Thorax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S21.9",
+        "display": "Offene Wunde des Thorax, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

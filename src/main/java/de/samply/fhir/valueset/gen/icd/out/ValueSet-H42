@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H42",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H42",
+  "name": "H42",
+  "title": "Glaukom bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H42"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H42.0",
+        "display": "Glaukom bei endokrinen, Ernährungs- und Stoffwechselkrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H42.8",
+        "display": "Glaukom bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

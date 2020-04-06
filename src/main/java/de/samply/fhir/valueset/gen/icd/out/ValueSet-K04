@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K04",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K04",
+  "name": "K04",
+  "title": "Krankheiten der Pulpa und des periapikalen Gewebes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K04"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K04.0",
+        "display": "Pulpitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K04.1",
+        "display": "Pulpanekrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K04.2",
+        "display": "Pulpadegeneration"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K04.3",
+        "display": "Abnorme Bildung von Zahnhartsubstanz in der Pulpa"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K04.4",
+        "display": "Akute apikale Parodontitis pulpalen Ursprungs"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K04.5",
+        "display": "Chronische apikale Parodontitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K04.6",
+        "display": "Periapikaler Abszess mit Fistel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K04.7",
+        "display": "Periapikaler Abszess ohne Fistel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K04.8",
+        "display": "Radikuläre Zyste"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K04.9",
+        "display": "Sonstige und nicht näher bezeichnete Krankheiten der Pulpa und des periapikalen Gewebes"
+      }
+    ]
+  }
+}

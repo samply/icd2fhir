@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z28",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z28",
+  "name": "Z28",
+  "title": "Nicht durchgeführte Impfung [Immunisierung]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z28"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z28.0",
+        "display": "Impfung [Immunisierung] nicht durchgeführt wegen Kontraindikation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z28.1",
+        "display": "Impfung [Immunisierung] nicht durchgeführt aus Glaubensgründen des Patienten oder wegen Gruppendruck auf den Patienten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z28.2",
+        "display": "Impfung [Immunisierung] nicht durchgeführt aus anderen oder nicht näher bezeichneten Gründen des Patienten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z28.8",
+        "display": "Impfung [Immunisierung] nicht durchgeführt aus anderen Gründen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z28.9",
+        "display": "Impfung [Immunisierung] nicht durchgeführt aus nicht näher bezeichnetem Grund"
+      }
+    ]
+  }
+}

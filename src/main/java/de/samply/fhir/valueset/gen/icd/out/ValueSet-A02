@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A02",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A02",
+  "name": "A02",
+  "title": "Sonstige Salmonelleninfektionen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A02"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A02.0",
+        "display": "Salmonellenenteritis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A02.1",
+        "display": "Salmonellensepsis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A02.2",
+        "display": "Lokalisierte Salmonelleninfektionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A02.8",
+        "display": "Sonstige näher bezeichnete Salmonelleninfektionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A02.9",
+        "display": "Salmonelleninfektion, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

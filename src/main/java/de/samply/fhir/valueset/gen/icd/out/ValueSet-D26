@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D26",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D26",
+  "name": "D26",
+  "title": "Sonstige gutartige Neubildungen des Uterus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D26"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D26.0",
+        "display": "Cervix uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D26.1",
+        "display": "Corpus uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D26.7",
+        "display": "Sonstige Teile des Uterus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D26.9",
+        "display": "Uterus, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

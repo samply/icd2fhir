@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z82",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z82",
+  "name": "Z82",
+  "title": "Bestimmte Behinderungen oder chronische Krankheiten in der Familienanamnese, die zu Schädigung oder Behinderung führen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z82"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z82.0",
+        "display": "Epilepsie oder andere Krankheiten des Nervensystems in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z82.1",
+        "display": "Blindheit oder Visusverlust in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z82.2",
+        "display": "Taubheit oder Hörverlust in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z82.3",
+        "display": "Apoplexie in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z82.4",
+        "display": "Ischämische Herzkrankheit oder andere Krankheiten des Kreislaufsystems in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z82.5",
+        "display": "Asthma bronchiale oder andere chronische Krankheiten der unteren Atemwege in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z82.6",
+        "display": "Arthritis oder andere Krankheiten des Muskel-Skelett-Systems und des Bindegewebes in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z82.7",
+        "display": "Angeborene Fehlbildungen, Deformitäten oder Chromosomenanomalien in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z82.8",
+        "display": "Sonstige Behinderungen oder chronische Krankheiten in der Familienanamnese, die zu Schädigung oder Behinderung führen, anderenorts nicht klassifiziert"
+      }
+    ]
+  }
+}

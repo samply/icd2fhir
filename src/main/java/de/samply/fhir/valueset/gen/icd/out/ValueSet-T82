@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T82",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T82",
+  "name": "T82",
+  "title": "Komplikationen durch Prothesen, Implantate oder Transplantate im Herzen und in den Gefäßen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T82"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T82.0",
+        "display": "Mechanische Komplikation durch eine Herzklappenprothese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T82.1",
+        "display": "Mechanische Komplikation durch ein kardiales elektronisches Gerät"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T82.2",
+        "display": "Mechanische Komplikation durch Koronararterien-Bypass und Klappentransplantate"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T82.3",
+        "display": "Mechanische Komplikation durch sonstige Gefäßtransplantate"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T82.4",
+        "display": "Mechanische Komplikation durch Gefäßkatheter bei Dialyse"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T82.5",
+        "display": "Mechanische Komplikation durch sonstige Geräte und Implantate im Herzen und in den Gefäßen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T82.6",
+        "display": "Infektion und entzündliche Reaktion durch eine Herzklappenprothese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T82.7",
+        "display": "Infektion und entzündliche Reaktion durch sonstige Geräte, Implantate oder Transplantate im Herzen und in den Gefäßen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T82.8",
+        "display": "Sonstige näher bezeichnete Komplikationen durch Prothesen, Implantate oder Transplantate im Herzen und in den Gefäßen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T82.9",
+        "display": "Nicht näher bezeichnete Komplikation durch Prothese, Implantat oder Transplantat im Herzen und in den Gefäßen"
+      }
+    ]
+  }
+}

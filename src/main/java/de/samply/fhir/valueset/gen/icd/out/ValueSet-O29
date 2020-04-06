@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O29",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O29",
+  "name": "O29",
+  "title": "Komplikationen bei Anästhesie in der Schwangerschaft",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O29"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O29.0",
+        "display": "Pulmonale Komplikationen bei Anästhesie in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O29.1",
+        "display": "Kardiale Komplikationen bei Anästhesie in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O29.2",
+        "display": "Komplikationen des Zentralnervensystems bei Anästhesie in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O29.3",
+        "display": "Toxische Reaktion auf Lokalanästhesie in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O29.4",
+        "display": "Kopfschmerzen nach Spinal- oder Periduralanästhesie in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O29.5",
+        "display": "Sonstige Komplikationen nach Spinal- oder Periduralanästhesie in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O29.6",
+        "display": "Misslingen oder Schwierigkeiten bei der Intubation in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O29.8",
+        "display": "Sonstige Komplikationen bei Anästhesie in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O29.9",
+        "display": "Komplikation bei Anästhesie in der Schwangerschaft, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

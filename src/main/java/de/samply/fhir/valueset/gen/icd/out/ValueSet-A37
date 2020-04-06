@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A37",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A37",
+  "name": "A37",
+  "title": "Keuchhusten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A37"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A37.0",
+        "display": "Keuchhusten durch Bordetella pertussis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A37.1",
+        "display": "Keuchhusten durch Bordetella parapertussis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A37.8",
+        "display": "Keuchhusten durch sonstige Bordetella-Spezies"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A37.9",
+        "display": "Keuchhusten, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

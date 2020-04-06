@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K90",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K90",
+  "name": "K90",
+  "title": "Intestinale Malabsorption",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K90"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K90.0",
+        "display": "Zöliakie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K90.1",
+        "display": "Tropische Sprue"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K90.2",
+        "display": "Syndrom der blinden Schlinge, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K90.3",
+        "display": "Pankreatogene Steatorrhoe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K90.4",
+        "display": "Malabsorption durch Intoleranz, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K90.8",
+        "display": "Sonstige intestinale Malabsorption"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K90.9",
+        "display": "Intestinale Malabsorption, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

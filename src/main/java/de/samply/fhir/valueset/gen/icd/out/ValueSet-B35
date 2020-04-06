@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B35",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B35",
+  "name": "B35",
+  "title": "Dermatophytose [Tinea]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B35"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B35.0",
+        "display": "Tinea barbae und Tinea capitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B35.1",
+        "display": "Tinea unguium"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B35.2",
+        "display": "Tinea manuum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B35.3",
+        "display": "Tinea pedis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B35.4",
+        "display": "Tinea corporis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B35.5",
+        "display": "Tinea imbricata"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B35.6",
+        "display": "Tinea inguinalis [Tinea cruris]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B35.8",
+        "display": "Sonstige Dermatophytosen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B35.9",
+        "display": "Dermatophytose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

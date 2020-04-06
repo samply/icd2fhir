@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M03",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M03",
+  "name": "M03",
+  "title": "Postinfektiöse und reaktive Arthritiden bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M03"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M03.0",
+        "display": "Arthritis nach Meningokokkeninfektion[A39.8]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M03.1",
+        "display": "Postinfektiöse Arthritis bei Syphilis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M03.2",
+        "display": "Sonstige postinfektiöse Arthritiden bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M03.6",
+        "display": "Reaktive Arthritis bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

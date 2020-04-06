@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S50",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S50",
+  "name": "S50",
+  "title": "Oberflächliche Verletzung des Unterarmes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S50"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S50.0",
+        "display": "Prellung des Ellenbogens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S50.1",
+        "display": "Prellung sonstiger und nicht näher bezeichneter Teile des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S50.7",
+        "display": "Multiple oberflächliche Verletzungen des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S50.8",
+        "display": "Sonstige oberflächliche Verletzungen des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S50.9",
+        "display": "Oberflächliche Verletzung des Unterarmes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

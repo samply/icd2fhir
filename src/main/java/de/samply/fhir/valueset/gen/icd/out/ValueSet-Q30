@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q30",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q30",
+  "name": "Q30",
+  "title": "Angeborene Fehlbildungen der Nase",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q30"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q30.0",
+        "display": "Choanalatresie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q30.1",
+        "display": "Agenesie und Unterentwicklung der Nase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q30.2",
+        "display": "Nasenfurche, Naseneinkerbung und Spaltnase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q30.3",
+        "display": "Angeborene Perforation des Nasenseptums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q30.8",
+        "display": "Sonstige angeborene Fehlbildungen der Nase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q30.9",
+        "display": "Angeborene Fehlbildung der Nase, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

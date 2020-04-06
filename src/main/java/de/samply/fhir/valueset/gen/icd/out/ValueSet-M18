@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M18",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M18",
+  "name": "M18",
+  "title": "Rhizarthrose [Arthrose des Daumensattelgelenkes]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M18"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M18.0",
+        "display": "Primäre Rhizarthrose, beidseitig"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M18.1",
+        "display": "Sonstige primäre Rhizarthrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M18.2",
+        "display": "Posttraumatische Rhizarthrose, beidseitig"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M18.3",
+        "display": "Sonstige posttraumatische Rhizarthrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M18.4",
+        "display": "Sonstige sekundäre Rhizarthrose, beidseitig"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M18.5",
+        "display": "Sonstige sekundäre Rhizarthrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M18.9",
+        "display": "Rhizarthrose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

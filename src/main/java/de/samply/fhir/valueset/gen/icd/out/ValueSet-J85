@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J85",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J85",
+  "name": "J85",
+  "title": "Abszess der Lunge und des Mediastinums",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J85"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J85.0",
+        "display": "Gangrän und Nekrose der Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J85.1",
+        "display": "Abszess der Lunge mit Pneumonie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J85.2",
+        "display": "Abszess der Lunge ohne Pneumonie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J85.3",
+        "display": "Abszess des Mediastinums"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K00",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K00",
+  "name": "K00",
+  "title": "Störungen der Zahnentwicklung und des Zahndurchbruchs",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K00"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K00.0",
+        "display": "Anodontie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K00.1",
+        "display": "Hyperodontie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K00.2",
+        "display": "Abnormitäten in Größe und Form der Zähne"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K00.3",
+        "display": "Schmelzflecken [Mottled teeth]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K00.4",
+        "display": "Störungen in der Zahnbildung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K00.5",
+        "display": "Hereditäre Störungen der Zahnstruktur, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K00.6",
+        "display": "Störungen des Zahndurchbruchs"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K00.7",
+        "display": "Dentitionskrankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K00.8",
+        "display": "Sonstige Störungen der Zahnentwicklung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K00.9",
+        "display": "Störung der Zahnentwicklung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

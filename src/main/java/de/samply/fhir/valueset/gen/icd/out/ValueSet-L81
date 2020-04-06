@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L81",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L81",
+  "name": "L81",
+  "title": "Sonstige Störungen der Hautpigmentierung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L81"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L81.0",
+        "display": "Postinflammatorische Hyperpigmentierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L81.1",
+        "display": "Chloasma [Melasma]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L81.2",
+        "display": "Epheliden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L81.3",
+        "display": "Café-au-lait-Flecken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L81.4",
+        "display": "Sonstige Melanin-Hyperpigmentierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L81.5",
+        "display": "Leukoderm, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L81.6",
+        "display": "Sonstige Störungen durch verminderte Melaninbildung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L81.7",
+        "display": "Pigmentpurpura"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L81.8",
+        "display": "Sonstige näher bezeichnete Störungen der Hautpigmentierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L81.9",
+        "display": "Störung der Hautpigmentierung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

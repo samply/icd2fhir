@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T47",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T47",
+  "name": "T47",
+  "title": "Vergiftung durch primär auf den Magen-Darm-Trakt wirkende Mittel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T47"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T47.0",
+        "display": "Histamin-H_2-Rezeptorenblocker "
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T47.1",
+        "display": "Sonstige Antazida und Magensekretionshemmer"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T47.2",
+        "display": "Stimulierende Laxanzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T47.3",
+        "display": "Salinische und osmotische Laxanzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T47.4",
+        "display": "Sonstige Laxanzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T47.5",
+        "display": "Digestiva"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T47.6",
+        "display": "Antidiarrhoika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T47.7",
+        "display": "Emetika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T47.8",
+        "display": "Sonstige primär auf den Magen-Darm-Trakt wirkende Mittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T47.9",
+        "display": "Primär auf den Magen-Darm-Trakt wirkendes Arzneimittel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

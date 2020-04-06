@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S22",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S22",
+  "name": "S22",
+  "title": "Fraktur der Rippe(n), des Sternums und der Brustwirbelsäule",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S22"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S22.0",
+        "display": "Fraktur eines Brustwirbels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S22.1",
+        "display": "Multiple Frakturen der Brustwirbelsäule"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S22.2",
+        "display": "Fraktur des Sternums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S22.3",
+        "display": "Rippenfraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S22.4",
+        "display": "Rippenserienfraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S22.5",
+        "display": "Instabiler Thorax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S22.8",
+        "display": "Fraktur sonstiger Teile des knöchernen Thorax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S22.9",
+        "display": "Fraktur des knöchernen Thorax, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

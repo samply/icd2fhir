@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q66",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q66",
+  "name": "Q66",
+  "title": "Angeborene Deformitäten der Füße",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q66"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q66.0",
+        "display": "Pes equinovarus congenitus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q66.1",
+        "display": "Pes calcaneovarus congenitus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q66.2",
+        "display": "Pes adductus (congenitus)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q66.3",
+        "display": "Sonstige angeborene Varusdeformitäten der Füße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q66.4",
+        "display": "Pes calcaneovalgus congenitus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q66.5",
+        "display": "Pes planus congenitus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q66.6",
+        "display": "Sonstige angeborene Valgusdeformitäten der Füße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q66.7",
+        "display": "Pes cavus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q66.8",
+        "display": "Sonstige angeborene Deformitäten der Füße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q66.9",
+        "display": "Angeborene Deformität der Füße, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

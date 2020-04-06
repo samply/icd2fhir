@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O36",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O36",
+  "name": "O36",
+  "title": "Betreuung der Mutter wegen sonstiger festgestellter oder vermuteter Komplikationen beim Fetus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O36"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O36.0",
+        "display": "Betreuung der Mutter wegen Rhesus-Isoimmunisierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O36.1",
+        "display": "Betreuung der Mutter wegen sonstiger Isoimmunisierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O36.2",
+        "display": "Betreuung der Mutter wegen Hydrops fetalis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O36.3",
+        "display": "Betreuung der Mutter wegen Anzeichen für fetale Hypoxie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O36.4",
+        "display": "Betreuung der Mutter wegen intrauterinen Fruchttodes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O36.5",
+        "display": "Betreuung der Mutter wegen fetaler Wachstumsretardierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O36.6",
+        "display": "Betreuung der Mutter wegen fetaler Hypertrophie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O36.7",
+        "display": "Betreuung der Mutter wegen eines lebensfähigen Fetus bei Abdominalgravidität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O36.8",
+        "display": "Betreuung der Mutter wegen sonstiger näher bezeichneter Komplikationen beim Fetus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O36.9",
+        "display": "Betreuung der Mutter wegen Komplikation beim Fetus, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P21",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P21",
+  "name": "P21",
+  "title": "Asphyxie unter der Geburt",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P21"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P21.0",
+        "display": "Schwere Asphyxie unter der Geburt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P21.1",
+        "display": "Leichte oder mäßige Asphyxie unter der Geburt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P21.9",
+        "display": "Asphyxie unter der Geburt, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

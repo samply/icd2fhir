@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z29",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z29",
+  "name": "Z29",
+  "title": "Notwendigkeit von anderen prophylaktischen Maßnahmen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z29"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z29.0",
+        "display": "Isolierung als prophylaktische Maßnahme"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z29.1",
+        "display": "Immunprophylaxe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z29.2",
+        "display": "Sonstige prophylaktische Chemotherapie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z29.8",
+        "display": "Sonstige näher bezeichnete prophylaktische Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z29.9",
+        "display": "Prophylaktische Maßnahme, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

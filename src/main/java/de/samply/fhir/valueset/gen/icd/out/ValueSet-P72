@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P72",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P72",
+  "name": "P72",
+  "title": "Sonstige transitorische endokrine Krankheiten beim Neugeborenen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P72"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P72.0",
+        "display": "Struma beim Neugeborenen, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P72.1",
+        "display": "Transitorische Hyperthyreose beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P72.2",
+        "display": "Sonstige transitorische Störungen der Schilddrüsenfunktion beim Neugeborenen, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P72.8",
+        "display": "Sonstige näher bezeichnete transitorische endokrine Krankheiten beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P72.9",
+        "display": "Transitorische endokrine Krankheit beim Neugeborenen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L68",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L68",
+  "name": "L68",
+  "title": "Hypertrichose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L68"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L68.0",
+        "display": "Hirsutismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L68.1",
+        "display": "Hypertrichosis lanuginosa acquisita"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L68.2",
+        "display": "Lokalisierte Hypertrichose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L68.3",
+        "display": "Polytrichie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L68.8",
+        "display": "Sonstige Hypertrichose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L68.9",
+        "display": "Hypertrichose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

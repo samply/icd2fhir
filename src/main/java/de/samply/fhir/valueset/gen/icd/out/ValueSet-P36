@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P36",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P36",
+  "name": "P36",
+  "title": "Bakterielle Sepsis beim Neugeborenen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P36"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P36.0",
+        "display": "Sepsis beim Neugeborenen durch Streptokokken, Gruppe B"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P36.1",
+        "display": "Sepsis beim Neugeborenen durch sonstige und nicht näher bezeichnete Streptokokken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P36.2",
+        "display": "Sepsis beim Neugeborenen durch Staphylococcus aureus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P36.3",
+        "display": "Sepsis beim Neugeborenen durch sonstige und nicht näher bezeichnete Staphylokokken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P36.4",
+        "display": "Sepsis beim Neugeborenen durch Escherichia coli"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P36.5",
+        "display": "Sepsis beim Neugeborenen durch Anaerobier"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P36.8",
+        "display": "Sonstige bakterielle Sepsis beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P36.9",
+        "display": "Bakterielle Sepsis beim Neugeborenen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

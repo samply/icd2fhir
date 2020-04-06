@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M99",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M99",
+  "name": "M99",
+  "title": "Biomechanische Funktionsstörungen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M99"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M99.0",
+        "display": "Segmentale und somatische Funktionsstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M99.1",
+        "display": "Subluxation (der Wirbelsäule)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M99.2",
+        "display": "Subluxationsstenose des Spinalkanals"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M99.3",
+        "display": "Knöcherne Stenose des Spinalkanals"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M99.4",
+        "display": "Bindegewebige Stenose des Spinalkanals"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M99.5",
+        "display": "Stenose des Spinalkanals durch Bandscheiben"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M99.6",
+        "display": "Stenose der Foramina intervertebralia, knöchern oder durch Subluxation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M99.7",
+        "display": "Stenose der Foramina intervertebralia, bindegewebig oder durch Bandscheiben"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M99.8",
+        "display": "Sonstige biomechanische Funktionsstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M99.9",
+        "display": "Biomechanische Funktionsstörung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z96",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z96",
+  "name": "Z96",
+  "title": "Vorhandensein von anderen funktionellen Implantaten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z96"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z96.0",
+        "display": "Vorhandensein von urogenitalen Implantaten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z96.1",
+        "display": "Vorhandensein eines intraokularen Linsenimplantates"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z96.2",
+        "display": "Vorhandensein von Implantaten im Gehörorgan"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z96.3",
+        "display": "Vorhandensein eines künstlichen Larynx"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z96.4",
+        "display": "Vorhandensein von endokrinen Implantaten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z96.5",
+        "display": "Vorhandensein von Zahnwurzel- oder Unterkieferimplantaten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z96.6",
+        "display": "Vorhandensein von orthopädischen Gelenkimplantaten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z96.7",
+        "display": "Vorhandensein von anderen Knochen- und Sehnenimplantaten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z96.8",
+        "display": "Vorhandensein von sonstigen näher bezeichneten funktionellen Implantaten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z96.9",
+        "display": "Vorhandensein eines funktionellen Implantates, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

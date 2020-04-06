@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N89",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N89",
+  "name": "N89",
+  "title": "Sonstige nichtentzündliche Krankheiten der Vagina",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N89"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N89.0",
+        "display": "Niedriggradige Dysplasie der Vagina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N89.1",
+        "display": "Mittelgradige Dysplasie der Vagina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N89.2",
+        "display": "Hochgradige Dysplasie der Vagina, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N89.3",
+        "display": "Dysplasie der Vagina, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N89.4",
+        "display": "Leukoplakie der Vagina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N89.5",
+        "display": "Striktur und Atresie der Vagina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N89.6",
+        "display": "Fester Hymenalring"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N89.7",
+        "display": "Hämatokolpos"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N89.8",
+        "display": "Sonstige näher bezeichnete nichtentzündliche Krankheiten der Vagina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N89.9",
+        "display": "Nichtentzündliche Krankheit der Vagina, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

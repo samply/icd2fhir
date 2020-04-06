@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K71",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K71",
+  "name": "K71",
+  "title": "Toxische Leberkrankheit",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K71"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K71.0",
+        "display": "Toxische Leberkrankheit mit Cholestase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K71.1",
+        "display": "Toxische Leberkrankheit mit Lebernekrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K71.2",
+        "display": "Toxische Leberkrankheit mit akuter Hepatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K71.3",
+        "display": "Toxische Leberkrankheit mit chronisch-persistierender Hepatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K71.4",
+        "display": "Toxische Leberkrankheit mit chronischer lobulärer Hepatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K71.5",
+        "display": "Toxische Leberkrankheit mit chronisch-aktiver Hepatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K71.6",
+        "display": "Toxische Leberkrankheit mit Hepatitis, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K71.7",
+        "display": "Toxische Leberkrankheit mit Fibrose und Zirrhose der Leber"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K71.8",
+        "display": "Toxische Leberkrankheit mit sonstigen Affektionen der Leber"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K71.9",
+        "display": "Toxische Leberkrankheit, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

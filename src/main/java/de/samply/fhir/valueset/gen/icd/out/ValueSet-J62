@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J62",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J62",
+  "name": "J62",
+  "title": "Pneumokoniose durch Quarzstaub",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J62"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J62.0",
+        "display": "Pneumokoniose durch Talkum-Staub"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J62.8",
+        "display": "Pneumokoniose durch sonstigen Quarzstaub"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z00",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z00",
+  "name": "Z00",
+  "title": "Allgemeinuntersuchung und Abklärung bei Personen ohne Beschwerden oder angegebene Diagnose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z00"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z00.0",
+        "display": "Ärztliche Allgemeinuntersuchung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z00.1",
+        "display": "Gesundheitsvorsorgeuntersuchung eines Kindes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z00.2",
+        "display": "Untersuchung aufgrund eines Wachstumsschubes in der Kindheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z00.3",
+        "display": "Untersuchung aufgrund des Entwicklungsstandes während der Adoleszenz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z00.4",
+        "display": "Allgemeine psychiatrische Untersuchung, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z00.5",
+        "display": "Untersuchung eines potentiellen Organ- oder Gewebespenders"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z00.6",
+        "display": "Untersuchung von Personen zu Vergleichs- und Kontrollzwecken im Rahmen klinischer Forschungsprogramme"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z00.8",
+        "display": "Sonstige Allgemeinuntersuchungen"
+      }
+    ]
+  }
+}

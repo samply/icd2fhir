@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S05",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S05",
+  "name": "S05",
+  "title": "Verletzung des Auges und der Orbita",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S05"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S05.0",
+        "display": "Verletzung der Konjunktiva und Abrasio corneae ohne Angabe eines Fremdkörpers"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S05.1",
+        "display": "Prellung des Augapfels und des Orbitagewebes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S05.2",
+        "display": "Rissverletzung und Ruptur des Auges mit Prolaps oder Verlust intraokularen Gewebes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S05.3",
+        "display": "Rissverletzung des Auges ohne Prolaps oder Verlust intraokularen Gewebes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S05.4",
+        "display": "Penetrierende Wunde der Orbita mit oder ohne Fremdkörper"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S05.5",
+        "display": "Penetrierende Wunde des Augapfels mit Fremdkörper"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S05.6",
+        "display": "Penetrierende Wunde des Augapfels ohne Fremdkörper"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S05.7",
+        "display": "Abriss des Augapfels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S05.8",
+        "display": "Sonstige Verletzungen des Auges und der Orbita"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S05.9",
+        "display": "Verletzung des Auges und der Orbita, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

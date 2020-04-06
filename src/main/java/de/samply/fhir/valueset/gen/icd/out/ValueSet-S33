@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S33",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S33",
+  "name": "S33",
+  "title": "Luxation, Verstauchung und Zerrung von Gelenken und Bändern der Lendenwirbelsäule und des Beckens",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S33"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S33.0",
+        "display": "Traumatische Ruptur einer lumbalen Bandscheibe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S33.1",
+        "display": "Luxation eines Lendenwirbels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S33.2",
+        "display": "Luxation des Iliosakral- und des Sakro-Kokzygeal-Gelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S33.3",
+        "display": "Luxation sonstiger und nicht näher bezeichneter Teile der Lendenwirbelsäule und des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S33.4",
+        "display": "Traumatische Symphysensprengung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S33.5",
+        "display": "Verstauchung und Zerrung der Lendenwirbelsäule"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S33.6",
+        "display": "Verstauchung und Zerrung des Iliosakralgelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S33.7",
+        "display": "Verstauchung und Zerrung sonstiger und nicht näher bezeichneter Teile der Lendenwirbelsäule und des Beckens"
+      }
+    ]
+  }
+}

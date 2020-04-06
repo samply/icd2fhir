@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C31",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C31",
+  "name": "C31",
+  "title": "Bösartige Neubildung der Nasennebenhöhlen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C31"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C31.0",
+        "display": "Sinus maxillaris [Kieferhöhle]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C31.1",
+        "display": "Sinus ethmoidalis [Siebbeinzellen]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C31.2",
+        "display": "Sinus frontalis [Stirnhöhle]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C31.3",
+        "display": "Sinus sphenoidalis [Keilbeinhöhle]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C31.8",
+        "display": "Nasennebenhöhlen, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C31.9",
+        "display": "Nasennebenhöhle, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

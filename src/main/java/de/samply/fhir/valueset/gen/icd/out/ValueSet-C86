@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C86",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C86",
+  "name": "C86",
+  "title": "Weitere spezifizierte T/NK-Zell-Lymphome",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C86"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C86.0",
+        "display": "Extranodales NK/T-Zell-Lymphom, nasaler Typ"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C86.1",
+        "display": "Hepatosplenisches T-Zell-Lymphom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C86.2",
+        "display": "T-Zell-Lymphom vom Enteropathie-Typ"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C86.3",
+        "display": "Subkutanes pannikulitisches T-Zell-Lymphom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C86.4",
+        "display": "Blastisches NK-Zell-Lymphom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C86.5",
+        "display": "Angioimmunoblastisches T-Zell-Lymphom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C86.6",
+        "display": "Primäre kutane CD30-positive T-Zell-Proliferationen"
+      }
+    ]
+  }
+}

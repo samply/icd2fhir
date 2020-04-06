@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y61",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y61",
+  "name": "Y61",
+  "title": "Fremdkörper, versehentlich bei chirurgischem Eingriff oder bei medizinischer Behandlung im Körper zurückgeblieben",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y61"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y61.0",
+        "display": "Bei chirurgischem Eingriff"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y61.1",
+        "display": "Bei Infusion oder Transfusion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y61.2",
+        "display": "Bei Hämodialyse oder sonstiger Perfusion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y61.3",
+        "display": "Bei Injektion oder Impfung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y61.4",
+        "display": "Bei Endoskopie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y61.5",
+        "display": "Bei Herzkatheterisierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y61.6",
+        "display": "Bei Aspiration, Punktion und sonstiger Katheterisierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y61.7",
+        "display": "Bei Entfernung von Katheter oder Tamponade"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y61.8",
+        "display": "Bei sonstigen chirurgischen Eingriffen und medizinischen Behandlungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y61.9",
+        "display": "Bei chirurgischem Eingriff und medizinischer Behandlung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

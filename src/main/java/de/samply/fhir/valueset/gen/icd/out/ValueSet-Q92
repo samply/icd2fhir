@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q92",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q92",
+  "name": "Q92",
+  "title": "Sonstige Trisomien und partielle Trisomien der Autosomen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q92"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q92.0",
+        "display": "Vollständige Trisomie, meiotische Non-disjunction"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q92.1",
+        "display": "Vollständige Trisomie, Mosaik (mitotische Non-disjunction)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q92.2",
+        "display": "Partielle Trisomie, Majorform"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q92.3",
+        "display": "Partielle Trisomie, Minorform"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q92.4",
+        "display": "Chromosomenduplikationen, die nur in der Prometaphase sichtbar werden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q92.5",
+        "display": "Chromosomenduplikationen mit sonstigen komplexen Rearrangements"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q92.6",
+        "display": "Überzählige Marker-Chromosomen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q92.7",
+        "display": "Triploidie und Polyploidie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q92.8",
+        "display": "Sonstige näher bezeichnete Trisomien und partielle Trisomien der Autosomen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q92.9",
+        "display": "Trisomie und partielle Trisomie der Autosomen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

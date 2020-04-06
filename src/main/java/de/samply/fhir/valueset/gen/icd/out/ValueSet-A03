@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A03",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A03",
+  "name": "A03",
+  "title": "Shigellose [Bakterielle Ruhr]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A03"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A03.0",
+        "display": "Shigellose durch Shigella dysenteriae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A03.1",
+        "display": "Shigellose durch Shigella flexneri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A03.2",
+        "display": "Shigellose durch Shigella boydii"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A03.3",
+        "display": "Shigellose durch Shigella sonnei"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A03.8",
+        "display": "Sonstige Shigellosen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A03.9",
+        "display": "Shigellose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

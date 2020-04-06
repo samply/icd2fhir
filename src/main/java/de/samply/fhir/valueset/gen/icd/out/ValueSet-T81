@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T81",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T81",
+  "name": "T81",
+  "title": "Komplikationen bei Eingriffen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T81"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T81.0",
+        "display": "Blutung und Hämatom als Komplikation eines Eingriffes, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T81.1",
+        "display": "Schock während oder als Folge eines Eingriffes, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T81.2",
+        "display": "Versehentliche Stich- oder Risswunde während eines Eingriffes, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T81.3",
+        "display": "Aufreißen einer Operationswunde, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T81.4",
+        "display": "Infektion nach einem Eingriff, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T81.5",
+        "display": "Fremdkörper, der versehentlich nach einem Eingriff in einer Körperhöhle oder Operationswunde zurückgeblieben ist"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T81.6",
+        "display": "Akute Reaktion auf eine während eines Eingriffes versehentlich zurückgebliebene Fremdsubstanz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T81.7",
+        "display": "Gefäßkomplikationen nach einem Eingriff, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T81.8",
+        "display": "Sonstige Komplikationen bei Eingriffen, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T81.9",
+        "display": "Nicht näher bezeichnete Komplikation eines Eingriffes"
+      }
+    ]
+  }
+}

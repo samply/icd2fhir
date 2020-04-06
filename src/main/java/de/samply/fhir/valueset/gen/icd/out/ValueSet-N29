@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N29",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N29",
+  "name": "N29",
+  "title": "Sonstige Krankheiten der Niere und des Ureters bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N29"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N29.0",
+        "display": "Spätsyphilis der Niere [A52.7 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N29.1",
+        "display": "Sonstige Krankheiten der Niere und des Ureters bei anderenorts klassifizierten infektiösen und parasitären Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N29.8",
+        "display": "Sonstige Krankheiten der Niere und des Ureters bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

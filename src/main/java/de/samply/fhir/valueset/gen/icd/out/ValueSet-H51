@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H51",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H51",
+  "name": "H51",
+  "title": "Sonstige Störungen der Blickbewegungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H51"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H51.0",
+        "display": "Konjugierte Blicklähmung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H51.1",
+        "display": "Konvergenzschwäche und Konvergenzexzess"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H51.2",
+        "display": "Internukleäre Ophthalmoplegie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H51.8",
+        "display": "Sonstige näher bezeichnete Störungen der Blickbewegungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H51.9",
+        "display": "Störung der Blickbewegungen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

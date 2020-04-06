@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G30",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G30",
+  "name": "G30",
+  "title": "Alzheimer-Krankheit",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G30"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G30.0",
+        "display": "Alzheimer-Krankheit mit frühem Beginn [F00.0 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G30.1",
+        "display": "Alzheimer-Krankheit mit spätem Beginn [F00.1 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G30.8",
+        "display": "Sonstige Alzheimer-Krankheit [F00.2 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G30.9",
+        "display": "Alzheimer-Krankheit, nicht näher bezeichnet [F00.9 ]"
+      }
+    ]
+  }
+}

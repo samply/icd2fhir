@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q82",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q82",
+  "name": "Q82",
+  "title": "Sonstige angeborene Fehlbildungen der Haut",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q82"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q82.0",
+        "display": "Hereditäres Lymphödem"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q82.1",
+        "display": "Xeroderma pigmentosum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q82.2",
+        "display": "Mastozytose (angeboren)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q82.3",
+        "display": "Incontinentia pigmenti"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q82.4",
+        "display": "Ektodermale Dysplasie (anhidrotisch)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q82.5",
+        "display": "Angeborener nichtneoplastischer Nävus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q82.8",
+        "display": "Sonstige näher bezeichnete angeborene Fehlbildungen der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q82.9",
+        "display": "Angeborene Fehlbildung der Haut, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

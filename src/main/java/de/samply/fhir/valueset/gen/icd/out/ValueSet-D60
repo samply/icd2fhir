@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D60",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D60",
+  "name": "D60",
+  "title": "Erworbene isolierte aplastische Anämie [Erythroblastopenie] [pure red cell aplasia]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D60"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D60.0",
+        "display": "Chronische erworbene isolierte aplastische Anämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D60.1",
+        "display": "Transitorische erworbene isolierte aplastische Anämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D60.8",
+        "display": "Sonstige erworbene isolierte aplastische Anämien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D60.9",
+        "display": "Erworbene isolierte aplastische Anämie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

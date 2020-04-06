@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z10",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z10",
+  "name": "Z10",
+  "title": "Allgemeine Reihenuntersuchung bestimmter Bevölkerungsgruppen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z10"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z10.0",
+        "display": "Arbeitsmedizinische Untersuchung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z10.1",
+        "display": "Allgemeine Reihenuntersuchung von Bewohnern institutioneller Einrichtungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z10.2",
+        "display": "Allgemeine Reihenuntersuchung von Angehörigen der Streitkräfte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z10.3",
+        "display": "Allgemeine Reihenuntersuchung von Sportmannschaften"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z10.8",
+        "display": "Allgemeine Reihenuntersuchung sonstiger bestimmter Bevölkerungsgruppen"
+      }
+    ]
+  }
+}

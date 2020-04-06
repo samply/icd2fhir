@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F00",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F00",
+  "name": "F00",
+  "title": "Demenz bei Alzheimer-Krankheit [G30.- ]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F00"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F00.0",
+        "display": "Demenz bei Alzheimer-Krankheit, mit frühem Beginn (Typ 2) [G30.0 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F00.1",
+        "display": "Demenz bei Alzheimer-Krankheit, mit spätem Beginn (Typ 1) [G30.1 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F00.2",
+        "display": "Demenz bei Alzheimer-Krankheit, atypische oder gemischte Form [G30.8 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F00.9",
+        "display": "Demenz bei Alzheimer-Krankheit, nicht näher bezeichnet [G30.9 ]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H26",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H26",
+  "name": "H26",
+  "title": "Sonstige Kataraktformen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H26"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H26.0",
+        "display": "Infantile, juvenile und präsenile Katarakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H26.1",
+        "display": "Cataracta traumatica"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H26.2",
+        "display": "Cataracta complicata"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H26.3",
+        "display": "Arzneimittelinduzierte Katarakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H26.4",
+        "display": "Cataracta secundaria"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H26.8",
+        "display": "Sonstige näher bezeichnete Kataraktformen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H26.9",
+        "display": "Katarakt, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

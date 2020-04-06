@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C70",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C70",
+  "name": "C70",
+  "title": "Bösartige Neubildung der Meningen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C70"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C70.0",
+        "display": "Hirnhäute"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C70.1",
+        "display": "Rückenmarkhäute"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C70.9",
+        "display": "Meningen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

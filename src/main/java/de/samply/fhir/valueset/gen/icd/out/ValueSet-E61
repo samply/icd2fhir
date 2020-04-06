@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E61",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E61",
+  "name": "E61",
+  "title": "Mangel an sonstigen Spurenelementen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E61"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E61.0",
+        "display": "Kupfermangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E61.1",
+        "display": "Eisenmangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E61.2",
+        "display": "Magnesiummangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E61.3",
+        "display": "Manganmangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E61.4",
+        "display": "Chrommangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E61.5",
+        "display": "Molybdänmangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E61.6",
+        "display": "Vanadiummangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E61.7",
+        "display": "Mangel an mehreren Spurenelementen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E61.8",
+        "display": "Mangel an sonstigen näher bezeichneten Spurenelementen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E61.9",
+        "display": "Spurenelementmangel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

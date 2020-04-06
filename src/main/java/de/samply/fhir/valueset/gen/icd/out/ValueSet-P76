@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P76",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P76",
+  "name": "P76",
+  "title": "Sonstiger Darmverschluss beim Neugeborenen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P76"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P76.0",
+        "display": "Mekoniumpfropf-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P76.1",
+        "display": "Transitorischer Ileus beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P76.2",
+        "display": "Darmverschluss beim Neugeborenen durch eingedickte Milch"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P76.8",
+        "display": "Sonstiger näher bezeichneter Darmverschluss beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P76.9",
+        "display": "Darmverschluss beim Neugeborenen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

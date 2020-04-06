@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P94",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P94",
+  "name": "P94",
+  "title": "Störungen des Muskeltonus beim Neugeborenen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P94"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P94.0",
+        "display": "Transitorische Myasthenia gravis beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P94.1",
+        "display": "Angeborene Muskelhypertonie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P94.2",
+        "display": "Angeborene Muskelhypotonie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P94.8",
+        "display": "Sonstige Störungen des Muskeltonus beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P94.9",
+        "display": "Störung des Muskeltonus beim Neugeborenen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

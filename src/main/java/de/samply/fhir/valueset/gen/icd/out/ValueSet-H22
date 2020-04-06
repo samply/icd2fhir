@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H22",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H22",
+  "name": "H22",
+  "title": "Affektionen der Iris und des Ziliarkörpers bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H22"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H22.0",
+        "display": "Iridozyklitis bei anderenorts klassifizierten infektiösen und parasitären Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H22.1",
+        "display": "Iridozyklitis bei sonstigen anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H22.8",
+        "display": "Sonstige Affektionen der Iris und des Ziliarkörpers bei anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

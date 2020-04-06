@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H90",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H90",
+  "name": "H90",
+  "title": "Hörverlust durch Schallleitungs- oder Schallempfindungsstörung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H90"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H90.0",
+        "display": "Beidseitiger Hörverlust durch Schallleitungsstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H90.1",
+        "display": "Einseitiger Hörverlust durch Schallleitungsstörung bei nicht eingeschränktem Hörvermögen der anderen Seite"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H90.2",
+        "display": "Hörverlust durch Schallleitungsstörung, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H90.3",
+        "display": "Beidseitiger Hörverlust durch Schallempfindungsstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H90.4",
+        "display": "Einseitiger Hörverlust durch Schallempfindungsstörung bei nicht eingeschränktem Hörvermögen der anderen Seite"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H90.5",
+        "display": "Hörverlust durch Schallempfindungsstörung, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H90.6",
+        "display": "Kombinierter beidseitiger Hörverlust durch Schallleitungs- und Schallempfindungsstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H90.7",
+        "display": "Kombinierter einseitiger Hörverlust durch Schallleitungs- und Schallempfindungsstörung bei nicht eingeschränktem Hörvermögen der anderen Seite"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H90.8",
+        "display": "Kombinierter Hörverlust durch Schallleitungs- und Schallempfindungsstörung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

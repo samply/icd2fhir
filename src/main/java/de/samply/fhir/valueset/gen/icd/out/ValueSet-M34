@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M34",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M34",
+  "name": "M34",
+  "title": "Systemische Sklerose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M34"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M34.0",
+        "display": "Progressive systemische Sklerose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M34.1",
+        "display": "CR(E)ST-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M34.2",
+        "display": "Systemische Sklerose, durch Arzneimittel oder chemische Substanzen induziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M34.8",
+        "display": "Sonstige Formen der systemischen Sklerose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M34.9",
+        "display": "Systemische Sklerose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B44",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B44",
+  "name": "B44",
+  "title": "Aspergillose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B44"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B44.0",
+        "display": "Invasive Aspergillose der Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B44.1",
+        "display": "Sonstige Aspergillose der Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B44.2",
+        "display": "Aspergillose der Tonsillen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B44.7",
+        "display": "Disseminierte Aspergillose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B44.8",
+        "display": "Sonstige Formen der Aspergillose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B44.9",
+        "display": "Aspergillose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

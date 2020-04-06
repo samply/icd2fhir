@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T05",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T05",
+  "name": "T05",
+  "title": "Traumatische Amputationen mit Beteiligung mehrerer Körperregionen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T05"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T05.0",
+        "display": "Traumatische Amputation beider Hände"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T05.1",
+        "display": "Traumatische Amputation einer Hand und des anderen Armes [jede Höhe, ausgenommen Hand]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T05.2",
+        "display": "Traumatische Amputation beider Arme [jede Höhe]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T05.3",
+        "display": "Traumatische Amputation beider Füße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T05.4",
+        "display": "Traumatische Amputation eines Fußes und des anderen Beines [jede Höhe, ausgenommen Fuß]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T05.5",
+        "display": "Traumatische Amputation beider Beine [jede Höhe]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T05.6",
+        "display": "Traumatische Amputation der Arme und Beine, in jeder Kombination [jede Höhe]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T05.8",
+        "display": "Traumatische Amputationen mit Beteiligung sonstiger Kombinationen von Körperregionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T05.9",
+        "display": "Multiple traumatische Amputationen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

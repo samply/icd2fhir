@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z30",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z30",
+  "name": "Z30",
+  "title": "Kontrazeptive Maßnahmen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z30"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z30.0",
+        "display": "Allgemeine Beratung zu Fragen der Kontrazeption"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z30.1",
+        "display": "Einsetzen eines Pessars (intrauterin) zur Kontrazeption"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z30.2",
+        "display": "Sterilisierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z30.3",
+        "display": "Auslösung der Menstruation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z30.4",
+        "display": "Überwachung bei medikamentöser Kontrazeption"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z30.5",
+        "display": "Überwachung von Patientinnen mit Pessar (intrauterin) zur Kontrazeption"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z30.8",
+        "display": "Sonstige kontrazeptive Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z30.9",
+        "display": "Kontrazeptive Maßnahme, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

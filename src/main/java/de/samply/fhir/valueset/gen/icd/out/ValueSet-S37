@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S37",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S37",
+  "name": "S37",
+  "title": "Verletzung der Harnorgane und der Beckenorgane",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S37"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S37.0",
+        "display": "Verletzung der Niere"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S37.1",
+        "display": "Verletzung des Harnleiters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S37.2",
+        "display": "Verletzung der Harnblase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S37.3",
+        "display": "Verletzung der Harnröhre"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S37.4",
+        "display": "Verletzung des Ovars"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S37.5",
+        "display": "Verletzung der Tuba uterina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S37.6",
+        "display": "Verletzung des Uterus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S37.7",
+        "display": "Verletzung mehrerer Harnorgane und Beckenorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S37.8",
+        "display": "Verletzung sonstiger Harnorgane und Beckenorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S37.9",
+        "display": "Verletzung eines nicht näher bezeichneten Harnorgans oder Beckenorgans"
+      }
+    ]
+  }
+}

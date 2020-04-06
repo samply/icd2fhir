@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O88",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O88",
+  "name": "O88",
+  "title": "Embolie während der Gestationsperiode",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O88"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O88.0",
+        "display": "Luftembolie während der Gestationsperiode"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O88.1",
+        "display": "Fruchtwasserembolie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O88.2",
+        "display": "Thromboembolie während der Gestationsperiode"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O88.3",
+        "display": "Pyämische und septische Embolie während der Gestationsperiode"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O88.8",
+        "display": "Sonstige Embolie während der Gestationsperiode"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L85",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L85",
+  "name": "L85",
+  "title": "Sonstige Epidermisverdickung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L85"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L85.0",
+        "display": "Erworbene Ichthyosis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L85.1",
+        "display": "Erworbene Keratosis palmoplantaris [Erworbenes Keratoma palmoplantare]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L85.2",
+        "display": "Keratosis punctata (palmoplantaris)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L85.3",
+        "display": "Xerosis cutis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L85.8",
+        "display": "Sonstige näher bezeichnete Epidermisverdickungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L85.9",
+        "display": "Epidermisverdickung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

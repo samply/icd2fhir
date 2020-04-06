@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L27",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L27",
+  "name": "L27",
+  "title": "Dermatitis durch oral, enteral oder parenteral aufgenommene Substanzen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L27"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L27.0",
+        "display": "Generalisierte Hauteruption durch Drogen oder Arzneimittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L27.1",
+        "display": "Lokalisierte Hauteruption durch Drogen oder Arzneimittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L27.2",
+        "display": "Dermatitis durch aufgenommene Nahrungsmittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L27.8",
+        "display": "Dermatitis durch sonstige oral, enteral oder parenteral aufgenommene Substanzen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L27.9",
+        "display": "Dermatitis durch nicht näher bezeichnete oral, enteral oder parenteral aufgenommene Substanz"
+      }
+    ]
+  }
+}

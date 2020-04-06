@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B46",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B46",
+  "name": "B46",
+  "title": "Zygomykose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B46"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B46.0",
+        "display": "Mukormykose der Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B46.1",
+        "display": "Rhinozerebrale Mukormykose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B46.2",
+        "display": "Mukormykose des Magen-Darm-Trakts"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B46.3",
+        "display": "Mukormykose der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B46.4",
+        "display": "Disseminierte Mukormykose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B46.5",
+        "display": "Mukormykose, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B46.8",
+        "display": "Sonstige Formen der Zygomykose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B46.9",
+        "display": "Zygomykose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

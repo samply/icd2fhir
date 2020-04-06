@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T42",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T42",
+  "name": "T42",
+  "title": "Vergiftung durch Antiepileptika, Sedativa, Hypnotika und Antiparkinsonmittel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T42"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T42.0",
+        "display": "Hydantoin-Derivate"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T42.1",
+        "display": "Iminostilbene"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T42.2",
+        "display": "Succinimide und Oxazolidine"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T42.3",
+        "display": "Barbiturate"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T42.4",
+        "display": "Benzodiazepine"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T42.5",
+        "display": "Gemischte Antiepileptika, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T42.6",
+        "display": "Sonstige Antiepileptika, Sedativa und Hypnotika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T42.7",
+        "display": "Antiepileptika, Sedativa und Hypnotika, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T42.8",
+        "display": "Antiparkinsonmittel und andere zentral wirkende Muskelrelaxanzien"
+      }
+    ]
+  }
+}

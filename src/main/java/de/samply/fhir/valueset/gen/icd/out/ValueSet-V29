@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "V29",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/V29",
+  "name": "V29",
+  "title": "Benutzer eines Motorrades bei sonstigen und nicht näher bezeichneten Transportmittelunfällen verletzt",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "V29"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V29.0",
+        "display": "Fahrer bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V29.1",
+        "display": "Mitfahrer bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V29.2",
+        "display": "Nicht näher bezeichneter Benutzer eines Motorrades bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V29.3",
+        "display": "Benutzer eines Motorrades bei nicht näher bezeichnetem Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V29.4",
+        "display": "Fahrer bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Verkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V29.5",
+        "display": "Mitfahrer bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Verkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V29.6",
+        "display": "Nicht näher bezeichneter Benutzer eines Motorrades bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Verkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V29.8",
+        "display": "Benutzer eines Motorrades bei sonstigen näher bezeichneten Transportmittelunfällen verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V29.9",
+        "display": "Benutzer eines Motorrades bei nicht näher bezeichnetem Verkehrsunfall verletzt"
+      }
+    ]
+  }
+}

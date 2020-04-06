@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q56",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q56",
+  "name": "Q56",
+  "title": "Unbestimmtes Geschlecht und Pseudohermaphroditismus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q56"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q56.0",
+        "display": "Hermaphroditismus, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q56.1",
+        "display": "Pseudohermaphroditismus masculinus, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q56.2",
+        "display": "Pseudohermaphroditismus femininus, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q56.3",
+        "display": "Pseudohermaphroditismus, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q56.4",
+        "display": "Unbestimmtes Geschlecht, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

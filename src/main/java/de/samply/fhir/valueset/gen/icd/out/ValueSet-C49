@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C49",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C49",
+  "name": "C49",
+  "title": "Bösartige Neubildung sonstigen Bindegewebes und anderer Weichteilgewebe",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C49"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C49.0",
+        "display": "Bindegewebe und andere Weichteilgewebe des Kopfes, des Gesichtes und des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C49.1",
+        "display": "Bindegewebe und andere Weichteilgewebe der oberen Extremität, einschließlich Schulter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C49.2",
+        "display": "Bindegewebe und andere Weichteilgewebe der unteren Extremität, einschließlich Hüfte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C49.3",
+        "display": "Bindegewebe und andere Weichteilgewebe des Thorax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C49.4",
+        "display": "Bindegewebe und andere Weichteilgewebe des Abdomens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C49.5",
+        "display": "Bindegewebe und andere Weichteilgewebe des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C49.6",
+        "display": "Bindegewebe und andere Weichteilgewebe des Rumpfes, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C49.8",
+        "display": "Bindegewebe und andere Weichteilgewebe, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C49.9",
+        "display": "Bindegewebe und andere Weichteilgewebe, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O70",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O70",
+  "name": "O70",
+  "title": "Dammriss unter der Geburt",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O70"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O70.0",
+        "display": "Dammriss 1. Grades unter der Geburt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O70.1",
+        "display": "Dammriss 2. Grades unter der Geburt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O70.2",
+        "display": "Dammriss 3. Grades unter der Geburt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O70.3",
+        "display": "Dammriss 4. Grades unter der Geburt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O70.9",
+        "display": "Dammriss unter der Geburt, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

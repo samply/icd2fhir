@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S17",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S17",
+  "name": "S17",
+  "title": "Zerquetschung des Halses",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S17"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S17.0",
+        "display": "Zerquetschung des Kehlkopfes und der Trachea"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S17.8",
+        "display": "Zerquetschung sonstiger Teile des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S17.9",
+        "display": "Zerquetschung des Halses, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

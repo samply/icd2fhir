@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P37",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P37",
+  "name": "P37",
+  "title": "Sonstige angeborene infektiöse und parasitäre Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P37"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P37.0",
+        "display": "Angeborene Tuberkulose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P37.1",
+        "display": "Angeborene Toxoplasmose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P37.2",
+        "display": "Neugeborenenlisteriose (disseminiert)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P37.3",
+        "display": "Angeborene Malaria tropica"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P37.4",
+        "display": "Sonstige angeborene Malaria"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P37.5",
+        "display": "Kandidose beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P37.8",
+        "display": "Sonstige näher bezeichnete angeborene infektiöse und parasitäre Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P37.9",
+        "display": "Angeborene infektiöse oder parasitäre Krankheit, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

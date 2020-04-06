@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H35",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H35",
+  "name": "H35",
+  "title": "Sonstige Affektionen der Netzhaut",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H35"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H35.0",
+        "display": "Retinopathien des Augenhintergrundes und Veränderungen der Netzhautgefäße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H35.1",
+        "display": "Retinopathia praematurorum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H35.2",
+        "display": "Sonstige proliferative Retinopathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H35.3",
+        "display": "Degeneration der Makula und des hinteren Poles"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H35.4",
+        "display": "Periphere Netzhautdegeneration"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H35.5",
+        "display": "Hereditäre Netzhautdystrophie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H35.6",
+        "display": "Netzhautblutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H35.7",
+        "display": "Abhebung von Netzhautschichten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H35.8",
+        "display": "Sonstige näher bezeichnete Affektionen der Netzhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H35.9",
+        "display": "Affektion der Netzhaut, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

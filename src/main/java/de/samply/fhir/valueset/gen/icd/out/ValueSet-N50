@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N50",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N50",
+  "name": "N50",
+  "title": "Sonstige Krankheiten der männlichen Genitalorgane",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N50"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N50.0",
+        "display": "Hodenatrophie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N50.1",
+        "display": "Gefäßkrankheiten der männlichen Genitalorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N50.8",
+        "display": "Sonstige näher bezeichnete Krankheiten der männlichen Genitalorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N50.9",
+        "display": "Krankheit der männlichen Genitalorgane, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

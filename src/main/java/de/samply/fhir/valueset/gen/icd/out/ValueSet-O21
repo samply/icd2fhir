@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O21",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O21",
+  "name": "O21",
+  "title": "Übermäßiges Erbrechen während der Schwangerschaft",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O21"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O21.0",
+        "display": "Leichte Hyperemesis gravidarum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O21.1",
+        "display": "Hyperemesis gravidarum mit Stoffwechselstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O21.2",
+        "display": "Späterbrechen während der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O21.8",
+        "display": "Sonstiges Erbrechen, das die Schwangerschaft kompliziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O21.9",
+        "display": "Erbrechen während der Schwangerschaft, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

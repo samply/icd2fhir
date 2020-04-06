@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S06",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S06",
+  "name": "S06",
+  "title": "Intrakranielle Verletzung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S06"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S06.0",
+        "display": "Gehirnerschütterung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S06.1",
+        "display": "Traumatisches Hirnödem"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S06.2",
+        "display": "Diffuse Hirnverletzung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S06.3",
+        "display": "Umschriebene Hirnverletzung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S06.4",
+        "display": "Epidurale Blutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S06.5",
+        "display": "Traumatische subdurale Blutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S06.6",
+        "display": "Traumatische subarachnoidale Blutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S06.7",
+        "display": "Intrakranielle Verletzung mit verlängertem Koma [Coma prolongé]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S06.8",
+        "display": "Sonstige intrakranielle Verletzungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S06.9",
+        "display": "Intrakranielle Verletzung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

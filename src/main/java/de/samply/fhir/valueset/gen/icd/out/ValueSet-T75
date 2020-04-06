@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T75",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T75",
+  "name": "T75",
+  "title": "Schäden durch sonstige äußere Ursachen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T75"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T75.0",
+        "display": "Schäden durch Blitzschlag"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T75.1",
+        "display": "Ertrinken und nichttödliches Untertauchen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T75.2",
+        "display": "Schäden durch Vibration"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T75.3",
+        "display": "Kinetose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T75.4",
+        "display": "Schäden durch elektrischen Strom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T75.8",
+        "display": "Sonstige näher bezeichnete Schäden durch äußere Ursachen"
+      }
+    ]
+  }
+}

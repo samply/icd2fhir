@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A19",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A19",
+  "name": "A19",
+  "title": "Miliartuberkulose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A19"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A19.0",
+        "display": "Akute Miliartuberkulose einer einzelnen näher bezeichneten Lokalisation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A19.1",
+        "display": "Akute Miliartuberkulose mehrerer Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A19.2",
+        "display": "Akute Miliartuberkulose, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A19.8",
+        "display": "Sonstige Miliartuberkulose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A19.9",
+        "display": "Miliartuberkulose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

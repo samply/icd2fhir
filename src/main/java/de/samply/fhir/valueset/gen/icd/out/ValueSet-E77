@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E77",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E77",
+  "name": "E77",
+  "title": "Störungen des Glykoproteinstoffwechsels",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E77"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E77.0",
+        "display": "Defekte der posttranslationalen Modifikation lysosomaler Enzyme"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E77.1",
+        "display": "Defekte beim Glykoproteinabbau"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E77.8",
+        "display": "Sonstige Störungen des Glykoproteinstoffwechsels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E77.9",
+        "display": "Störung des Glykoproteinstoffwechsels, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O07",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O07",
+  "name": "O07",
+  "title": "Misslungene Aborteinleitung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O07"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O07.0",
+        "display": "Misslungene ärztliche Aborteinleitung, kompliziert durch Infektion des Genitaltraktes und des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O07.1",
+        "display": "Misslungene ärztliche Aborteinleitung, kompliziert durch Spätblutung oder verstärkte Blutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O07.2",
+        "display": "Misslungene ärztliche Aborteinleitung, kompliziert durch Embolie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O07.3",
+        "display": "Misslungene ärztliche Aborteinleitung mit sonstigen oder nicht näher bezeichneten Komplikationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O07.4",
+        "display": "Misslungene ärztliche Aborteinleitung ohne Komplikation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O07.5",
+        "display": "Misslungene sonstige oder nicht näher bezeichnete Aborteinleitung, kompliziert durch Infektion des Genitaltraktes und des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O07.6",
+        "display": "Misslungene sonstige oder nicht näher bezeichnete Aborteinleitung, kompliziert durch Spätblutung oder verstärkte Blutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O07.7",
+        "display": "Misslungene sonstige oder nicht näher bezeichnete Aborteinleitung, kompliziert durch Embolie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O07.8",
+        "display": "Misslungene sonstige oder nicht näher bezeichnete Aborteinleitung mit sonstigen oder nicht näher bezeichneten Komplikationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O07.9",
+        "display": "Misslungene sonstige oder nicht näher bezeichnete Aborteinleitung ohne Komplikation"
+      }
+    ]
+  }
+}

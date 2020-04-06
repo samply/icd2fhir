@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C43",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C43",
+  "name": "C43",
+  "title": "Bösartiges Melanom der Haut",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C43"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C43.0",
+        "display": "Bösartiges Melanom der Lippe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C43.1",
+        "display": "Bösartiges Melanom des Augenlides, einschließlich Kanthus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C43.2",
+        "display": "Bösartiges Melanom des Ohres und des äußeren Gehörganges"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C43.3",
+        "display": "Bösartiges Melanom sonstiger und nicht näher bezeichneter Teile des Gesichtes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C43.4",
+        "display": "Bösartiges Melanom der behaarten Kopfhaut und des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C43.5",
+        "display": "Bösartiges Melanom des Rumpfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C43.6",
+        "display": "Bösartiges Melanom der oberen Extremität, einschließlich Schulter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C43.7",
+        "display": "Bösartiges Melanom der unteren Extremität, einschließlich Hüfte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C43.8",
+        "display": "Bösartiges Melanom der Haut, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C43.9",
+        "display": "Bösartiges Melanom der Haut, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

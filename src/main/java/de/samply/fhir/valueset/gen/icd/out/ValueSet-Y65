@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y65",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y65",
+  "name": "Y65",
+  "title": "Sonstige Zwischenfälle bei chirurgischem Eingriff und medizinischer Behandlung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y65"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y65.0",
+        "display": "Inkompatibles Blut bei Transfusion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y65.1",
+        "display": "Verwendung einer falschen Infusionslösung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y65.2",
+        "display": "Unzulängliche Naht oder Ligatur bei chirurgischem Eingriff"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y65.3",
+        "display": "Falsch platzierter Endotrachealtubus während der Anästhesie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y65.4",
+        "display": "Fehlerhafte Einführung oder Entfernung eines sonstigen Tubus oder Instrumentes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y65.5",
+        "display": "Ausführung eines nichtindizierten Eingriffes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y65.8",
+        "display": "Sonstige näher bezeichnete Zwischenfälle bei chirurgischem Eingriff und medizinischer Behandlung"
+      }
+    ]
+  }
+}

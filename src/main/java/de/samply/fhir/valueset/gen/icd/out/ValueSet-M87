@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M87",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M87",
+  "name": "M87",
+  "title": "Knochennekrose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M87"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M87.0",
+        "display": "Idiopathische aseptische Knochennekrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M87.1",
+        "display": "Knochennekrose durch Arzneimittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M87.2",
+        "display": "Knochennekrose durch vorangegangenes Trauma"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M87.3",
+        "display": "Sonstige sekundäre Knochennekrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M87.8",
+        "display": "Sonstige Knochennekrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M87.9",
+        "display": "Knochennekrose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A63",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A63",
+  "name": "A63",
+  "title": "Sonstige vorwiegend durch Geschlechtsverkehr übertragene Krankheiten, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A63"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A63.0",
+        "display": "Anogenitale (venerische) Warzen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A63.8",
+        "display": "Sonstige näher bezeichnete, vorwiegend durch Geschlechtsverkehr übertragene Krankheiten"
+      }
+    ]
+  }
+}

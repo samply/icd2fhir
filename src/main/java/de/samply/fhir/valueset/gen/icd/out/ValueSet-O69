@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O69",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O69",
+  "name": "O69",
+  "title": "Komplikationen bei Wehen und Entbindung durch Nabelschnurkomplikationen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O69"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O69.0",
+        "display": "Komplikationen bei Wehen und Entbindung durch Nabelschnurvorfall"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O69.1",
+        "display": "Komplikationen bei Wehen und Entbindung durch Nabelschnurumschlingung des Halses mit Kompression der Nabelschnur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O69.2",
+        "display": "Komplikationen bei Wehen und Entbindung durch sonstige Nabelschnurverschlingung, mit Kompression"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O69.3",
+        "display": "Komplikationen bei Wehen und Entbindung durch zu kurze Nabelschnur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O69.4",
+        "display": "Komplikationen bei Wehen und Entbindung durch Vasa praevia"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O69.5",
+        "display": "Komplikationen bei Wehen und Entbindung durch Gefäßverletzung der Nabelschnur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O69.8",
+        "display": "Komplikationen bei Wehen und Entbindung durch sonstige Nabelschnurkomplikationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O69.9",
+        "display": "Komplikation bei Wehen und Entbindung durch Nabelschnurkomplikation, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

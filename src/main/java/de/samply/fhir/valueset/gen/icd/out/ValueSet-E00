@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E00",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E00",
+  "name": "E00",
+  "title": "Angeborenes Jodmangelsyndrom",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E00"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E00.0",
+        "display": "Angeborenes Jodmangelsyndrom, neurologischer Typ"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E00.1",
+        "display": "Angeborenes Jodmangelsyndrom, myxödematöser Typ"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E00.2",
+        "display": "Angeborenes Jodmangelsyndrom, gemischter Typ"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E00.9",
+        "display": "Angeborenes Jodmangelsyndrom, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

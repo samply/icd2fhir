@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z50",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z50",
+  "name": "Z50",
+  "title": "Rehabilitationsmaßnahmen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z50"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z50.0",
+        "display": "Rehabilitationsmaßnahmen bei Herzkrankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z50.1",
+        "display": "Sonstige Physiotherapie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z50.2",
+        "display": "Rehabilitationsmaßnahmen bei Alkoholismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z50.3",
+        "display": "Rehabilitationsmaßnahmen bei Arzneimittel- oder Drogenabhängigkeit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z50.4",
+        "display": "Psychotherapie, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z50.5",
+        "display": "Logopädische Behandlung [Therapie von Stimm-, Sprech- und Sprachstörungen]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z50.6",
+        "display": "Orthoptische Übungen [Sehschule]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z50.7",
+        "display": "Arbeitstherapie und berufliche Rehabilitationsmaßnahmen, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z50.8",
+        "display": "Sonstige Rehabilitationsmaßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z50.9",
+        "display": "Rehabilitationsmaßnahme, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

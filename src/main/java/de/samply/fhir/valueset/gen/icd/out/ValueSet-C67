@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C67",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C67",
+  "name": "C67",
+  "title": "Bösartige Neubildung der Harnblase",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C67"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C67.0",
+        "display": "Trigonum vesicae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C67.1",
+        "display": "Apex vesicae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C67.2",
+        "display": "Laterale Harnblasenwand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C67.3",
+        "display": "Vordere Harnblasenwand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C67.4",
+        "display": "Hintere Harnblasenwand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C67.5",
+        "display": "Harnblasenhals"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C67.6",
+        "display": "Ostium ureteris"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C67.7",
+        "display": "Urachus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C67.8",
+        "display": "Harnblase, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C67.9",
+        "display": "Harnblase, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

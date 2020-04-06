@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C79",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C79",
+  "name": "C79",
+  "title": "Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C79"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C79.0",
+        "display": "Sekundäre bösartige Neubildung der Niere und des Nierenbeckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C79.1",
+        "display": "Sekundäre bösartige Neubildung der Harnblase sowie sonstiger und nicht näher bezeichneter Harnorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C79.2",
+        "display": "Sekundäre bösartige Neubildung der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C79.3",
+        "display": "Sekundäre bösartige Neubildung des Gehirns und der Hirnhäute"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C79.4",
+        "display": "Sekundäre bösartige Neubildung sonstiger und nicht näher bezeichneter Teile des Nervensystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C79.5",
+        "display": "Sekundäre bösartige Neubildung des Knochens und des Knochenmarkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C79.6",
+        "display": "Sekundäre bösartige Neubildung des Ovars"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C79.7",
+        "display": "Sekundäre bösartige Neubildung der Nebenniere"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C79.8",
+        "display": "Sekundäre bösartige Neubildung sonstiger näher bezeichneter Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C79.9",
+        "display": "Sekundäre bösartige Neubildung nicht näher bezeichneter Lokalisation"
+      }
+    ]
+  }
+}

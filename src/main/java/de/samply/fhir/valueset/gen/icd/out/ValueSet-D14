@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D14",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D14",
+  "name": "D14",
+  "title": "Gutartige Neubildung des Mittelohres und des Atmungssystems",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D14"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D14.0",
+        "display": "Mittelohr, Nasenhöhle und Nasennebenhöhlen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D14.1",
+        "display": "Larynx"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D14.2",
+        "display": "Trachea"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D14.3",
+        "display": "Bronchus und Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D14.4",
+        "display": "Atmungssystem, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

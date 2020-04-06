@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T59",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T59",
+  "name": "T59",
+  "title": "Toxische Wirkung sonstiger Gase, Dämpfe oder sonstigen Rauches",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T59"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T59.0",
+        "display": "Stickstoffoxide"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T59.1",
+        "display": "Schwefeldioxid"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T59.2",
+        "display": "Formaldehyd"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T59.3",
+        "display": "Tränengas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T59.4",
+        "display": "Chlorgas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T59.5",
+        "display": "Fluorgas und Fluorwasserstoff"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T59.6",
+        "display": "Schwefelwasserstoff"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T59.7",
+        "display": "Kohlendioxid"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T59.8",
+        "display": "Sonstige näher bezeichnete Gase, Dämpfe oder sonstiger näher bezeichneter Rauch"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T59.9",
+        "display": "Gase, Dämpfe oder Rauch, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z86",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z86",
+  "name": "Z86",
+  "title": "Bestimmte andere Krankheiten in der Eigenanamnese",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z86"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z86.0",
+        "display": "Andere Neubildungen in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z86.1",
+        "display": "Infektiöse oder parasitäre Krankheiten in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z86.2",
+        "display": "Krankheiten des Blutes und der blutbildenden Organe sowie bestimmte Störungen mit Beteiligung des Immunsystems in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z86.3",
+        "display": "Endokrine, Ernährungs- oder Stoffwechselkrankheiten in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z86.4",
+        "display": "Missbrauch einer psychotropen Substanz in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z86.5",
+        "display": "Andere psychische Krankheiten oder Verhaltensstörungen in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z86.6",
+        "display": "Krankheiten des Nervensystems oder der Sinnesorgane in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z86.7",
+        "display": "Krankheiten des Kreislaufsystems in der Eigenanamnese"
+      }
+    ]
+  }
+}

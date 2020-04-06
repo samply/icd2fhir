@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D47",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D47",
+  "name": "D47",
+  "title": "Sonstige Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D47"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D47.0",
+        "display": "Histiozyten- und Mastzelltumor unsicheren oder unbekannten Verhaltens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D47.1",
+        "display": "Chronische myeloproliferative Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D47.2",
+        "display": "Monoklonale Gammopathie unbestimmter Signifikanz [MGUS]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D47.3",
+        "display": "Essentielle (hämorrhagische) Thrombozythämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D47.4",
+        "display": "Osteomyelofibrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D47.5",
+        "display": "Chronische Eosinophilen-Leukämie [Hypereosinophiles Syndrom]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D47.7",
+        "display": "Sonstige näher bezeichnete Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D47.9",
+        "display": "Neubildung unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

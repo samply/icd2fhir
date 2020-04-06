@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F20",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F20",
+  "name": "F20",
+  "title": "Schizophrenie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F20"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F20.0",
+        "display": "Paranoide Schizophrenie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F20.1",
+        "display": "Hebephrene Schizophrenie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F20.2",
+        "display": "Katatone Schizophrenie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F20.3",
+        "display": "Undifferenzierte Schizophrenie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F20.4",
+        "display": "Postschizophrene Depression"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F20.5",
+        "display": "Schizophrenes Residuum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F20.6",
+        "display": "Schizophrenia simplex"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F20.8",
+        "display": "Sonstige Schizophrenie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F20.9",
+        "display": "Schizophrenie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

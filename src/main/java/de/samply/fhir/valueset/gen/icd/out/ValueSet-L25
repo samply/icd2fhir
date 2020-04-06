@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L25",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L25",
+  "name": "L25",
+  "title": "Nicht näher bezeichnete Kontaktdermatitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L25"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L25.0",
+        "display": "Nicht näher bezeichnete Kontaktdermatitis durch Kosmetika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L25.1",
+        "display": "Nicht näher bezeichnete Kontaktdermatitis durch Drogen oder Arzneimittel bei Hautkontakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L25.2",
+        "display": "Nicht näher bezeichnete Kontaktdermatitis durch Farbstoffe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L25.3",
+        "display": "Nicht näher bezeichnete Kontaktdermatitis durch sonstige chemische Produkte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L25.4",
+        "display": "Nicht näher bezeichnete Kontaktdermatitis durch Nahrungsmittel bei Hautkontakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L25.5",
+        "display": "Nicht näher bezeichnete Kontaktdermatitis durch Pflanzen, ausgenommen Nahrungsmittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L25.8",
+        "display": "Nicht näher bezeichnete Kontaktdermatitis durch sonstige Agenzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L25.9",
+        "display": "Nicht näher bezeichnete Kontaktdermatitis, nicht näher bezeichnete Ursache"
+      }
+    ]
+  }
+}

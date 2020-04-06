@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K60",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K60",
+  "name": "K60",
+  "title": "Fissur und Fistel in der Anal- und Rektalregion",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K60"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K60.0",
+        "display": "Akute Analfissur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K60.1",
+        "display": "Chronische Analfissur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K60.2",
+        "display": "Analfissur, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K60.3",
+        "display": "Analfistel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K60.4",
+        "display": "Rektalfistel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K60.5",
+        "display": "Anorektalfistel"
+      }
+    ]
+  }
+}

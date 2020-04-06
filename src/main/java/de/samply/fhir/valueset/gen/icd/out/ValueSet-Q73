@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q73",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q73",
+  "name": "Q73",
+  "title": "Reduktionsdefekte nicht näher bezeichneter Extremität(en)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q73"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q73.0",
+        "display": "Angeborenes Fehlen nicht näher bezeichneter Extremität(en)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q73.1",
+        "display": "Phokomelie nicht näher bezeichneter Extremität(en)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q73.8",
+        "display": "Sonstige Reduktionsdefekte nicht näher bezeichneter Extremität(en)"
+      }
+    ]
+  }
+}

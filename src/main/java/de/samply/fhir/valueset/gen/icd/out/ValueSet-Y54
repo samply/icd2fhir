@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y54",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y54",
+  "name": "Y54",
+  "title": "Primär auf den Wasserhaushalt sowie auf den Mineral- und Harnsäurestoffwechsel wirkende Mittel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y54"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y54.0",
+        "display": "Mineralokortikoide"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y54.1",
+        "display": "Mineralokortikoid-Antagonisten [Aldosteron-Antagonisten]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y54.2",
+        "display": "Carboanhydrase-Hemmer"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y54.3",
+        "display": "Benzothiadiazin-Derivate"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y54.4",
+        "display": "Schleifendiuretika [High-ceiling-Diuretika]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y54.5",
+        "display": "Sonstige Diuretika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y54.6",
+        "display": "Auf den Elektrolyt-, Wärme- und Wasserhaushalt wirkende Mittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y54.7",
+        "display": "Mittel, die die Kalzifikation beeinflussen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y54.8",
+        "display": "Auf den Harnsäurestoffwechsel wirkende Mittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y54.9",
+        "display": "Mineralsalze, anderenorts nicht klassifiziert"
+      }
+    ]
+  }
+}

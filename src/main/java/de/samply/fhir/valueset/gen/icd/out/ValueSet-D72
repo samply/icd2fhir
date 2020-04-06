@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D72",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D72",
+  "name": "D72",
+  "title": "Sonstige Krankheiten der Leukozyten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D72"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D72.0",
+        "display": "Genetisch bedingte Leukozytenanomalien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D72.1",
+        "display": "Eosinophilie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D72.8",
+        "display": "Sonstige näher bezeichnete Krankheiten der Leukozyten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D72.9",
+        "display": "Krankheit der Leukozyten, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

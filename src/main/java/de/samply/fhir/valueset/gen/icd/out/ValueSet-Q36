@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q36",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q36",
+  "name": "Q36",
+  "title": "Lippenspalte",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q36"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q36.0",
+        "display": "Lippenspalte, beidseitig"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q36.1",
+        "display": "Lippenspalte, median"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q36.9",
+        "display": "Lippenspalte, einseitig"
+      }
+    ]
+  }
+}

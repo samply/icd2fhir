@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S00",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S00",
+  "name": "S00",
+  "title": "Oberflächliche Verletzung des Kopfes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S00"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S00.0",
+        "display": "Oberflächliche Verletzung der behaarten Kopfhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S00.1",
+        "display": "Prellung des Augenlides und der Periokularregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S00.2",
+        "display": "Sonstige oberflächliche Verletzungen des Augenlides und der Periokularregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S00.3",
+        "display": "Oberflächliche Verletzung der Nase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S00.4",
+        "display": "Oberflächliche Verletzung des Ohres"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S00.5",
+        "display": "Oberflächliche Verletzung der Lippe und der Mundhöhle"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S00.7",
+        "display": "Multiple oberflächliche Verletzungen des Kopfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S00.8",
+        "display": "Oberflächliche Verletzung sonstiger Teile des Kopfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S00.9",
+        "display": "Oberflächliche Verletzung des Kopfes, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

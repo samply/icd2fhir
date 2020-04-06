@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S59",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S59",
+  "name": "S59",
+  "title": "Sonstige und nicht näher bezeichnete Verletzungen des Unterarmes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S59"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S59.7",
+        "display": "Multiple Verletzungen des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S59.8",
+        "display": "Sonstige näher bezeichnete Verletzungen des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S59.9",
+        "display": "Nicht näher bezeichnete Verletzung des Unterarmes"
+      }
+    ]
+  }
+}

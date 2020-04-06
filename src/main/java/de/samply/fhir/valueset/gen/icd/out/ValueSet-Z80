@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z80",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z80",
+  "name": "Z80",
+  "title": "Bösartige Neubildung in der Familienanamnese",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z80"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z80.0",
+        "display": "Bösartige Neubildung der Verdauungsorgane in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z80.1",
+        "display": "Bösartige Neubildung der Trachea, der Bronchien oder der Lunge in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z80.2",
+        "display": "Bösartige Neubildung anderer Atmungs- und intrathorakaler Organe in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z80.3",
+        "display": "Bösartige Neubildung der Brustdrüse [Mamma] in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z80.4",
+        "display": "Bösartige Neubildung der Genitalorgane in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z80.5",
+        "display": "Bösartige Neubildung der Harnorgane in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z80.6",
+        "display": "Leukämie in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z80.7",
+        "display": "Andere bösartige Neubildungen des lymphatischen, blutbildenden oder verwandten Gewebes in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z80.8",
+        "display": "Bösartige Neubildung sonstiger Organe und Systeme in der Familienanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z80.9",
+        "display": "Bösartige Neubildung in der Familienanamnese, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

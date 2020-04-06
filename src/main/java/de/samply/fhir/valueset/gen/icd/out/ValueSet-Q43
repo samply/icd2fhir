@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q43",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q43",
+  "name": "Q43",
+  "title": "Sonstige angeborene Fehlbildungen des Darmes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q43"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q43.0",
+        "display": "Meckel-Divertikel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q43.1",
+        "display": "Hirschsprung-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q43.2",
+        "display": "Sonstige angeborene Funktionsstörungen des Kolons"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q43.3",
+        "display": "Angeborene Fehlbildungen, die die Darmfixation betreffen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q43.4",
+        "display": "Duplikatur des Darmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q43.5",
+        "display": "Ektopia ani"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q43.6",
+        "display": "Angeborene Fistel des Rektums und des Anus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q43.7",
+        "display": "Kloakenpersistenz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q43.8",
+        "display": "Sonstige näher bezeichnete angeborene Fehlbildungen des Darmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q43.9",
+        "display": "Angeborene Fehlbildung des Darmes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

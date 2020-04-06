@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N49",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N49",
+  "name": "N49",
+  "title": "Entzündliche Krankheiten der männlichen Genitalorgane, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N49"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N49.0",
+        "display": "Entzündliche Krankheiten der Vesicula seminalis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N49.1",
+        "display": "Entzündliche Krankheiten des Funiculus spermaticus, der Tunica vaginalis testis und des Ductus deferens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N49.2",
+        "display": "Entzündliche Krankheiten des Skrotums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N49.8",
+        "display": "Entzündliche Krankheiten sonstiger näher bezeichneter männlicher Genitalorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N49.9",
+        "display": "Entzündliche Krankheit eines nicht näher bezeichneten männlichen Genitalorgans"
+      }
+    ]
+  }
+}

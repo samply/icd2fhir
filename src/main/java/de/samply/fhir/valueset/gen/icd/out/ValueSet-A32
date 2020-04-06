@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A32",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A32",
+  "name": "A32",
+  "title": "Listeriose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A32"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A32.0",
+        "display": "Kutane Listeriose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A32.1",
+        "display": "Meningitis und Meningoenzephalitis durch Listerien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A32.7",
+        "display": "Listeriensepsis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A32.8",
+        "display": "Sonstige Formen der Listeriose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A32.9",
+        "display": "Listeriose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

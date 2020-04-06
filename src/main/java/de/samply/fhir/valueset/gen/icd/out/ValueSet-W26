@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "W26",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/W26",
+  "name": "W26",
+  "title": "Unfall durch sonstige(n) scharfe(n) Gegenstand/-stände",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "W26"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "W26.0",
+        "display": "Unfall durch Messer, Schwert oder Dolch"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "W26.8",
+        "display": "Unfall durch sonstige(n) scharfe(n) Gegenstand/-stände, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "W26.9",
+        "display": "Unfall durch nicht näher bezeichnete(n) scharfe(n) Gegenstand/-stände"
+      }
+    ]
+  }
+}

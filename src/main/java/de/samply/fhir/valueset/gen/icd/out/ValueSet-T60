@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T60",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T60",
+  "name": "T60",
+  "title": "Toxische Wirkung von Schädlingsbekämpfungsmitteln [Pestiziden]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T60"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T60.0",
+        "display": "Organophosphat- und Carbamat-Insektizide"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T60.1",
+        "display": "Halogenierte Insektizide"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T60.2",
+        "display": "Sonstige Insektizide"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T60.3",
+        "display": "Herbizide und Fungizide"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T60.4",
+        "display": "Rodentizide"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T60.8",
+        "display": "Sonstige Schädlingsbekämpfungsmittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T60.9",
+        "display": "Schädlingsbekämpfungsmittel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

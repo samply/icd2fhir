@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z51",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z51",
+  "name": "Z51",
+  "title": "Sonstige medizinische Behandlung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z51"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z51.0",
+        "display": "Strahlentherapie-Sitzung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z51.1",
+        "display": "Chemotherapie-Sitzung wegen bösartiger Neubildung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z51.2",
+        "display": "Andere Chemotherapie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z51.3",
+        "display": "Bluttransfusion (ohne angegebene Diagnose)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z51.4",
+        "display": "Vorbereitung auf eine nachfolgende Behandlung, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z51.5",
+        "display": "Palliativbehandlung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z51.6",
+        "display": "Desensibilisierung gegenüber Allergenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z51.8",
+        "display": "Sonstige näher bezeichnete medizinische Behandlung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z51.9",
+        "display": "Medizinische Behandlung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

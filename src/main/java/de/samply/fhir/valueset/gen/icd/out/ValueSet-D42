@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D42",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D42",
+  "name": "D42",
+  "title": "Neubildung unsicheren oder unbekannten Verhaltens der Meningen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D42"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D42.0",
+        "display": "Hirnhäute"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D42.1",
+        "display": "Rückenmarkhäute"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D42.9",
+        "display": "Meningen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

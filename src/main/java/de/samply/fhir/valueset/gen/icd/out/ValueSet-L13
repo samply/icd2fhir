@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L13",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L13",
+  "name": "L13",
+  "title": "Sonstige bullöse Dermatosen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L13"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L13.0",
+        "display": "Dermatitis herpetiformis [Duhring]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L13.1",
+        "display": "Pustulosis subcornealis [Sneddon-Wilkinson]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L13.8",
+        "display": "Sonstige näher bezeichnete bullöse Dermatosen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L13.9",
+        "display": "Bullöse Dermatose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

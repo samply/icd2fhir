@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G60",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G60",
+  "name": "G60",
+  "title": "Hereditäre und idiopathische Neuropathie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G60"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G60.0",
+        "display": "Hereditäre sensomotorische Neuropathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G60.1",
+        "display": "Refsum-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G60.2",
+        "display": "Neuropathie in Verbindung mit hereditärer Ataxie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G60.3",
+        "display": "Idiopathische progressive Neuropathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G60.8",
+        "display": "Sonstige hereditäre und idiopathische Neuropathien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G60.9",
+        "display": "Hereditäre und idiopathische Neuropathie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

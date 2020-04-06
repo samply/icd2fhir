@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B81",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B81",
+  "name": "B81",
+  "title": "Sonstige intestinale Helminthosen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B81"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B81.0",
+        "display": "Anisakiasis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B81.1",
+        "display": "Intestinale Kapillariasis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B81.2",
+        "display": "Trichostrongyliasis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B81.3",
+        "display": "Intestinale Angiostrongyliasis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B81.4",
+        "display": "Mischformen intestinaler Helminthosen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B81.8",
+        "display": "Sonstige näher bezeichnete intestinale Helminthosen"
+      }
+    ]
+  }
+}

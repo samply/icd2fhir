@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C45",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C45",
+  "name": "C45",
+  "title": "Mesotheliom",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C45"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C45.0",
+        "display": "Mesotheliom der Pleura"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C45.1",
+        "display": "Mesotheliom des Peritoneums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C45.2",
+        "display": "Mesotheliom des Perikards"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C45.7",
+        "display": "Mesotheliom sonstiger Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C45.9",
+        "display": "Mesotheliom, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

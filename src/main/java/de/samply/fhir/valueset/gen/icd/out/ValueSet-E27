@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E27",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E27",
+  "name": "E27",
+  "title": "Sonstige Krankheiten der Nebenniere",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E27"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E27.0",
+        "display": "Sonstige Nebennierenrindenüberfunktion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E27.1",
+        "display": "Primäre Nebennierenrindeninsuffizienz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E27.2",
+        "display": "Addison-Krise"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E27.3",
+        "display": "Arzneimittelinduzierte Nebennierenrindeninsuffizienz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E27.4",
+        "display": "Sonstige und nicht näher bezeichnete Nebennierenrindeninsuffizienz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E27.5",
+        "display": "Nebennierenmarküberfunktion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E27.8",
+        "display": "Sonstige näher bezeichnete Krankheiten der Nebenniere"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E27.9",
+        "display": "Krankheit der Nebenniere, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S52",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S52",
+  "name": "S52",
+  "title": "Fraktur des Unterarmes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S52"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S52.0",
+        "display": "Fraktur des proximalen Endes der Ulna"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S52.1",
+        "display": "Fraktur des proximalen Endes des Radius"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S52.2",
+        "display": "Fraktur des Ulnaschaftes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S52.3",
+        "display": "Fraktur des Radiusschaftes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S52.4",
+        "display": "Fraktur des Ulna- und Radiusschaftes, kombiniert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S52.5",
+        "display": "Distale Fraktur des Radius"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S52.6",
+        "display": "Distale Fraktur der Ulna und des Radius, kombiniert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S52.7",
+        "display": "Multiple Frakturen des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S52.8",
+        "display": "Fraktur sonstiger Teile des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S52.9",
+        "display": "Fraktur des Unterarmes, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

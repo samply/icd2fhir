@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B82",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B82",
+  "name": "B82",
+  "title": "Nicht näher bezeichneter intestinaler Parasitismus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B82"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B82.0",
+        "display": "Intestinale Helminthose, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B82.9",
+        "display": "Intestinaler Parasitismus, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

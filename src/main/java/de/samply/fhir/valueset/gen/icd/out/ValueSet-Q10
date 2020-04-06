@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q10",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q10",
+  "name": "Q10",
+  "title": "Angeborene Fehlbildungen des Augenlides, des Tränenapparates und der Orbita",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q10"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q10.0",
+        "display": "Angeborene Ptose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q10.1",
+        "display": "Angeborenes Ektropium"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q10.2",
+        "display": "Angeborenes Entropium"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q10.3",
+        "display": "Sonstige angeborene Fehlbildungen des Augenlides"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q10.4",
+        "display": "Fehlen und Agenesie des Tränenapparates"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q10.5",
+        "display": "Angeborene Stenose und Striktur des Canaliculus lacrimalis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q10.6",
+        "display": "Sonstige angeborene Fehlbildungen des Tränenapparates"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q10.7",
+        "display": "Angeborene Fehlbildung der Orbita"
+      }
+    ]
+  }
+}

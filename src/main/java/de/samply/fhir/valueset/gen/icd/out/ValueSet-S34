@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S34",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S34",
+  "name": "S34",
+  "title": "Verletzung der Nerven und des lumbalen Rückenmarkes in Höhe des Abdomens, der Lumbosakralgegend und des Beckens",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S34"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S34.0",
+        "display": "Kontusion und Ödem des lumbalen Rückenmarkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S34.1",
+        "display": "Sonstige Verletzung des lumbalen Rückenmarkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S34.2",
+        "display": "Verletzung von Nervenwurzeln der Lendenwirbelsäule und des Kreuzbeins"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S34.3",
+        "display": "Verletzung der Cauda equina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S34.4",
+        "display": "Verletzung des Plexus lumbosacralis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S34.5",
+        "display": "Verletzung sympathischer Nerven der Lendenwirbel-, Kreuzbein- und Beckenregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S34.6",
+        "display": "Verletzung eines oder mehrerer peripherer Nerven des Abdomens, der Lumbosakralgegend und des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S34.8",
+        "display": "Verletzung sonstiger und nicht näher bezeichneter Nerven in Höhe des Abdomens, der Lumbosakralgegend und des Beckens"
+      }
+    ]
+  }
+}

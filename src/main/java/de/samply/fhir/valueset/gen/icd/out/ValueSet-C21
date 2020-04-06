@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C21",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C21",
+  "name": "C21",
+  "title": "Bösartige Neubildung des Anus und des Analkanals",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C21"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C21.0",
+        "display": "Anus, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C21.1",
+        "display": "Analkanal"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C21.2",
+        "display": "Kloakenregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C21.8",
+        "display": "Rektum, Anus und Analkanal, mehrere Teilbereiche überlappend"
+      }
+    ]
+  }
+}

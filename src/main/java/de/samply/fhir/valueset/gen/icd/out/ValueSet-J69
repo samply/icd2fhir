@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J69",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J69",
+  "name": "J69",
+  "title": "Pneumonie durch feste und flüssige Substanzen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J69"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J69.0",
+        "display": "Pneumonie durch Nahrung oder Erbrochenes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J69.1",
+        "display": "Pneumonie durch Öle und Extrakte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J69.8",
+        "display": "Pneumonie durch sonstige feste und flüssige Substanzen"
+      }
+    ]
+  }
+}

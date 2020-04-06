@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D80",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D80",
+  "name": "D80",
+  "title": "Immundefekt mit vorherrschendem Antikörpermangel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D80"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D80.0",
+        "display": "Hereditäre Hypogammaglobulinämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D80.1",
+        "display": "Nichtfamiliäre Hypogammaglobulinämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D80.2",
+        "display": "Selektiver Immunglobulin-A-Mangel [IgA-Mangel]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D80.3",
+        "display": "Selektiver Mangel an Immunglobulin-G-Subklassen [IgG-Subklassen]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D80.4",
+        "display": "Selektiver Immunglobulin-M-Mangel [IgM-Mangel]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D80.5",
+        "display": "Immundefekt bei erhöhtem Immunglobulin M [IgM]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D80.6",
+        "display": "Antikörpermangel bei Normo- oder Hypergammaglobulinämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D80.7",
+        "display": "Transitorische Hypogammaglobulinämie im Kindesalter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D80.8",
+        "display": "Sonstige Immundefekte mit vorherrschendem Antikörpermangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D80.9",
+        "display": "Immundefekt mit vorherrschendem Antikörpermangel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

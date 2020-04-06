@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S82",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S82",
+  "name": "S82",
+  "title": "Fraktur des Unterschenkels, einschließlich des oberen Sprunggelenkes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S82"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S82.0",
+        "display": "Fraktur der Patella"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S82.1",
+        "display": "Fraktur des proximalen Endes der Tibia"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S82.2",
+        "display": "Fraktur des Tibiaschaftes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S82.3",
+        "display": "Distale Fraktur der Tibia"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S82.4",
+        "display": "Fraktur der Fibula, isoliert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S82.5",
+        "display": "Fraktur des Innenknöchels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S82.6",
+        "display": "Fraktur des Außenknöchels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S82.7",
+        "display": "Multiple Frakturen des Unterschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S82.8",
+        "display": "Frakturen sonstiger Teile der Unterschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S82.9",
+        "display": "Fraktur des Unterschenkels, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

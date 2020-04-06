@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E55",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E55",
+  "name": "E55",
+  "title": "Vitamin-D-Mangel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E55"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E55.0",
+        "display": "Floride Rachitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E55.9",
+        "display": "Vitamin-D-Mangel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H27",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H27",
+  "name": "H27",
+  "title": "Sonstige Affektionen der Linse",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H27"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H27.0",
+        "display": "Aphakie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H27.1",
+        "display": "Luxation der Linse"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H27.8",
+        "display": "Sonstige näher bezeichnete Affektionen der Linse"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H27.9",
+        "display": "Affektion der Linse, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

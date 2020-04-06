@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P54",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P54",
+  "name": "P54",
+  "title": "Sonstige Blutungen beim Neugeborenen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P54"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P54.0",
+        "display": "Hämatemesis beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P54.1",
+        "display": "Meläna beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P54.2",
+        "display": "Rektumblutung beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P54.3",
+        "display": "Sonstige gastrointestinale Blutung beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P54.4",
+        "display": "Nebennierenblutung beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P54.5",
+        "display": "Hautblutung beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P54.6",
+        "display": "Blutung aus der Vagina beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P54.8",
+        "display": "Sonstige näher bezeichnete Blutungen beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P54.9",
+        "display": "Blutung beim Neugeborenen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

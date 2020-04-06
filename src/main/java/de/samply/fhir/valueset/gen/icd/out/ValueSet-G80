@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G80",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G80",
+  "name": "G80",
+  "title": "Infantile Zerebralparese",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G80"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G80.0",
+        "display": "Spastische tetraplegische Zerebralparese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G80.1",
+        "display": "Spastische diplegische Zerebralparese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G80.2",
+        "display": "Infantile hemiplegische Zerebralparese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G80.3",
+        "display": "Dyskinetische Zerebralparese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G80.4",
+        "display": "Ataktische Zerebralparese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G80.8",
+        "display": "Sonstige infantile Zerebralparese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G80.9",
+        "display": "Infantile Zerebralparese, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

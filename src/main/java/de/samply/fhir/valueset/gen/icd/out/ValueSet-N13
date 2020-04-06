@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N13",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N13",
+  "name": "N13",
+  "title": "Obstruktive Uropathie und Refluxuropathie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N13"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N13.0",
+        "display": "Hydronephrose bei ureteropelviner Obstruktion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N13.1",
+        "display": "Hydronephrose bei Ureterstriktur, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N13.2",
+        "display": "Hydronephrose bei Obstruktion durch Nieren- und Ureterstein"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N13.3",
+        "display": "Sonstige und nicht näher bezeichnete Hydronephrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N13.4",
+        "display": "Hydroureter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N13.5",
+        "display": "Abknickung und Striktur des Ureters ohne Hydronephrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N13.6",
+        "display": "Pyonephrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N13.7",
+        "display": "Uropathie in Zusammenhang mit vesikoureteralem Reflux"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N13.8",
+        "display": "Sonstige obstruktive Uropathie und Refluxuropathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N13.9",
+        "display": "Obstruktive Uropathie und Refluxuropathie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

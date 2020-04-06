@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A79",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A79",
+  "name": "A79",
+  "title": "Sonstige Rickettsiosen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A79"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A79.0",
+        "display": "Wolhynisches Fieber"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A79.1",
+        "display": "Rickettsienpocken durch Rickettsia akari"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A79.8",
+        "display": "Sonstige näher bezeichnete Rickettsiosen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A79.9",
+        "display": "Rickettsiose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

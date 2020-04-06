@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z03",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z03",
+  "name": "Z03",
+  "title": "Ärztliche Beobachtung und Beurteilung von Verdachtsfällen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z03"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z03.0",
+        "display": "Beobachtung bei Verdacht auf Tuberkulose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z03.1",
+        "display": "Beobachtung bei Verdacht auf bösartige Neubildung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z03.2",
+        "display": "Beobachtung bei Verdacht auf psychische Krankheiten oder Verhaltensstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z03.3",
+        "display": "Beobachtung bei Verdacht auf neurologische Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z03.4",
+        "display": "Beobachtung bei Verdacht auf Herzinfarkt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z03.5",
+        "display": "Beobachtung bei Verdacht auf sonstige kardiovaskuläre Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z03.6",
+        "display": "Beobachtung bei Verdacht auf toxische Wirkung von aufgenommenen Substanzen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z03.8",
+        "display": "Beobachtung bei sonstigen Verdachtsfällen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z03.9",
+        "display": "Beobachtung bei Verdachtsfall, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

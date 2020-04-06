@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q27",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q27",
+  "name": "Q27",
+  "title": "Sonstige angeborene Fehlbildungen des peripheren Gefäßsystems",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q27"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q27.0",
+        "display": "Angeborenes Fehlen oder Hypoplasie der A. umbilicalis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q27.1",
+        "display": "Angeborene Nierenarterienstenose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q27.2",
+        "display": "Sonstige angeborene Fehlbildungen der Nierenarterie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q27.3",
+        "display": "Arteriovenöse Fehlbildung der peripheren Gefäße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q27.4",
+        "display": "Angeborene Phlebektasie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q27.8",
+        "display": "Sonstige näher bezeichnete angeborene Fehlbildungen des peripheren Gefäßsystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q27.9",
+        "display": "Angeborene Fehlbildung des peripheren Gefäßsystems, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

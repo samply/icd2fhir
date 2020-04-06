@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A49",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A49",
+  "name": "A49",
+  "title": "Bakterielle Infektion nicht näher bezeichneter Lokalisation",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A49"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A49.0",
+        "display": "Staphylokokkeninfektion nicht näher bezeichneter Lokalisation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A49.1",
+        "display": "Streptokokken- und Enterokokkeninfektion nicht näher bezeichneter Lokalisation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A49.2",
+        "display": "Infektion durch Haemophilus influenzae nicht näher bezeichneter Lokalisation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A49.3",
+        "display": "Mykoplasmeninfektion nicht näher bezeichneter Lokalisation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A49.8",
+        "display": "Sonstige bakterielle Infektionen nicht näher bezeichneter Lokalisation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A49.9",
+        "display": "Bakterielle Infektion, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

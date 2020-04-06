@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y63",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y63",
+  "name": "Y63",
+  "title": "Dosierungsfehler bei chirurgischem Eingriff und medizinischer Behandlung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y63"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y63.0",
+        "display": "Verabreichung einer exzessiven Menge Blut oder sonstiger Flüssigkeit bei Transfusion oder Infusion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y63.1",
+        "display": "Fehler bei Verdünnung der Infusionslösung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y63.2",
+        "display": "Überdosierung der Strahlung bei Strahlentherapie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y63.3",
+        "display": "Versehentliche Exposition eines Patienten gegenüber Strahlung während medizinischer Behandlung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y63.4",
+        "display": "Dosierungsfehler bei Elektroschock- oder Insulinschocktherapie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y63.5",
+        "display": "Unangemessene Temperatur bei lokaler Applikation oder Packung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y63.6",
+        "display": "Unterlassene Verabreichung notwendiger Arzneimittel, Drogen oder biologisch aktiver Substanzen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y63.8",
+        "display": "Dosierungsfehler bei sonstigen chirurgischen Eingriffen und medizinischen Behandlungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y63.9",
+        "display": "Dosierungsfehler bei chirurgischem Eingriff und medizinischer Behandlung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

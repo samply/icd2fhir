@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L56",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L56",
+  "name": "L56",
+  "title": "Sonstige akute Hautveränderungen durch Ultraviolettstrahlen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L56"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L56.0",
+        "display": "Phototoxische Reaktion auf Arzneimittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L56.1",
+        "display": "Photoallergische Reaktion auf Arzneimittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L56.2",
+        "display": "Phototoxische Kontaktdermatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L56.3",
+        "display": "Urticaria solaris"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L56.4",
+        "display": "Polymorphe Lichtdermatose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L56.8",
+        "display": "Sonstige näher bezeichnete akute Hautveränderungen durch Ultraviolettstrahlen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L56.9",
+        "display": "Akute Hautveränderung durch Ultraviolettstrahlen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

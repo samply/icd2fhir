@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S85",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S85",
+  "name": "S85",
+  "title": "Verletzung von Blutgefäßen in Höhe des Unterschenkels",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S85"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S85.0",
+        "display": "Verletzung der A. poplitea"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S85.1",
+        "display": "Verletzung der A. tibialis (anterior) (posterior)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S85.2",
+        "display": "Verletzung der A. peronaea"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S85.3",
+        "display": "Verletzung der V. saphena magna in Höhe des Unterschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S85.4",
+        "display": "Verletzung der V. saphena parva in Höhe des Unterschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S85.5",
+        "display": "Verletzung der V. poplitea"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S85.7",
+        "display": "Verletzung mehrerer Blutgefäße in Höhe des Unterschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S85.8",
+        "display": "Verletzung sonstiger Blutgefäße in Höhe des Unterschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S85.9",
+        "display": "Verletzung eines nicht näher bezeichneten Blutgefäßes in Höhe des Unterschenkels"
+      }
+    ]
+  }
+}

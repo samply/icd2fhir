@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S81",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S81",
+  "name": "S81",
+  "title": "Offene Wunde des Unterschenkels",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S81"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S81.0",
+        "display": "Offene Wunde des Knies"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S81.7",
+        "display": "Multiple offene Wunden des Unterschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S81.8",
+        "display": "Offene Wunde sonstiger Teile des Unterschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S81.9",
+        "display": "Offene Wunde des Unterschenkels, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

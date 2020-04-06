@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S63",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S63",
+  "name": "S63",
+  "title": "Luxation, Verstauchung und Zerrung von Gelenken und Bändern in Höhe des Handgelenkes und der Hand",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S63"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S63.0",
+        "display": "Luxation des Handgelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S63.1",
+        "display": "Luxation eines Fingers"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S63.2",
+        "display": "Multiple Luxationen der Finger"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S63.3",
+        "display": "Traumatische Ruptur von Bändern des Handgelenkes und der Handwurzel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S63.4",
+        "display": "Traumatische Ruptur von Bändern der Finger im Metakarpophalangeal- und Interphalangealgelenk"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S63.5",
+        "display": "Verstauchung und Zerrung des Handgelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S63.6",
+        "display": "Verstauchung und Zerrung eines oder mehrerer Finger"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S63.7",
+        "display": "Verstauchung und Zerrung sonstiger und nicht näher bezeichneter Teile der Hand"
+      }
+    ]
+  }
+}

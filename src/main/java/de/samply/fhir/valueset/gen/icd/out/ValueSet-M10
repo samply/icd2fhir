@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M10",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M10",
+  "name": "M10",
+  "title": "Gicht",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M10"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M10.0",
+        "display": "Idiopathische Gicht"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M10.1",
+        "display": "Bleigicht"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M10.2",
+        "display": "Arzneimittelinduzierte Gicht"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M10.3",
+        "display": "Gicht durch Nierenfunktionsstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M10.4",
+        "display": "Sonstige sekundäre Gicht"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M10.9",
+        "display": "Gicht, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

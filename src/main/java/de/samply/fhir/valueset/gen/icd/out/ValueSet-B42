@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B42",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B42",
+  "name": "B42",
+  "title": "Sporotrichose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B42"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B42.0",
+        "display": "Sporotrichose der Lunge [J99.8 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B42.1",
+        "display": "Lymphokutane Sporotrichose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B42.7",
+        "display": "Disseminierte Sporotrichose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B42.8",
+        "display": "Sonstige Formen der Sporotrichose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B42.9",
+        "display": "Sporotrichose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

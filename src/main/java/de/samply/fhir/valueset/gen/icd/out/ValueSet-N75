@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N75",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N75",
+  "name": "N75",
+  "title": "Krankheiten der Bartholin-Drüsen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N75"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N75.0",
+        "display": "Bartholin-Zyste"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N75.1",
+        "display": "Bartholin-Abszess"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N75.8",
+        "display": "Sonstige Krankheiten der Bartholin-Drüsen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N75.9",
+        "display": "Krankheit der Bartholin-Drüsen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

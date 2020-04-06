@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L43",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L43",
+  "name": "L43",
+  "title": "Lichen ruber planus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L43"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L43.0",
+        "display": "Lichen ruber hypertrophicus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L43.1",
+        "display": "Lichen ruber pemphigoides"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L43.2",
+        "display": "Lichenoide Arzneimittelreaktion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L43.3",
+        "display": "Subakuter Lichen ruber planus (aktiv)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L43.8",
+        "display": "Sonstiger Lichen ruber planus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L43.9",
+        "display": "Lichen ruber planus, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

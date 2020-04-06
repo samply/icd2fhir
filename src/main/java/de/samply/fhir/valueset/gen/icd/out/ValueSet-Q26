@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q26",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q26",
+  "name": "Q26",
+  "title": "Angeborene Fehlbildungen der großen Venen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q26"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q26.0",
+        "display": "Angeborene Stenose der V. cava"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q26.1",
+        "display": "Persistenz der linken V. cava superior"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q26.2",
+        "display": "Totale Fehleinmündung der Lungenvenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q26.3",
+        "display": "Partielle Fehleinmündung der Lungenvenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q26.4",
+        "display": "Fehleinmündung der Lungenvenen, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q26.5",
+        "display": "Fehleinmündung der Pfortader"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q26.6",
+        "display": "Fistel zwischen V. portae und A. hepatica (angeboren)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q26.8",
+        "display": "Sonstige angeborene Fehlbildungen der großen Venen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q26.9",
+        "display": "Angeborene Fehlbildung einer großen Vene, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

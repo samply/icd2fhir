@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J95",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J95",
+  "name": "J95",
+  "title": "Krankheiten der Atemwege nach medizinischen Maßnahmen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J95"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J95.0",
+        "display": "Funktionsstörung eines Tracheostomas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J95.1",
+        "display": "Akute pulmonale Insuffizienz nach Thoraxoperation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J95.2",
+        "display": "Akute pulmonale Insuffizienz nach nicht am Thorax vorgenommener Operation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J95.3",
+        "display": "Chronische pulmonale Insuffizienz nach Operation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J95.4",
+        "display": "Mendelson-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J95.5",
+        "display": "Subglottische Stenose nach medizinischen Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J95.8",
+        "display": "Sonstige Krankheiten der Atemwege nach medizinischen Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J95.9",
+        "display": "Krankheit der Atemwege nach medizinischen Maßnahmen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

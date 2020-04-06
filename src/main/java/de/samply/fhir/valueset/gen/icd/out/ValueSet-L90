@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L90",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L90",
+  "name": "L90",
+  "title": "Atrophische Hautkrankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L90"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L90.0",
+        "display": "Lichen sclerosus et atrophicus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L90.1",
+        "display": "Anetodermie, Typ Schweninger-Buzzi"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L90.2",
+        "display": "Anetodermie, Typ Jadassohn-Pellizzari"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L90.3",
+        "display": "Atrophodermia idiopathica, Typ Pasini-Pierini"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L90.4",
+        "display": "Akrodermatitis chronica atrophicans"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L90.5",
+        "display": "Narben und Fibrosen der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L90.6",
+        "display": "Striae cutis atrophicae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L90.8",
+        "display": "Sonstige atrophische Hautkrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L90.9",
+        "display": "Atrophische Hautkrankheit, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

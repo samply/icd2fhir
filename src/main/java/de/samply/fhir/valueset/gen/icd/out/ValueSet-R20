@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "R20",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/R20",
+  "name": "R20",
+  "title": "Sensibilitätsstörungen der Haut",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "R20"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R20.0",
+        "display": "Anästhesie der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R20.1",
+        "display": "Hypästhesie der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R20.2",
+        "display": "Parästhesie der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R20.3",
+        "display": "Hyperästhesie der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R20.8",
+        "display": "Sonstige und nicht näher bezeichnete Sensibilitätsstörungen der Haut"
+      }
+    ]
+  }
+}

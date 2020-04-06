@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q93",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q93",
+  "name": "Q93",
+  "title": "Monosomien und Deletionen der Autosomen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q93"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q93.0",
+        "display": "Vollständige Monosomie, meiotische Non-disjunction"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q93.1",
+        "display": "Vollständige Monosomie, Mosaik (mitotische Non-disjunction)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q93.2",
+        "display": "Ringchromosomen und dizentrische Chromosomen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q93.3",
+        "display": "Deletion des kurzen Armes des Chromosoms 4"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q93.4",
+        "display": "Deletion des kurzen Armes des Chromosoms 5"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q93.5",
+        "display": "Sonstige Deletionen eines Chromosomenteils"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q93.6",
+        "display": "Deletionen, die nur in der Prometaphase sichtbar werden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q93.7",
+        "display": "Deletionen mit sonstigen komplexen Rearrangements"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q93.8",
+        "display": "Sonstige Deletionen der Autosomen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q93.9",
+        "display": "Deletion der Autosomen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

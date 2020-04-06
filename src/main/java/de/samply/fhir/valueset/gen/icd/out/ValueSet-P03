@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P03",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P03",
+  "name": "P03",
+  "title": "Schädigung des Fetus und Neugeborenen durch sonstige Komplikationen bei Wehen und Entbindung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P03"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P03.0",
+        "display": "Schädigung des Fetus und Neugeborenen durch Entbindung und Extraktion aus Beckenendlage"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P03.1",
+        "display": "Schädigung des Fetus und Neugeborenen durch sonstige Lage-, Haltungs- und Einstellungsanomalien sowie Missverhältnis während Wehen und Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P03.2",
+        "display": "Schädigung des Fetus und Neugeborenen durch Zangenentbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P03.3",
+        "display": "Schädigung des Fetus und Neugeborenen durch Entbindung mittels Vakuumextraktors [Saugglocke]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P03.4",
+        "display": "Schädigung des Fetus und Neugeborenen durch Schnittentbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P03.5",
+        "display": "Schädigung des Fetus und Neugeborenen durch überstürzte Geburt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P03.6",
+        "display": "Schädigung des Fetus und Neugeborenen durch abnorme Uteruskontraktionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P03.8",
+        "display": "Schädigung des Fetus und Neugeborenen durch sonstige näher bezeichnete Komplikationen bei Wehen und Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P03.9",
+        "display": "Schädigung des Fetus und Neugeborenen durch Komplikation bei Wehen und Entbindung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

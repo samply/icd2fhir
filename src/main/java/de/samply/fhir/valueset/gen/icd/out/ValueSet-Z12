@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z12",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z12",
+  "name": "Z12",
+  "title": "Spezielle Verfahren zur Untersuchung auf Neubildungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z12"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z12.0",
+        "display": "Spezielle Verfahren zur Untersuchung auf Neubildung des Magens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z12.1",
+        "display": "Spezielle Verfahren zur Untersuchung auf Neubildung des Darmtraktes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z12.2",
+        "display": "Spezielle Verfahren zur Untersuchung auf Neubildung der Atmungsorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z12.3",
+        "display": "Spezielle Verfahren zur Untersuchung auf Neubildung der Mamma [Brustdrüse]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z12.4",
+        "display": "Spezielle Verfahren zur Untersuchung auf Neubildung der Cervix uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z12.5",
+        "display": "Spezielle Verfahren zur Untersuchung auf Neubildung der Prostata"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z12.6",
+        "display": "Spezielle Verfahren zur Untersuchung auf Neubildung der Harnblase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z12.8",
+        "display": "Spezielle Verfahren zur Untersuchung auf Neubildungen sonstiger Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z12.9",
+        "display": "Spezielle Verfahren zur Untersuchung auf Neubildung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

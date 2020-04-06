@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G96",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G96",
+  "name": "G96",
+  "title": "Sonstige Krankheiten des Zentralnervensystems",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G96"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G96.0",
+        "display": "Austritt von Liquor cerebrospinalis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G96.1",
+        "display": "Krankheiten der Meningen, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G96.8",
+        "display": "Sonstige näher bezeichnete Krankheiten des Zentralnervensystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G96.9",
+        "display": "Krankheit des Zentralnervensystems, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

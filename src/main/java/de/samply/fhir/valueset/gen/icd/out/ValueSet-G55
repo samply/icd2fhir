@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G55",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G55",
+  "name": "G55",
+  "title": "Kompression von Nervenwurzeln und Nervenplexus bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G55"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G55.0",
+        "display": "Kompression von Nervenwurzeln und Nervenplexus bei Neubildungen [C00-D48 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G55.1",
+        "display": "Kompression von Nervenwurzeln und Nervenplexus bei Bandscheibenschäden [M50-M51 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G55.2",
+        "display": "Kompression von Nervenwurzeln und Nervenplexus bei Spondylose [M47.- ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G55.3",
+        "display": "Kompression von Nervenwurzeln und Nervenplexus bei sonstigen Krankheiten der Wirbelsäule und des Rückens [M45-M46 ][M48.- ][M53-M54 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G55.8",
+        "display": "Kompression von Nervenwurzeln und Nervenplexus bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

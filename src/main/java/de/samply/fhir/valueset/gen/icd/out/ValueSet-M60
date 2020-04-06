@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M60",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M60",
+  "name": "M60",
+  "title": "Myositis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M60"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M60.0",
+        "display": "Infektiöse Myositis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M60.1",
+        "display": "Interstitielle Myositis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M60.2",
+        "display": "Fremdkörpergranulom im Weichteilgewebe, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M60.8",
+        "display": "Sonstige Myositis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M60.9",
+        "display": "Myositis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

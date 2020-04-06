@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B27",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B27",
+  "name": "B27",
+  "title": "Infektiöse Mononukleose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B27"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B27.0",
+        "display": "Mononukleose durch Gamma-Herpesviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B27.1",
+        "display": "Mononukleose durch Zytomegalieviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B27.8",
+        "display": "Sonstige infektiöse Mononukleose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B27.9",
+        "display": "Infektiöse Mononukleose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y43",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y43",
+  "name": "Y43",
+  "title": "Primär systemisch wirkende Mittel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y43"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y43.0",
+        "display": "Antiallergika und Antiemetika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y43.1",
+        "display": "Antineoplastische Antimetabolite"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y43.2",
+        "display": "Antineoplastische natürliche Wirkstoffe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y43.3",
+        "display": "Sonstige antineoplastische Arzneimittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y43.4",
+        "display": "Immunsuppressiva"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y43.5",
+        "display": "Ansäuernde und alkalisierende Mittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y43.6",
+        "display": "Enzyme, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y43.8",
+        "display": "Sonstige primär systemisch wirkende Mittel, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y43.9",
+        "display": "Primär systemisch wirkendes Mittel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

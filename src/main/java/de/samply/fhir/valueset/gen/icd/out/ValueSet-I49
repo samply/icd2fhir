@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I49",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I49",
+  "name": "I49",
+  "title": "Sonstige kardiale Arrhythmien",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I49"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I49.0",
+        "display": "Kammerflattern und Kammerflimmern"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I49.1",
+        "display": "Vorhofextrasystolie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I49.2",
+        "display": "AV-junktionale Extrasystolie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I49.3",
+        "display": "Ventrikuläre Extrasystolie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I49.4",
+        "display": "Sonstige und nicht näher bezeichnete Extrasystolie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I49.5",
+        "display": "Sick-Sinus-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I49.8",
+        "display": "Sonstige näher bezeichnete kardiale Arrhythmien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I49.9",
+        "display": "Kardiale Arrhythmie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

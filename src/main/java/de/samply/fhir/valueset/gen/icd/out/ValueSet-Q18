@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q18",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q18",
+  "name": "Q18",
+  "title": "Sonstige angeborene Fehlbildungen des Gesichtes und des Halses",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q18"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q18.0",
+        "display": "Branchiogene(r) Sinus, Fistel und Zyste"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q18.1",
+        "display": "Präaurikuläre(r) Sinus und Zyste"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q18.2",
+        "display": "Sonstige branchiogene Fehlbildungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q18.3",
+        "display": "Flügelfell des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q18.4",
+        "display": "Makrostomie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q18.5",
+        "display": "Mikrostomie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q18.6",
+        "display": "Makrocheilie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q18.7",
+        "display": "Mikrocheilie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q18.8",
+        "display": "Sonstige näher bezeichnete angeborene Fehlbildungen des Gesichtes und des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q18.9",
+        "display": "Angeborene Fehlbildung des Gesichtes und des Halses, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I78",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I78",
+  "name": "I78",
+  "title": "Krankheiten der Kapillaren",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I78"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I78.0",
+        "display": "Hereditäre hämorrhagische Teleangiektasie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I78.1",
+        "display": "Nävus, nichtneoplastisch"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I78.8",
+        "display": "Sonstige Krankheiten der Kapillaren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I78.9",
+        "display": "Krankheit der Kapillaren, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

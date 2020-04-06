@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D11",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D11",
+  "name": "D11",
+  "title": "Gutartige Neubildung der großen Speicheldrüsen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D11"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D11.0",
+        "display": "Parotis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D11.7",
+        "display": "Sonstige große Speicheldrüsen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D11.9",
+        "display": "Große Speicheldrüse, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

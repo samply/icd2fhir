@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C14",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C14",
+  "name": "C14",
+  "title": "Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen der Lippe, der Mundhöhle und des Pharynx",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C14"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C14.0",
+        "display": "Pharynx, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C14.2",
+        "display": "Lymphatischer Rachenring [Waldeyer]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C14.8",
+        "display": "Lippe, Mundhöhle und Pharynx, mehrere Teilbereiche überlappend"
+      }
+    ]
+  }
+}

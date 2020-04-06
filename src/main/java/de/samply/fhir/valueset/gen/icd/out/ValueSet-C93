@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C93",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C93",
+  "name": "C93",
+  "title": "Monozytenleukämie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C93"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C93.0",
+        "display": "Akute Monoblasten-/Monozytenleukämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C93.1",
+        "display": "Chronische myelomonozytäre Leukämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C93.3",
+        "display": "Juvenile myelomonozytäre Leukämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C93.7",
+        "display": "Sonstige Monozytenleukämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C93.9",
+        "display": "Monozytenleukämie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

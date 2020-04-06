@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D46",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D46",
+  "name": "D46",
+  "title": "Myelodysplastische Syndrome",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D46"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D46.0",
+        "display": "Refraktäre Anämie ohne Ringsideroblasten, so bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D46.1",
+        "display": "Refraktäre Anämie mit Ringsideroblasten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D46.2",
+        "display": "Refraktäre Anämie mit Blastenüberschuss [RAEB]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D46.4",
+        "display": "Refraktäre Anämie, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D46.5",
+        "display": "Refraktäre Anämie mit Mehrlinien-Dysplasie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D46.6",
+        "display": "Myelodysplastisches Syndrom mit isolierter del(5q)-Chromosomenanomalie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D46.7",
+        "display": "Sonstige myelodysplastische Syndrome"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D46.9",
+        "display": "Myelodysplastisches Syndrom, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

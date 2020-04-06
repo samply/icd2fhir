@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F38",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F38",
+  "name": "F38",
+  "title": "Andere affektive Störungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F38"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F38.0",
+        "display": "Andere einzelne affektive Störungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F38.1",
+        "display": "Andere rezidivierende affektive Störungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F38.8",
+        "display": "Sonstige näher bezeichnete affektive Störungen"
+      }
+    ]
+  }
+}

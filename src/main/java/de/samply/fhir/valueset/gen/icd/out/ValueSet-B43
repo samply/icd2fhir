@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B43",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B43",
+  "name": "B43",
+  "title": "Chromomykose und chromomykotischer Abszess",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B43"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B43.0",
+        "display": "Chromomykose der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B43.1",
+        "display": "Chromomykotischer Abszess des Gehirns"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B43.2",
+        "display": "Chromomykotische(r) Abszess und Zyste der Unterhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B43.8",
+        "display": "Sonstige Formen der Chromomykose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B43.9",
+        "display": "Chromomykose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

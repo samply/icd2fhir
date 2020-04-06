@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M30",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M30",
+  "name": "M30",
+  "title": "Panarteriitis nodosa und verwandte Zustände",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M30"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M30.0",
+        "display": "Panarteriitis nodosa"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M30.1",
+        "display": "Panarteriitis mit Lungenbeteiligung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M30.2",
+        "display": "Juvenile Panarteriitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M30.3",
+        "display": "Mukokutanes Lymphknotensyndrom [Kawasaki-Krankheit]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M30.8",
+        "display": "Sonstige mit Panarteriitis nodosa verwandte Zustände"
+      }
+    ]
+  }
+}

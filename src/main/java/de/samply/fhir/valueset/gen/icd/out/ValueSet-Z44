@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z44",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z44",
+  "name": "Z44",
+  "title": "Versorgen mit und Anpassen einer Ektoprothese",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z44"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z44.0",
+        "display": "Versorgen mit und Anpassen eines künstlichen Armes (komplett) (partiell)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z44.1",
+        "display": "Versorgen mit und Anpassen eines künstlichen Beines (komplett) (partiell)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z44.2",
+        "display": "Versorgen mit und Anpassen einer Augenprothese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z44.3",
+        "display": "Versorgen mit und Anpassen einer extrakorporalen Mammaprothese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z44.8",
+        "display": "Versorgen mit und Anpassen von sonstigen Ektoprothesen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z44.9",
+        "display": "Versorgen mit und Anpassen einer nicht näher bezeichneten Ektoprothese"
+      }
+    ]
+  }
+}

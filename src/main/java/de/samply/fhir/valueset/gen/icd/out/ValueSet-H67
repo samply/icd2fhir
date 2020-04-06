@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H67",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H67",
+  "name": "H67",
+  "title": "Otitis media bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H67"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H67.0",
+        "display": "Otitis media bei anderenorts klassifizierten bakteriellen Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H67.1",
+        "display": "Otitis media bei anderenorts klassifizierten Viruskrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H67.8",
+        "display": "Otitis media bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

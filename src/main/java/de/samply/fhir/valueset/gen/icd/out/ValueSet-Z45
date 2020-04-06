@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z45",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z45",
+  "name": "Z45",
+  "title": "Anpassung und Handhabung eines implantierten medizinischen Gerätes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z45"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z45.0",
+        "display": "Anpassung und Handhabung eines kardialen (elektronischen) Geräts"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z45.1",
+        "display": "Anpassung und Handhabung einer Infusionspumpe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z45.2",
+        "display": "Anpassung und Handhabung eines vaskulären Zugangs"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z45.3",
+        "display": "Anpassung und Handhabung eines implantierten Hörgerätes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z45.8",
+        "display": "Anpassung und Handhabung von sonstigen implantierten medizinischen Geräten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z45.9",
+        "display": "Anpassung und Handhabung eines implantierten medizinischen Gerätes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

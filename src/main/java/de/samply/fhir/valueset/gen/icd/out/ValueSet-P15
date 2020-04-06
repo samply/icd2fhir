@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P15",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P15",
+  "name": "P15",
+  "title": "Sonstige Geburtsverletzungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P15"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P15.0",
+        "display": "Geburtsverletzung der Leber"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P15.1",
+        "display": "Geburtsverletzung der Milz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P15.2",
+        "display": "Verletzung des M. sternocleidomastoideus durch Geburtsverletzung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P15.3",
+        "display": "Geburtsverletzung des Auges"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P15.4",
+        "display": "Geburtsverletzung des Gesichtes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P15.5",
+        "display": "Geburtsverletzung der äußeren Genitalorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P15.6",
+        "display": "Adiponecrosis subcutanea neonatorum durch Geburtsverletzung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P15.8",
+        "display": "Sonstige näher bezeichnete Geburtsverletzungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P15.9",
+        "display": "Geburtsverletzung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

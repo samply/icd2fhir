@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A16",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A16",
+  "name": "A16",
+  "title": "Tuberkulose der Atmungsorgane, weder bakteriologisch noch histologisch gesichert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A16"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A16.0",
+        "display": "Lungentuberkulose, weder bakteriologisch noch histologisch gesichert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A16.1",
+        "display": "Lungentuberkulose, bakteriologische und histologische Untersuchung nicht durchgeführt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A16.2",
+        "display": "Lungentuberkulose ohne Angabe einer bakteriologischen oder histologischen Sicherung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A16.3",
+        "display": "Tuberkulose der intrathorakalen Lymphknoten ohne Angabe einer bakteriologischen oder histologischen Sicherung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A16.4",
+        "display": "Tuberkulose des Larynx, der Trachea und der Bronchien ohne Angabe einer bakteriologischen oder histologischen Sicherung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A16.5",
+        "display": "Tuberkulöse Pleuritis ohne Angabe einer bakteriologischen oder histologischen Sicherung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A16.7",
+        "display": "Primäre Tuberkulose der Atmungsorgane ohne Angabe einer bakteriologischen oder histologischen Sicherung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A16.8",
+        "display": "Sonstige Tuberkulose der Atmungsorgane ohne Angabe einer bakteriologischen oder histologischen Sicherung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A16.9",
+        "display": "Nicht näher bezeichnete Tuberkulose der Atmungsorgane ohne Angabe einer bakteriologischen oder histologischen Sicherung"
+      }
+    ]
+  }
+}

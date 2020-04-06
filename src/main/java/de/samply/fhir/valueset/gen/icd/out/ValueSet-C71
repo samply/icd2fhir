@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C71",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C71",
+  "name": "C71",
+  "title": "Bösartige Neubildung des Gehirns",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C71"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C71.0",
+        "display": "Zerebrum, ausgenommen Hirnlappen und Ventrikel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C71.1",
+        "display": "Frontallappen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C71.2",
+        "display": "Temporallappen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C71.3",
+        "display": "Parietallappen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C71.4",
+        "display": "Okzipitallappen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C71.5",
+        "display": "Hirnventrikel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C71.6",
+        "display": "Zerebellum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C71.7",
+        "display": "Hirnstamm"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C71.8",
+        "display": "Gehirn, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C71.9",
+        "display": "Gehirn, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

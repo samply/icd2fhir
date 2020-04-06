@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H58",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H58",
+  "name": "H58",
+  "title": "Sonstige Affektionen des Auges und der Augenanhangsgebilde bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H58"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H58.0",
+        "display": "Anomalien der Pupillenreaktion bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H58.1",
+        "display": "Sehstörungen bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H58.8",
+        "display": "Sonstige näher bezeichnete Affektionen der Augen und der Augenanhangsgebilde bei anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

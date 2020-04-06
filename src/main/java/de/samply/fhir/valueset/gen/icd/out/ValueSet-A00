@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A00",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A00",
+  "name": "A00",
+  "title": "Cholera",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A00"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A00.0",
+        "display": "Cholera durch Vibrio cholerae O:1, Biovar cholerae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A00.1",
+        "display": "Cholera durch Vibrio cholerae O:1, Biovar eltor"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A00.9",
+        "display": "Cholera, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

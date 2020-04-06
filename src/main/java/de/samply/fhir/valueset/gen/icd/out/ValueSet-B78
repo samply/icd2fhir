@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B78",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B78",
+  "name": "B78",
+  "title": "Strongyloidiasis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B78"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B78.0",
+        "display": "Strongyloidiasis des Darmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B78.1",
+        "display": "Strongyloidiasis der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B78.7",
+        "display": "Disseminierte Strongyloidiasis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B78.9",
+        "display": "Strongyloidiasis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

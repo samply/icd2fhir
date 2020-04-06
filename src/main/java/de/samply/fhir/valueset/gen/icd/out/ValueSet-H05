@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H05",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H05",
+  "name": "H05",
+  "title": "Affektionen der Orbita",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H05"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H05.0",
+        "display": "Akute Entzündung der Orbita"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H05.1",
+        "display": "Chronische entzündliche Affektionen der Orbita"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H05.2",
+        "display": "Exophthalmus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H05.3",
+        "display": "Deformation der Orbita"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H05.4",
+        "display": "Enophthalmus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H05.5",
+        "display": "Verbliebener (alter) Fremdkörper nach perforierender Verletzung der Orbita"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H05.8",
+        "display": "Sonstige Affektionen der Orbita"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H05.9",
+        "display": "Affektion der Orbita, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T62",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T62",
+  "name": "T62",
+  "title": "Toxische Wirkung sonstiger schädlicher Substanzen, die mit der Nahrung aufgenommen wurden",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T62"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T62.0",
+        "display": "Verzehrte Pilze"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T62.1",
+        "display": "Verzehrte Beeren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T62.2",
+        "display": "Sonstige verzehrte Pflanze(n) oder Teil(e) davon"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T62.8",
+        "display": "Sonstige näher bezeichnete schädliche Substanzen, die mit der Nahrung aufgenommen wurden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T62.9",
+        "display": "Schädliche Substanz, die mit der Nahrung aufgenommen wurde, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A04",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A04",
+  "name": "A04",
+  "title": "Sonstige bakterielle Darminfektionen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A04"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A04.0",
+        "display": "Darminfektion durch enteropathogene Escherichia coli"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A04.1",
+        "display": "Darminfektion durch enterotoxinbildende Escherichia coli"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A04.2",
+        "display": "Darminfektion durch enteroinvasive Escherichia coli"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A04.3",
+        "display": "Darminfektion durch enterohämorrhagische Escherichia coli"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A04.4",
+        "display": "Sonstige Darminfektionen durch Escherichia coli"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A04.5",
+        "display": "Enteritis durch Campylobacter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A04.6",
+        "display": "Enteritis durch Yersinia enterocolitica"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A04.7",
+        "display": "Enterokolitis durch Clostridium difficile"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A04.8",
+        "display": "Sonstige näher bezeichnete bakterielle Darminfektionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A04.9",
+        "display": "Bakterielle Darminfektion, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

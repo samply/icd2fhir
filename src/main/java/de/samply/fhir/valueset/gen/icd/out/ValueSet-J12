@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J12",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J12",
+  "name": "J12",
+  "title": "Viruspneumonie, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J12"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J12.0",
+        "display": "Pneumonie durch Adenoviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J12.1",
+        "display": "Pneumonie durch Respiratory-Syncytial-Viren [RS-Viren]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J12.2",
+        "display": "Pneumonie durch Parainfluenzaviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J12.3",
+        "display": "Pneumonie durch humanes Metapneumovirus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J12.8",
+        "display": "Pneumonie durch sonstige Viren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J12.9",
+        "display": "Viruspneumonie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D37",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D37",
+  "name": "D37",
+  "title": "Neubildung unsicheren oder unbekannten Verhaltens der Mundhöhle und der Verdauungsorgane",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D37"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D37.0",
+        "display": "Lippe, Mundhöhle und Pharynx"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D37.1",
+        "display": "Magen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D37.2",
+        "display": "Dünndarm"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D37.3",
+        "display": "Appendix vermiformis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D37.4",
+        "display": "Kolon"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D37.5",
+        "display": "Rektum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D37.6",
+        "display": "Leber, Gallenblase und Gallengänge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D37.7",
+        "display": "Sonstige Verdauungsorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D37.9",
+        "display": "Verdauungsorgan, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

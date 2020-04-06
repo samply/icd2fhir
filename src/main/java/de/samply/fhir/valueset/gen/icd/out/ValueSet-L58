@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L58",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L58",
+  "name": "L58",
+  "title": "Radiodermatitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L58"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L58.0",
+        "display": "Akute Radiodermatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L58.1",
+        "display": "Chronische Radiodermatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L58.9",
+        "display": "Radiodermatitis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

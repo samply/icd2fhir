@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P91",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P91",
+  "name": "P91",
+  "title": "Sonstige zerebrale Störungen beim Neugeborenen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P91"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P91.0",
+        "display": "Zerebrale Ischämie beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P91.1",
+        "display": "Erworbene periventrikuläre Zysten beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P91.2",
+        "display": "Zerebrale Leukomalazie beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P91.3",
+        "display": "Zerebrale Übererregbarkeit des Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P91.4",
+        "display": "Zerebraler Depressionszustand des Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P91.5",
+        "display": "Koma beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P91.6",
+        "display": "Hypoxisch-ischämische Enzephalopathie beim Neugeborenen [HIE]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P91.7",
+        "display": "Erworbener Hydrozephalus beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P91.8",
+        "display": "Sonstige näher bezeichnete zerebrale Störungen beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P91.9",
+        "display": "Zerebrale Störung beim Neugeborenen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

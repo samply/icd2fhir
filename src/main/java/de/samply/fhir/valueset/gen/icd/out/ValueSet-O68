@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O68",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O68",
+  "name": "O68",
+  "title": "Komplikationen bei Wehen und Entbindung durch fetalen Distress [fetal distress] [fetaler Gefahrenzustand]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O68"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O68.0",
+        "display": "Komplikationen bei Wehen und Entbindung durch abnorme fetale Herzfrequenz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O68.1",
+        "display": "Komplikationen bei Wehen und Entbindung durch Mekonium im Fruchtwasser"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O68.2",
+        "display": "Komplikationen bei Wehen und Entbindung durch abnorme fetale Herzfrequenz mit Mekonium im Fruchtwasser"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O68.3",
+        "display": "Komplikationen bei Wehen und Entbindung durch fetalen Distress, biochemisch nachgewiesen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O68.8",
+        "display": "Komplikationen bei Wehen und Entbindung durch fetalen Distress, mittels anderer Untersuchungsmethoden nachgewiesen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O68.9",
+        "display": "Komplikation bei Wehen und Entbindung durch fetalen Distress, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

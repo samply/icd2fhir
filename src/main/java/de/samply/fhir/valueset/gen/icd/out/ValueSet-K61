@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K61",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K61",
+  "name": "K61",
+  "title": "Abszess in der Anal- und Rektalregion",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K61"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K61.0",
+        "display": "Analabszess"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K61.1",
+        "display": "Rektalabszess"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K61.2",
+        "display": "Anorektalabszess"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K61.3",
+        "display": "Ischiorektalabszess"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K61.4",
+        "display": "Intrasphinktärer Abszess"
+      }
+    ]
+  }
+}

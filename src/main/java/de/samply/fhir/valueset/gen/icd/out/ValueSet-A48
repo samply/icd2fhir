@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A48",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A48",
+  "name": "A48",
+  "title": "Sonstige bakterielle Krankheiten, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A48"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A48.0",
+        "display": "Gasbrand [Gasödem]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A48.1",
+        "display": "Legionellose mit Pneumonie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A48.2",
+        "display": "Legionellose ohne Pneumonie [Pontiac-Fieber]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A48.3",
+        "display": "Syndrom des toxischen Schocks"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A48.4",
+        "display": "Brazilian purpuric fever"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A48.8",
+        "display": "Sonstige näher bezeichnete bakterielle Krankheiten"
+      }
+    ]
+  }
+}

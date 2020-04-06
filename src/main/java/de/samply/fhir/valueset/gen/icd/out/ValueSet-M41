@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M41",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M41",
+  "name": "M41",
+  "title": "Skoliose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M41"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M41.0",
+        "display": "Idiopathische Skoliose beim Kind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M41.1",
+        "display": "Idiopathische Skoliose beim Jugendlichen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M41.2",
+        "display": "Sonstige idiopathische Skoliose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M41.3",
+        "display": "Thoraxbedingte Skoliose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M41.4",
+        "display": "Neuromyopathische Skoliose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M41.5",
+        "display": "Sonstige sekundäre Skoliose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M41.8",
+        "display": "Sonstige Formen der Skoliose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M41.9",
+        "display": "Skoliose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

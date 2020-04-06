@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L23",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L23",
+  "name": "L23",
+  "title": "Allergische Kontaktdermatitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L23"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L23.0",
+        "display": "Allergische Kontaktdermatitis durch Metalle"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L23.1",
+        "display": "Allergische Kontaktdermatitis durch Klebstoffe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L23.2",
+        "display": "Allergische Kontaktdermatitis durch Kosmetika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L23.3",
+        "display": "Allergische Kontaktdermatitis durch Drogen oder Arzneimittel bei Hautkontakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L23.4",
+        "display": "Allergische Kontaktdermatitis durch Farbstoffe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L23.5",
+        "display": "Allergische Kontaktdermatitis durch sonstige chemische Produkte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L23.6",
+        "display": "Allergische Kontaktdermatitis durch Nahrungsmittel bei Hautkontakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L23.7",
+        "display": "Allergische Kontaktdermatitis durch Pflanzen, ausgenommen Nahrungsmittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L23.8",
+        "display": "Allergische Kontaktdermatitis durch sonstige Agenzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L23.9",
+        "display": "Allergische Kontaktdermatitis, nicht näher bezeichnete Ursache"
+      }
+    ]
+  }
+}

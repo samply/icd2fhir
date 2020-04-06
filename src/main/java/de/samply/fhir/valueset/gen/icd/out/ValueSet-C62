@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C62",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C62",
+  "name": "C62",
+  "title": "Bösartige Neubildung des Hodens",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C62"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C62.0",
+        "display": "Dystoper Hoden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C62.1",
+        "display": "Deszendierter Hoden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C62.9",
+        "display": "Hoden, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

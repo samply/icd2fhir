@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z20",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z20",
+  "name": "Z20",
+  "title": "Kontakt mit und Exposition gegenüber übertragbaren Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z20"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z20.0",
+        "display": "Kontakt mit und Exposition gegenüber infektiösen Darmkrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z20.1",
+        "display": "Kontakt mit und Exposition gegenüber Tuberkulose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z20.2",
+        "display": "Kontakt mit und Exposition gegenüber Infektionen, die vorwiegend durch Geschlechtsverkehr übertragen werden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z20.3",
+        "display": "Kontakt mit und Exposition gegenüber Tollwut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z20.4",
+        "display": "Kontakt mit und Exposition gegenüber Röteln"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z20.5",
+        "display": "Kontakt mit und Exposition gegenüber Virushepatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z20.6",
+        "display": "Kontakt mit und Exposition gegenüber HIV [Humanes Immundefizienz-Virus]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z20.7",
+        "display": "Kontakt mit und Exposition gegenüber Pedikulose [Läusebefall], Akarinose [Milbenbefall] oder anderem Parasitenbefall"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z20.8",
+        "display": "Kontakt mit und Exposition gegenüber sonstigen übertragbaren Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z20.9",
+        "display": "Kontakt mit und Exposition gegenüber nicht näher bezeichneter übertragbarer Krankheit"
+      }
+    ]
+  }
+}

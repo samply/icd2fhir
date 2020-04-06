@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y84",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y84",
+  "name": "Y84",
+  "title": "Sonstige medizinische Maßnahmen als Ursache einer abnormen Reaktion eines Patienten oder einer späteren Komplikation, ohne Angabe eines Zwischenfalls zum Zeitpunkt der Durchführung der Maßnahme",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y84"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y84.0",
+        "display": "Herzkatheterisierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y84.1",
+        "display": "Hämodialyse"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y84.2",
+        "display": "Radiologische Untersuchung und Strahlentherapie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y84.3",
+        "display": "Schocktherapie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y84.4",
+        "display": "Aspiration von Flüssigkeit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y84.5",
+        "display": "Einführung einer Magen- oder Duodenalsonde"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y84.6",
+        "display": "Harnwegkatheterisierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y84.7",
+        "display": "Blutentnahme"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y84.8",
+        "display": "Sonstige medizinische Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y84.9",
+        "display": "Medizinische Maßnahme, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

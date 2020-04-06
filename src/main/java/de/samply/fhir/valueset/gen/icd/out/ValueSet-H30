@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H30",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H30",
+  "name": "H30",
+  "title": "Chorioretinitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H30"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H30.0",
+        "display": "Fokale Chorioretinitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H30.1",
+        "display": "Disseminierte Chorioretinitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H30.2",
+        "display": "Cyclitis posterior"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H30.8",
+        "display": "Sonstige Chorioretinitiden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H30.9",
+        "display": "Chorioretinitis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

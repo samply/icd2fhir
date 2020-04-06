@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A67",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A67",
+  "name": "A67",
+  "title": "Pinta [Carate]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A67"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A67.0",
+        "display": "Primärläsion bei Pinta"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A67.1",
+        "display": "Zwischenstadium der Pinta"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A67.2",
+        "display": "Spätstadium der Pinta"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A67.3",
+        "display": "Mischformen der Pinta"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A67.9",
+        "display": "Pinta, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

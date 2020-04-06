@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C34",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C34",
+  "name": "C34",
+  "title": "Bösartige Neubildung der Bronchien und der Lunge",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C34"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C34.0",
+        "display": "Hauptbronchus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C34.1",
+        "display": "Oberlappen (-Bronchus)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C34.2",
+        "display": "Mittellappen (-Bronchus)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C34.3",
+        "display": "Unterlappen (-Bronchus)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C34.8",
+        "display": "Bronchus und Lunge, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C34.9",
+        "display": "Bronchus oder Lunge, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y90",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y90",
+  "name": "Y90",
+  "title": "Alkoholnachweis aufgrund des Blutalkoholspiegels",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y90"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y90.0",
+        "display": "Blutalkoholspiegel unter 20mg/100ml"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y90.1",
+        "display": "Blutalkoholspiegel von 20-39mg/100ml"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y90.2",
+        "display": "Blutalkoholspiegel von 40-59mg/100ml"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y90.3",
+        "display": "Blutalkoholspiegel von 60-79mg/100ml"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y90.4",
+        "display": "Blutalkoholspiegel von 80-99mg/100ml"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y90.5",
+        "display": "Blutalkoholspiegel von 100-119mg/100ml"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y90.6",
+        "display": "Blutalkoholspiegel von 120-199mg/100ml"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y90.7",
+        "display": "Blutalkoholspiegel von 200-239mg/100ml"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y90.8",
+        "display": "Blutalkoholspiegel von 240mg/100ml oder mehr"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y90.9",
+        "display": "Alkoholnachweis, Blutalkoholspiegel nicht angegeben"
+      }
+    ]
+  }
+}

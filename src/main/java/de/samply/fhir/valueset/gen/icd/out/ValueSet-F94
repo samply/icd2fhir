@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F94",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F94",
+  "name": "F94",
+  "title": "Störungen sozialer Funktionen mit Beginn in der Kindheit und Jugend",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F94"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F94.0",
+        "display": "Elektiver Mutismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F94.1",
+        "display": "Reaktive Bindungsstörung des Kindesalters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F94.2",
+        "display": "Bindungsstörung des Kindesalters mit Enthemmung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F94.8",
+        "display": "Sonstige Störungen sozialer Funktionen mit Beginn in der Kindheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F94.9",
+        "display": "Störung sozialer Funktionen mit Beginn in der Kindheit, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

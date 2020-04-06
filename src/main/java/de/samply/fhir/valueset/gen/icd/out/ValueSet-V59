@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "V59",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/V59",
+  "name": "V59",
+  "title": "Benutzer eines Lieferwagens bei sonstigen und nicht näher bezeichneten Transportmittelunfällen verletzt",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "V59"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V59.0",
+        "display": "Fahrer bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V59.1",
+        "display": "Fahrgast bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V59.2",
+        "display": "Nicht näher bezeichneter Benutzer eines Lieferwagens bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V59.3",
+        "display": "Benutzer eines Lieferwagens [jeder Art] bei nicht näher bezeichnetem Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V59.4",
+        "display": "Fahrer bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Verkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V59.5",
+        "display": "Fahrgast bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Verkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V59.6",
+        "display": "Nicht näher bezeichneter Benutzer eines Lieferwagens bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Verkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V59.8",
+        "display": "Benutzer eines Lieferwagens [jeder Art] bei sonstigen näher bezeichneten Transportmittelunfällen verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V59.9",
+        "display": "Benutzer eines Lieferwagens [jeder Art] bei nicht näher bezeichnetem Verkehrsunfall verletzt"
+      }
+    ]
+  }
+}

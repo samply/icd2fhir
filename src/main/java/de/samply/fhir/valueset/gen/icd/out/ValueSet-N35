@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N35",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N35",
+  "name": "N35",
+  "title": "Harnröhrenstriktur",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N35"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N35.0",
+        "display": "Posttraumatische Harnröhrenstriktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N35.1",
+        "display": "Postinfektiöse Harnröhrenstriktur, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N35.8",
+        "display": "Sonstige Harnröhrenstriktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N35.9",
+        "display": "Harnröhrenstriktur, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

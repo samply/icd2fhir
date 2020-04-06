@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J93",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J93",
+  "name": "J93",
+  "title": "Pneumothorax",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J93"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J93.0",
+        "display": "Spontaner Spannungspneumothorax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J93.1",
+        "display": "Sonstiger Spontanpneumothorax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J93.8",
+        "display": "Sonstiger Pneumothorax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J93.9",
+        "display": "Pneumothorax, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

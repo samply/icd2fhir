@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N43",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N43",
+  "name": "N43",
+  "title": "Hydrozele und Spermatozele",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N43"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N43.0",
+        "display": "Funikulozele"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N43.1",
+        "display": "Infizierte Hydrozele"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N43.2",
+        "display": "Sonstige Hydrozele"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N43.3",
+        "display": "Hydrozele, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N43.4",
+        "display": "Spermatozele"
+      }
+    ]
+  }
+}

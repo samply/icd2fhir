@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I24",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I24",
+  "name": "I24",
+  "title": "Sonstige akute ischämische Herzkrankheit",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I24"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I24.0",
+        "display": "Koronarthrombose ohne nachfolgenden Myokardinfarkt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I24.1",
+        "display": "Postmyokardinfarkt-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I24.8",
+        "display": "Sonstige Formen der akuten ischämischen Herzkrankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I24.9",
+        "display": "Akute ischämische Herzkrankheit, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

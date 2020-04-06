@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D36",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D36",
+  "name": "D36",
+  "title": "Gutartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D36"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D36.0",
+        "display": "Lymphknoten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D36.1",
+        "display": "Periphere Nerven und autonomes Nervensystem"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D36.7",
+        "display": "Sonstige näher bezeichnete Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D36.9",
+        "display": "Gutartige Neubildung an nicht näher bezeichneter Lokalisation"
+      }
+    ]
+  }
+}

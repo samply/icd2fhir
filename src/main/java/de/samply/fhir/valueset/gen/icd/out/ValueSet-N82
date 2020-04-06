@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N82",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N82",
+  "name": "N82",
+  "title": "Fisteln mit Beteiligung des weiblichen Genitaltraktes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N82"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N82.0",
+        "display": "Vesikovaginalfistel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N82.1",
+        "display": "Sonstige Fisteln zwischen weiblichem Harn- und Genitaltrakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N82.2",
+        "display": "Fistel zwischen Vagina und Dünndarm"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N82.3",
+        "display": "Fistel zwischen Vagina und Dickdarm"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N82.4",
+        "display": "Sonstige Fisteln zwischen weiblichem Genital- und Darmtrakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N82.5",
+        "display": "Fisteln zwischen weiblichem Genitaltrakt und Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N82.8",
+        "display": "Sonstige Fisteln des weiblichen Genitaltraktes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N82.9",
+        "display": "Fistel des weiblichen Genitaltraktes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M66",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M66",
+  "name": "M66",
+  "title": "Spontanruptur der Synovialis und von Sehnen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M66"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M66.0",
+        "display": "Ruptur einer Poplitealzyste"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M66.1",
+        "display": "Ruptur der Synovialis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M66.2",
+        "display": "Spontanruptur von Strecksehnen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M66.3",
+        "display": "Spontanruptur von Beugesehnen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M66.4",
+        "display": "Spontanruptur sonstiger Sehnen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M66.5",
+        "display": "Spontanruptur von nicht näher bezeichneten Sehnen"
+      }
+    ]
+  }
+}

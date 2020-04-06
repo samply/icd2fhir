@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M62",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M62",
+  "name": "M62",
+  "title": "Sonstige Muskelkrankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M62"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M62.0",
+        "display": "Muskeldiastase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M62.1",
+        "display": "Sonstiger Muskelriss (nichttraumatisch)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M62.2",
+        "display": "Ischämischer Muskelinfarkt (nichttraumatisch)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M62.3",
+        "display": "Immobilitätssyndrom (paraplegisch)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M62.4",
+        "display": "Muskelkontraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M62.5",
+        "display": "Muskelschwund und -atrophie, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M62.6",
+        "display": "Muskelzerrung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M62.8",
+        "display": "Sonstige näher bezeichnete Muskelkrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M62.9",
+        "display": "Muskelkrankheit, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M77",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M77",
+  "name": "M77",
+  "title": "Sonstige Enthesopathien",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M77"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M77.0",
+        "display": "Epicondylitis ulnaris humeri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M77.1",
+        "display": "Epicondylitis radialis humeri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M77.2",
+        "display": "Periarthritis im Bereich des Handgelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M77.3",
+        "display": "Kalkaneussporn"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M77.4",
+        "display": "Metatarsalgie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M77.5",
+        "display": "Sonstige Enthesopathie des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M77.8",
+        "display": "Sonstige Enthesopathien, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M77.9",
+        "display": "Enthesopathie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

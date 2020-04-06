@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P92",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P92",
+  "name": "P92",
+  "title": "Ernährungsprobleme beim Neugeborenen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P92"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P92.0",
+        "display": "Erbrechen beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P92.1",
+        "display": "Regurgitation und Rumination beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P92.2",
+        "display": "Trinkunlust beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P92.3",
+        "display": "Unterernährung beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P92.4",
+        "display": "Überernährung beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P92.5",
+        "display": "Schwierigkeit beim Neugeborenen bei Brusternährung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P92.8",
+        "display": "Sonstige Ernährungsprobleme beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P92.9",
+        "display": "Ernährungsproblem beim Neugeborenen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

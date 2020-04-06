@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M76",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M76",
+  "name": "M76",
+  "title": "Enthesopathien der unteren Extremität mit Ausnahme des Fußes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M76"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M76.0",
+        "display": "Tendinitis der Glutäus-Sehne(n)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M76.1",
+        "display": "Tendinitis der Iliopsoas-Sehne"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M76.2",
+        "display": "Knochensporn am Darmbeinkamm"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M76.3",
+        "display": "Tractus-iliotibialis-Scheuersyndrom [Iliotibial band syndrome]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M76.4",
+        "display": "Bursitis im Bereich des Lig. collaterale tibiale [Stieda-Pellegrini]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M76.5",
+        "display": "Tendinitis der Patellarsehne"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M76.6",
+        "display": "Tendinitis der Achillessehne"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M76.7",
+        "display": "Tendinitis der Peronäussehne(n)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M76.8",
+        "display": "Sonstige Enthesopathien der unteren Extremität mit Ausnahme des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M76.9",
+        "display": "Enthesopathie der unteren Extremität, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C96",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C96",
+  "name": "C96",
+  "title": "Sonstige und nicht näher bezeichnete bösartige Neubildungen des lymphatischen, blutbildenden und verwandten Gewebes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C96"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C96.0",
+        "display": "Multifokale und multisystemische (disseminierte) Langerhans-Zell-Histiozytose [Abt-Letterer-Siwe-Krankheit]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C96.2",
+        "display": "Bösartiger Mastzelltumor"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C96.4",
+        "display": "Sarkom der dendritischen Zellen (akzessorische Zellen)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C96.5",
+        "display": "Multifokale und unisystemische Langerhans-Zell-Histiozytose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C96.6",
+        "display": "Unifokale Langerhans-Zell-Histiozytose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C96.7",
+        "display": "Sonstige näher bezeichnete bösartige Neubildungen des lymphatischen, blutbildenden und verwandten Gewebes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C96.8",
+        "display": "Histiozytisches Sarkom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C96.9",
+        "display": "Bösartige Neubildung des lymphatischen, blutbildenden und verwandten Gewebes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

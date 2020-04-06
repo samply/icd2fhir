@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "R52",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/R52",
+  "name": "R52",
+  "title": "Schmerz, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "R52"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R52.0",
+        "display": "Akuter Schmerz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R52.1",
+        "display": "Chronischer unbeeinflussbarer Schmerz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R52.2",
+        "display": "Sonstiger chronischer Schmerz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R52.9",
+        "display": "Schmerz, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

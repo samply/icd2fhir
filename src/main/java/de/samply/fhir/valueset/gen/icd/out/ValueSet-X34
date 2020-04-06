@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "X34",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/X34",
+  "name": "X34",
+  "title": "Opfer von Erdbeben",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "X34"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "X34.0",
+        "display": "Opfer von kataklysmischen Erdbewegungen bei Erdbeben"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "X34.1",
+        "display": "Opfer von Tsunami"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "X34.8",
+        "display": "Opfer von sonstigen näher bezeichneten Auswirkungen eines Erdbebens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "X34.9",
+        "display": "Opfer nicht näher bezeichneter Auswirkungen eines Erdbebens"
+      }
+    ]
+  }
+}

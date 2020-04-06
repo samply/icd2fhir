@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z34",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z34",
+  "name": "Z34",
+  "title": "Überwachung einer normalen Schwangerschaft",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z34"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z34.0",
+        "display": "Überwachung einer normalen Erstschwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z34.8",
+        "display": "Überwachung einer sonstigen normalen Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z34.9",
+        "display": "Überwachung einer normalen Schwangerschaft, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

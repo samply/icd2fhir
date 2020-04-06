@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M92",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M92",
+  "name": "M92",
+  "title": "Sonstige juvenile Osteochondrosen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M92"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M92.0",
+        "display": "Juvenile Osteochondrose des Humerus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M92.1",
+        "display": "Juvenile Osteochondrose des Radius und der Ulna"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M92.2",
+        "display": "Juvenile Osteochondrose der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M92.3",
+        "display": "Sonstige juvenile Osteochondrose der oberen Extremität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M92.4",
+        "display": "Juvenile Osteochondrose der Patella"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M92.5",
+        "display": "Juvenile Osteochondrose der Tibia und der Fibula"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M92.6",
+        "display": "Juvenile Osteochondrose des Tarsus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M92.7",
+        "display": "Juvenile Osteochondrose des Metatarsus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M92.8",
+        "display": "Sonstige näher bezeichnete juvenile Osteochondrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M92.9",
+        "display": "Juvenile Osteochondrose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

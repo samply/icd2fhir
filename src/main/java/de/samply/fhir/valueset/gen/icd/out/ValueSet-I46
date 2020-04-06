@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I46",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I46",
+  "name": "I46",
+  "title": "Herzstillstand",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I46"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I46.0",
+        "display": "Herzstillstand mit erfolgreicher Wiederbelebung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I46.1",
+        "display": "Plötzlicher Herztod, so beschrieben"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I46.9",
+        "display": "Herzstillstand, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

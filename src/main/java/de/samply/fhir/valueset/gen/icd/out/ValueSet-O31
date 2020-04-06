@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O31",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O31",
+  "name": "O31",
+  "title": "Komplikationen, die für eine Mehrlingsschwangerschaft spezifisch sind",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O31"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O31.0",
+        "display": "Fetus papyraceus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O31.1",
+        "display": "Fortbestehen der Schwangerschaft nach Fehlgeburt eines oder mehrerer Feten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O31.2",
+        "display": "Fortbestehen der Schwangerschaft nach intrauterinem Absterben eines oder mehrerer Feten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O31.8",
+        "display": "Sonstige Komplikationen, die für eine Mehrlingsschwangerschaft spezifisch sind"
+      }
+    ]
+  }
+}

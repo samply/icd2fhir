@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q40",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q40",
+  "name": "Q40",
+  "title": "Sonstige angeborene Fehlbildungen des oberen Verdauungstraktes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q40"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q40.0",
+        "display": "Angeborene hypertrophische Pylorusstenose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q40.1",
+        "display": "Angeborene Hiatushernie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q40.2",
+        "display": "Sonstige näher bezeichnete angeborene Fehlbildungen des Magens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q40.3",
+        "display": "Angeborene Fehlbildung des Magens, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q40.8",
+        "display": "Sonstige näher bezeichnete angeborene Fehlbildungen des oberen Verdauungstraktes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q40.9",
+        "display": "Angeborene Fehlbildung des oberen Verdauungstraktes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

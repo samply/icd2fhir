@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q25",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q25",
+  "name": "Q25",
+  "title": "Angeborene Fehlbildungen der großen Arterien",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q25"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q25.0",
+        "display": "Offener Ductus arteriosus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q25.1",
+        "display": "Koarktation der Aorta"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q25.2",
+        "display": "Atresie der Aorta"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q25.3",
+        "display": "Stenose der Aorta (angeboren)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q25.4",
+        "display": "Sonstige angeborene Fehlbildungen der Aorta"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q25.5",
+        "display": "Atresie der A. pulmonalis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q25.6",
+        "display": "Stenose der A. pulmonalis (angeboren)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q25.7",
+        "display": "Sonstige angeborene Fehlbildungen der A. pulmonalis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q25.8",
+        "display": "Sonstige angeborene Fehlbildungen der großen Arterien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q25.9",
+        "display": "Angeborene Fehlbildung der großen Arterien, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

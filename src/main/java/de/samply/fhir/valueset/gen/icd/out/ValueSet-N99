@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N99",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N99",
+  "name": "N99",
+  "title": "Krankheiten des Urogenitalsystems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N99"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N99.0",
+        "display": "Nierenversagen nach medizinischen Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N99.1",
+        "display": "Harnröhrenstriktur nach medizinischen Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N99.2",
+        "display": "Postoperative Adhäsionen der Vagina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N99.3",
+        "display": "Prolaps des Scheidenstumpfes nach Hysterektomie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N99.4",
+        "display": "Peritoneale Adhäsionen im Becken nach medizinischen Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N99.5",
+        "display": "Funktionsstörung eines äußeren Stomas des Harntraktes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N99.8",
+        "display": "Sonstige Krankheiten des Urogenitalsystems nach medizinischen Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N99.9",
+        "display": "Krankheit des Urogenitalsystems nach medizinischen Maßnahmen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

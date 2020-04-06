@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B90",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B90",
+  "name": "B90",
+  "title": "Folgezustände der Tuberkulose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B90"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B90.0",
+        "display": "Folgezustände einer Tuberkulose des Zentralnervensystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B90.1",
+        "display": "Folgezustände einer Tuberkulose des Urogenitalsystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B90.2",
+        "display": "Folgezustände einer Tuberkulose der Knochen und der Gelenke"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B90.8",
+        "display": "Folgezustände einer Tuberkulose sonstiger Organe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B90.9",
+        "display": "Folgezustände einer Tuberkulose der Atmungsorgane und einer nicht näher bezeichneten Tuberkulose"
+      }
+    ]
+  }
+}

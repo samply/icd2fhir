@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L21",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L21",
+  "name": "L21",
+  "title": "Seborrhoisches Ekzem",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L21"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L21.0",
+        "display": "Seborrhoea capitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L21.1",
+        "display": "Seborrhoisches Ekzem der Kinder"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L21.8",
+        "display": "Sonstiges seborrhoisches Ekzem"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L21.9",
+        "display": "Seborrhoisches Ekzem, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

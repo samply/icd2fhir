@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S64",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S64",
+  "name": "S64",
+  "title": "Verletzung von Nerven in Höhe des Handgelenkes und der Hand",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S64"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S64.0",
+        "display": "Verletzung des N. ulnaris in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S64.1",
+        "display": "Verletzung des N. medianus in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S64.2",
+        "display": "Verletzung des N. radialis in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S64.3",
+        "display": "Verletzung der Nn. digitales des Daumens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S64.4",
+        "display": "Verletzung der Nn. digitales sonstiger Finger"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S64.7",
+        "display": "Verletzung mehrerer Nerven in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S64.8",
+        "display": "Verletzung sonstiger Nerven in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S64.9",
+        "display": "Verletzung eines nicht näher bezeichneten Nervs in Höhe des Handgelenkes und der Hand"
+      }
+    ]
+  }
+}

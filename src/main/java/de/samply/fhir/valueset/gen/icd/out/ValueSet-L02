@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L02",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L02",
+  "name": "L02",
+  "title": "Hautabszess, Furunkel und Karbunkel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L02"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L02.0",
+        "display": "Hautabszess, Furunkel und Karbunkel im Gesicht"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L02.1",
+        "display": "Hautabszess, Furunkel und Karbunkel am Hals"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L02.2",
+        "display": "Hautabszess, Furunkel und Karbunkel am Rumpf"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L02.3",
+        "display": "Hautabszess, Furunkel und Karbunkel am Gesäß"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L02.4",
+        "display": "Hautabszess, Furunkel und Karbunkel an Extremitäten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L02.8",
+        "display": "Hautabszess, Furunkel und Karbunkel an sonstigen Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L02.9",
+        "display": "Hautabszess, Furunkel und Karbunkel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

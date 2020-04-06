@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S68",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S68",
+  "name": "S68",
+  "title": "Traumatische Amputation an Handgelenk und Hand",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S68"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S68.0",
+        "display": "Traumatische Amputation des Daumens (komplett) (partiell)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S68.1",
+        "display": "Traumatische Amputation eines sonstigen einzelnen Fingers (komplett) (partiell)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S68.2",
+        "display": "Isolierte traumatische Amputation von zwei oder mehr Fingern (komplett) (partiell)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S68.3",
+        "display": "Kombinierte traumatische Amputation (von Teilen) eines oder mehrerer Finger mit anderen Teilen des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S68.4",
+        "display": "Traumatische Amputation der Hand in Höhe des Handgelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S68.8",
+        "display": "Traumatische Amputation sonstiger Teile des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S68.9",
+        "display": "Traumatische Amputation an Handgelenk und Hand, Höhe nicht näher bezeichnet"
+      }
+    ]
+  }
+}

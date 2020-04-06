@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z98",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z98",
+  "name": "Z98",
+  "title": "Sonstige Zustände nach chirurgischem Eingriff",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z98"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z98.0",
+        "display": "Zustand nach intestinalem Bypass oder intestinaler Anastomose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z98.1",
+        "display": "Zustand nach Arthrodese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z98.2",
+        "display": "Vorhandensein einer Drainage des Liquor cerebrospinalis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z98.8",
+        "display": "Sonstige näher bezeichnete Zustände nach chirurgischen Eingriffen"
+      }
+    ]
+  }
+}

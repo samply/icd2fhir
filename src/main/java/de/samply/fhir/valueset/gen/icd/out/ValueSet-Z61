@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z61",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z61",
+  "name": "Z61",
+  "title": "Probleme mit Bezug auf negative Kindheitserlebnisse",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z61"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z61.0",
+        "display": "Verlust einer nahen Bezugsperson in der Kindheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z61.1",
+        "display": "Herauslösen aus dem Elternhaus in der Kindheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z61.2",
+        "display": "Veränderung der Struktur der Familienbeziehungen in der Kindheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z61.3",
+        "display": "Ereignisse, die den Verlust des Selbstwertgefühls in der Kindheit zur Folge haben"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z61.4",
+        "display": "Probleme mit Bezug auf vermuteten sexuellen Missbrauch eines Kindes durch eine Person innerhalb des engeren Familienkreises"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z61.5",
+        "display": "Probleme mit Bezug auf vermuteten sexuellen Missbrauch eines Kindes durch eine Person außerhalb des engeren Familienkreises"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z61.6",
+        "display": "Probleme mit Bezug auf vermutete körperliche Misshandlung eines Kindes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z61.7",
+        "display": "Persönliches angsterregendes Erlebnis in der Kindheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z61.8",
+        "display": "Probleme mit Bezug auf sonstige negative Kindheitserlebnisse"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z61.9",
+        "display": "Problem mit Bezug auf negatives Kindheitserlebnis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

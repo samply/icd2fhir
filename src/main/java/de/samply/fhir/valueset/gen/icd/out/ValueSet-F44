@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F44",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F44",
+  "name": "F44",
+  "title": "Dissoziative Störungen [Konversionsstörungen]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F44"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F44.0",
+        "display": "Dissoziative Amnesie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F44.1",
+        "display": "Dissoziative Fugue"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F44.2",
+        "display": "Dissoziativer Stupor"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F44.3",
+        "display": "Trance- und Besessenheitszustände"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F44.4",
+        "display": "Dissoziative Bewegungsstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F44.5",
+        "display": "Dissoziative Krampfanfälle"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F44.6",
+        "display": "Dissoziative Sensibilitäts- und Empfindungsstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F44.7",
+        "display": "Dissoziative Störungen [Konversionsstörungen], gemischt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F44.8",
+        "display": "Sonstige dissoziative Störungen [Konversionsstörungen]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F44.9",
+        "display": "Dissoziative Störung [Konversionsstörung], nicht näher bezeichnet"
+      }
+    ]
+  }
+}

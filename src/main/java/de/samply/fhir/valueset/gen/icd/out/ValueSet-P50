@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P50",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P50",
+  "name": "P50",
+  "title": "Fetaler Blutverlust",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P50"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P50.0",
+        "display": "Fetaler Blutverlust bei Insertio velamentosa [Vasa praevia]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P50.1",
+        "display": "Fetaler Blutverlust aus der rupturierten Nabelschnur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P50.2",
+        "display": "Fetaler Blutverlust aus der Plazenta"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P50.3",
+        "display": "Blutung in den anderen Mehrling (fetofetal)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P50.4",
+        "display": "Blutung in den Kreislauf der Mutter (fetomaternal)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P50.5",
+        "display": "Fetaler Blutverlust aus dem durchtrennten Ende der Nabelschnur eines anderen Mehrlings"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P50.8",
+        "display": "Sonstiger fetaler Blutverlust"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P50.9",
+        "display": "Fetaler Blutverlust, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

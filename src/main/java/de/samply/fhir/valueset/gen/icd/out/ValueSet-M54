@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M54",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M54",
+  "name": "M54",
+  "title": "Rückenschmerzen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M54"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M54.0",
+        "display": "Pannikulitis in der Nacken- und Rückenregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M54.1",
+        "display": "Radikulopathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M54.2",
+        "display": "Zervikalneuralgie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M54.3",
+        "display": "Ischialgie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M54.4",
+        "display": "Lumboischialgie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M54.5",
+        "display": "Kreuzschmerz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M54.6",
+        "display": "Schmerzen im Bereich der Brustwirbelsäule"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M54.8",
+        "display": "Sonstige Rückenschmerzen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M54.9",
+        "display": "Rückenschmerzen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S55",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S55",
+  "name": "S55",
+  "title": "Verletzung von Blutgefäßen in Höhe des Unterarmes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S55"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S55.0",
+        "display": "Verletzung der A. ulnaris in Höhe des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S55.1",
+        "display": "Verletzung der A. radialis in Höhe des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S55.2",
+        "display": "Verletzung von Venen in Höhe des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S55.7",
+        "display": "Verletzung mehrerer Blutgefäße in Höhe des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S55.8",
+        "display": "Verletzung sonstiger Blutgefäße in Höhe des Unterarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S55.9",
+        "display": "Verletzung eines nicht näher bezeichneten Blutgefäßes in Höhe des Unterarmes"
+      }
+    ]
+  }
+}

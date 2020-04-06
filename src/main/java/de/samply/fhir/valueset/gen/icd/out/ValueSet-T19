@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T19",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T19",
+  "name": "T19",
+  "title": "Fremdkörper im Urogenitaltrakt",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T19"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T19.0",
+        "display": "Fremdkörper in der Harnröhre"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T19.1",
+        "display": "Fremdkörper in der Harnblase"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T19.2",
+        "display": "Fremdkörper in der Vulva und in der Vagina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T19.3",
+        "display": "Fremdkörper im Uterus [jeder Teil]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T19.8",
+        "display": "Fremdkörper an sonstigen und mehreren Lokalisationen des Urogenitaltraktes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T19.9",
+        "display": "Fremdkörper im Urogenitaltrakt, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

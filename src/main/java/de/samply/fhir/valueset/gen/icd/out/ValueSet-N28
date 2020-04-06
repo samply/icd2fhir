@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N28",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N28",
+  "name": "N28",
+  "title": "Sonstige Krankheiten der Niere und des Ureters, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N28"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N28.0",
+        "display": "Ischämie und Infarkt der Niere"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N28.1",
+        "display": "Zyste der Niere"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N28.8",
+        "display": "Sonstige näher bezeichnete Krankheiten der Niere und des Ureters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N28.9",
+        "display": "Krankheit der Niere und des Ureters, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

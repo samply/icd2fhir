@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O75",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O75",
+  "name": "O75",
+  "title": "Sonstige Komplikationen bei Wehentätigkeit und Entbindung, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O75"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O75.0",
+        "display": "Mütterlicher Gefahrenzustand während der Wehentätigkeit und bei der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O75.1",
+        "display": "Schock während oder nach Wehentätigkeit und Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O75.2",
+        "display": "Fieber unter der Geburt, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O75.3",
+        "display": "Sonstige Infektion unter der Geburt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O75.4",
+        "display": "Sonstige Komplikationen bei geburtshilflichen Operationen und Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O75.5",
+        "display": "Protrahierte Geburt nach Blasensprengung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O75.6",
+        "display": "Protrahierte Geburt nach spontanem oder nicht näher bezeichnetem Blasensprung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O75.7",
+        "display": "Vaginale Entbindung nach vorangegangener Schnittentbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O75.8",
+        "display": "Sonstige näher bezeichnete Komplikationen bei Wehentätigkeit und Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O75.9",
+        "display": "Komplikation bei Wehentätigkeit und Entbindung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

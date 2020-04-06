@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T49",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T49",
+  "name": "T49",
+  "title": "Vergiftung durch primär auf Haut und Schleimhäute wirkende und in der Augen-, der Hals-Nasen-Ohren- und der Zahnheilkunde angewendete Mittel zur topischen Anwendung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T49"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T49.0",
+        "display": "Antimykotika, Antiinfektiva und Antiphlogistika zur lokalen Anwendung, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T49.1",
+        "display": "Antipruriginosa"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T49.2",
+        "display": "Adstringenzien und Detergenzien zur lokalen Anwendung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T49.3",
+        "display": "Hauterweichende [Emollienzien], hautpflegende [Demulzenzien] und hautschützende Mittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T49.4",
+        "display": "Keratolytika, Keratoplastika und sonstige Arzneimittel und Präparate zur Haarbehandlung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T49.5",
+        "display": "Ophthalmika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T49.6",
+        "display": "In der Hals-Nasen-Ohrenheilkunde angewendete Arzneimittel und Präparate"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T49.7",
+        "display": "Dentalpharmaka bei topischer Anwendung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T49.8",
+        "display": "Sonstige Mittel zur topischen Anwendung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T49.9",
+        "display": "Mittel zur topischen Anwendung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

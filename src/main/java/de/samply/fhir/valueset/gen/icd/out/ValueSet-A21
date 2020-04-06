@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A21",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A21",
+  "name": "A21",
+  "title": "Tularämie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A21"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A21.0",
+        "display": "Ulzeroglanduläre Tularämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A21.1",
+        "display": "Okuloglanduläre Tularämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A21.2",
+        "display": "Pulmonale Tularämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A21.3",
+        "display": "Gastrointestinale Tularämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A21.7",
+        "display": "Generalisierte Tularämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A21.8",
+        "display": "Sonstige Formen der Tularämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A21.9",
+        "display": "Tularämie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

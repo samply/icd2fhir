@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T37",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T37",
+  "name": "T37",
+  "title": "Vergiftung durch sonstige systemisch wirkende Antiinfektiva und Antiparasitika",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T37"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T37.0",
+        "display": "Sulfonamide"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T37.1",
+        "display": "Antimykobakterielle Arzneimittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T37.2",
+        "display": "Antimalariamittel und Arzneimittel gegen andere Blutprotozoen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T37.3",
+        "display": "Sonstige Antiprotozoika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T37.4",
+        "display": "Anthelminthika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T37.5",
+        "display": "Virostatika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T37.8",
+        "display": "Sonstige näher bezeichnete systemisch wirkende Antiinfektiva und Antiparasitika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T37.9",
+        "display": "Systemisch wirkendes Antiinfektivum und Antiparasitikum, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E56",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E56",
+  "name": "E56",
+  "title": "Sonstige Vitaminmangelzustände",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E56"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E56.0",
+        "display": "Vitamin-E-Mangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E56.1",
+        "display": "Vitamin-K-Mangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E56.8",
+        "display": "Mangel an sonstigen Vitaminen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E56.9",
+        "display": "Vitaminmangel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

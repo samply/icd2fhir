@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G46",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G46",
+  "name": "G46",
+  "title": "Zerebrale Gefäßsyndrome bei zerebrovaskulären Krankheiten [I60-I67 ]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G46"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G46.0",
+        "display": "Arteria-cerebri-media-Syndrom [I66.0 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G46.1",
+        "display": "Arteria-cerebri-anterior-Syndrom [I66.1 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G46.2",
+        "display": "Arteria-cerebri-posterior-Syndrom [I66.2 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G46.3",
+        "display": "Hirnstammsyndrom [I60-I67 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G46.4",
+        "display": "Kleinhirnsyndrom [I60-I67 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G46.5",
+        "display": "Rein motorisches lakunäres Syndrom [I60-I67 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G46.6",
+        "display": "Rein sensorisches lakunäres Syndrom [I60-I67 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G46.7",
+        "display": "Sonstige lakunäre Syndrome [I60-I67 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G46.8",
+        "display": "Sonstige Syndrome der Hirngefäße bei zerebrovaskulären Krankheiten [I60-I67 ]"
+      }
+    ]
+  }
+}

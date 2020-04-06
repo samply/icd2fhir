@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F98",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F98",
+  "name": "F98",
+  "title": "Andere Verhaltens- und emotionale Störungen mit Beginn in der Kindheit und Jugend",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F98"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F98.0",
+        "display": "Nichtorganische Enuresis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F98.1",
+        "display": "Nichtorganische Enkopresis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F98.2",
+        "display": "Fütterstörung im frühen Kindesalter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F98.3",
+        "display": "Pica im Kindesalter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F98.4",
+        "display": "Stereotype Bewegungsstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F98.5",
+        "display": "Stottern [Stammeln]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F98.6",
+        "display": "Poltern"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F98.8",
+        "display": "Sonstige näher bezeichnete Verhaltens- und emotionale Störungen mit Beginn in der Kindheit und Jugend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F98.9",
+        "display": "Nicht näher bezeichnete Verhaltens- oder emotionale Störungen mit Beginn in der Kindheit und Jugend"
+      }
+    ]
+  }
+}

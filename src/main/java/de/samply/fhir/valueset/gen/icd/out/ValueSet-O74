@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O74",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O74",
+  "name": "O74",
+  "title": "Komplikationen bei Anästhesie während der Wehentätigkeit und bei der Entbindung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O74"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O74.0",
+        "display": "Aspirationspneumonie durch Anästhesie während der Wehentätigkeit und bei der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O74.1",
+        "display": "Sonstige pulmonale Komplikationen bei Anästhesie während der Wehentätigkeit und bei der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O74.2",
+        "display": "Kardiale Komplikationen bei Anästhesie während der Wehentätigkeit und bei der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O74.3",
+        "display": "Komplikationen des Zentralnervensystems bei Anästhesie während der Wehentätigkeit und bei der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O74.4",
+        "display": "Toxische Reaktion auf Lokalanästhesie während der Wehentätigkeit und bei der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O74.5",
+        "display": "Kopfschmerzen nach Spinal- oder Periduralanästhesie während der Wehentätigkeit und bei der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O74.6",
+        "display": "Sonstige Komplikationen bei Spinal- oder Periduralanästhesie während der Wehentätigkeit und bei der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O74.7",
+        "display": "Misslingen oder Schwierigkeiten bei der Intubation während der Wehentätigkeit und bei der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O74.8",
+        "display": "Sonstige Komplikationen bei Anästhesie während der Wehentätigkeit und bei der Entbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O74.9",
+        "display": "Komplikation bei Anästhesie während der Wehentätigkeit und bei der Entbindung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

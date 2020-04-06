@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J30",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J30",
+  "name": "J30",
+  "title": "Vasomotorische und allergische Rhinopathie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J30"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J30.0",
+        "display": "Rhinopathia vasomotorica"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J30.1",
+        "display": "Allergische Rhinopathie durch Pollen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J30.2",
+        "display": "Sonstige saisonale allergische Rhinopathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J30.3",
+        "display": "Sonstige allergische Rhinopathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J30.4",
+        "display": "Allergische Rhinopathie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

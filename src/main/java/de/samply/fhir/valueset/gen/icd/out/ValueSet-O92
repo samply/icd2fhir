@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O92",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O92",
+  "name": "O92",
+  "title": "Sonstige Krankheiten der Mamma [Brustdrüse] im Zusammenhang mit der Gestation und Laktationsstörungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O92"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O92.0",
+        "display": "Hohlwarze im Zusammenhang mit der Gestation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O92.1",
+        "display": "Rhagade der Brustwarze im Zusammenhang mit der Gestation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O92.2",
+        "display": "Sonstige und nicht näher bezeichnete Krankheiten der Mamma im Zusammenhang mit der Gestation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O92.3",
+        "display": "Agalaktie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O92.4",
+        "display": "Hypogalaktie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O92.5",
+        "display": "Hemmung der Laktation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O92.6",
+        "display": "Galaktorrhoe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O92.7",
+        "display": "Sonstige und nicht näher bezeichnete Laktationsstörungen"
+      }
+    ]
+  }
+}

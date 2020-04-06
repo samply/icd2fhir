@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G45",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G45",
+  "name": "G45",
+  "title": "Zerebrale transitorische Ischämie und verwandte Syndrome",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G45"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G45.0",
+        "display": "Arteria-vertebralis-Syndrom mit Basilaris-Symptomatik"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G45.1",
+        "display": "Arteria-carotis-interna-Syndrom (halbseitig)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G45.2",
+        "display": "Multiple und bilaterale Syndrome der extrazerebralen hirnversorgenden Arterien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G45.3",
+        "display": "Amaurosis fugax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G45.4",
+        "display": "Transiente globale Amnesie [amnestische Episode]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G45.8",
+        "display": "Sonstige zerebrale transitorische Ischämie und verwandte Syndrome"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G45.9",
+        "display": "Zerebrale transitorische Ischämie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

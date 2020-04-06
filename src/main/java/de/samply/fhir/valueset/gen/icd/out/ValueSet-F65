@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F65",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F65",
+  "name": "F65",
+  "title": "Störungen der Sexualpräferenz",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F65"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F65.0",
+        "display": "Fetischismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F65.1",
+        "display": "Fetischistischer Transvestitismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F65.2",
+        "display": "Exhibitionismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F65.3",
+        "display": "Voyeurismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F65.4",
+        "display": "Pädophilie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F65.5",
+        "display": "Sadomasochismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F65.6",
+        "display": "Multiple Störungen der Sexualpräferenz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F65.8",
+        "display": "Sonstige Störungen der Sexualpräferenz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F65.9",
+        "display": "Störung der Sexualpräferenz, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

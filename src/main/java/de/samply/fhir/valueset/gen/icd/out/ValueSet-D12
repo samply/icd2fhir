@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D12",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D12",
+  "name": "D12",
+  "title": "Gutartige Neubildung des Kolons, des Rektums, des Analkanals und des Anus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D12"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D12.0",
+        "display": "Zäkum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D12.1",
+        "display": "Appendix vermiformis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D12.2",
+        "display": "Colon ascendens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D12.3",
+        "display": "Colon transversum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D12.4",
+        "display": "Colon descendens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D12.5",
+        "display": "Colon sigmoideum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D12.6",
+        "display": "Kolon, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D12.7",
+        "display": "Rektosigmoid, Übergang"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D12.8",
+        "display": "Rektum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D12.9",
+        "display": "Analkanal und Anus"
+      }
+    ]
+  }
+}

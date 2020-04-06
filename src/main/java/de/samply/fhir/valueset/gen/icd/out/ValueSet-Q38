@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q38",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q38",
+  "name": "Q38",
+  "title": "Sonstige angeborene Fehlbildungen der Zunge, des Mundes und des Rachens",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q38"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q38.0",
+        "display": "Angeborene Fehlbildungen der Lippen, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q38.1",
+        "display": "Ankyloglosson"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q38.2",
+        "display": "Makroglossie (angeboren)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q38.3",
+        "display": "Sonstige angeborene Fehlbildungen der Zunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q38.4",
+        "display": "Angeborene Fehlbildungen der Speicheldrüsen und Speicheldrüsenausführungsgänge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q38.5",
+        "display": "Angeborene Fehlbildungen des Gaumens, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q38.6",
+        "display": "Sonstige angeborene Fehlbildungen des Mundes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q38.7",
+        "display": "Schlundtasche"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q38.8",
+        "display": "Sonstige angeborene Fehlbildungen des Rachens"
+      }
+    ]
+  }
+}

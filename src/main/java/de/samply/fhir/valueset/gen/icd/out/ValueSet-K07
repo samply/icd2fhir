@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K07",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K07",
+  "name": "K07",
+  "title": "Dentofaziale Anomalien [einschließlich fehlerhafter Okklusion]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K07"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K07.0",
+        "display": "Stärkere Anomalien der Kiefergröße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K07.1",
+        "display": "Anomalien des Kiefer-Schädelbasis-Verhältnisses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K07.2",
+        "display": "Anomalien des Zahnbogenverhältnisses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K07.3",
+        "display": "Zahnstellungsanomalien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K07.4",
+        "display": "Fehlerhafte Okklusion, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K07.5",
+        "display": "Funktionelle dentofaziale Anomalien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K07.6",
+        "display": "Krankheiten des Kiefergelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K07.8",
+        "display": "Sonstige dentofaziale Anomalien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K07.9",
+        "display": "Dentofaziale Anomalie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

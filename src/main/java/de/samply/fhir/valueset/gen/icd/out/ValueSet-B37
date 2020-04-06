@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B37",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B37",
+  "name": "B37",
+  "title": "Kandidose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B37"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B37.0",
+        "display": "Candida-Stomatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B37.1",
+        "display": "Kandidose der Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B37.2",
+        "display": "Kandidose der Haut und der Nägel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B37.3",
+        "display": "Kandidose der Vulva und der Vagina [N77.1 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B37.4",
+        "display": "Kandidose an sonstigen Lokalisationen des Urogenitalsystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B37.5",
+        "display": "Candida-Meningitis [G02.1 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B37.6",
+        "display": "Candida-Endokarditis [I39.8 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B37.7",
+        "display": "Candida-Sepsis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B37.8",
+        "display": "Kandidose an sonstigen Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B37.9",
+        "display": "Kandidose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

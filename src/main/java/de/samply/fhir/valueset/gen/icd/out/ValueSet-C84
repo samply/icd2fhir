@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C84",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C84",
+  "name": "C84",
+  "title": "Reifzellige T/NK-Zell-Lymphome",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C84"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C84.0",
+        "display": "Mycosis fungoides"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C84.1",
+        "display": "Sézary-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C84.4",
+        "display": "Peripheres T-Zell-Lymphom, nicht spezifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C84.5",
+        "display": "Sonstige reifzellige T/NK-Zell-Lymphome"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C84.6",
+        "display": "Anaplastisches großzelliges Lymphom, ALK-positiv"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C84.7",
+        "display": "Anaplastisches großzelliges Lymphom, ALK-negativ"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C84.8",
+        "display": "Kutanes T-Zell-Lymphom, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C84.9",
+        "display": "Reifzelliges T/NK-Zell-Lymphom, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

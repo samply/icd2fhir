@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "V82",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/V82",
+  "name": "V82",
+  "title": "Straßenbahnbenutzer bei Transportmittelunfall verletzt",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "V82"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V82.0",
+        "display": "Straßenbahnbenutzer bei Zusammenstoß mit Kraftfahrzeug bei Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V82.1",
+        "display": "Straßenbahnbenutzer bei Zusammenstoß mit Kraftfahrzeug bei Verkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V82.2",
+        "display": "Straßenbahnbenutzer bei Zusammenstoß mit oder Getroffenwerden von Fahrzeug verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V82.3",
+        "display": "Straßenbahnbenutzer bei Zusammenstoß mit sonstigem Gegenstand verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V82.4",
+        "display": "Person beim Ein- oder Aussteigen aus der Straßenbahn verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V82.5",
+        "display": "Straßenbahnbenutzer durch Sturz in der Straßenbahn verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V82.6",
+        "display": "Straßenbahnbenutzer durch Sturz aus der Straßenbahn verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V82.7",
+        "display": "Straßenbahnbenutzer bei Entgleisung ohne vorhergehenden Zusammenstoß verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V82.8",
+        "display": "Straßenbahnbenutzer bei sonstigen näher bezeichneten Transportmittelunfällen verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V82.9",
+        "display": "Straßenbahnbenutzer bei nicht näher bezeichnetem Verkehrsunfall verletzt"
+      }
+    ]
+  }
+}

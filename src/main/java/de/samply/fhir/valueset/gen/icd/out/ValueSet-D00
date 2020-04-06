@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D00",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D00",
+  "name": "D00",
+  "title": "Carcinoma in situ der Mundhöhle, des Ösophagus und des Magens",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D00"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D00.0",
+        "display": "Lippe, Mundhöhle und Pharynx"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D00.1",
+        "display": "Ösophagus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D00.2",
+        "display": "Magen"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T33",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T33",
+  "name": "T33",
+  "title": "Oberflächliche Erfrierung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T33"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T33.0",
+        "display": "Oberflächliche Erfrierung des Kopfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T33.1",
+        "display": "Oberflächliche Erfrierung des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T33.2",
+        "display": "Oberflächliche Erfrierung des Thorax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T33.3",
+        "display": "Oberflächliche Erfrierung der Bauchdecke, der Lumbosakralgegend und des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T33.4",
+        "display": "Oberflächliche Erfrierung des Armes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T33.5",
+        "display": "Oberflächliche Erfrierung des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T33.6",
+        "display": "Oberflächliche Erfrierung der Hüfte und des Oberschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T33.7",
+        "display": "Oberflächliche Erfrierung des Knies und des Unterschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T33.8",
+        "display": "Oberflächliche Erfrierung der Knöchelregion und des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T33.9",
+        "display": "Oberflächliche Erfrierung an sonstigen und nicht näher bezeichneten Lokalisationen"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F91",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F91",
+  "name": "F91",
+  "title": "Störungen des Sozialverhaltens",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F91"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F91.0",
+        "display": "Auf den familiären Rahmen beschränkte Störung des Sozialverhaltens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F91.1",
+        "display": "Störung des Sozialverhaltens bei fehlenden sozialen Bindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F91.2",
+        "display": "Störung des Sozialverhaltens bei vorhandenen sozialen Bindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F91.3",
+        "display": "Störung des Sozialverhaltens mit oppositionellem, aufsässigem Verhalten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F91.8",
+        "display": "Sonstige Störungen des Sozialverhaltens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F91.9",
+        "display": "Störung des Sozialverhaltens, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C82",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C82",
+  "name": "C82",
+  "title": "Follikuläres Lymphom",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C82"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C82.0",
+        "display": "Follikuläres Lymphom Grad I"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C82.1",
+        "display": "Follikuläres Lymphom Grad II"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C82.2",
+        "display": "Follikuläres Lymphom Grad III, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C82.3",
+        "display": "Follikuläres Lymphom Grad IIIa"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C82.4",
+        "display": "Follikuläres Lymphom Grad IIIb"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C82.5",
+        "display": "Diffuses Follikelzentrumslymphom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C82.6",
+        "display": "Kutanes Follikelzentrumslymphom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C82.7",
+        "display": "Sonstige Typen des follikulären Lymphoms"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C82.9",
+        "display": "Follikuläres Lymphom, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H80",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H80",
+  "name": "H80",
+  "title": "Otosklerose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H80"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H80.0",
+        "display": "Otosklerose mit Beteiligung der Fenestra vestibuli, nichtobliterierend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H80.1",
+        "display": "Otosklerose mit Beteiligung der Fenestra vestibuli, obliterierend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H80.2",
+        "display": "Otosclerosis cochleae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H80.8",
+        "display": "Sonstige Otosklerose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H80.9",
+        "display": "Otosklerose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

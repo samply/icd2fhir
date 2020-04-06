@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N87",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N87",
+  "name": "N87",
+  "title": "Dysplasie der Cervix uteri",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N87"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N87.0",
+        "display": "Niedriggradige Dysplasie der Cervix uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N87.1",
+        "display": "Mittelgradige Dysplasie der Cervix uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N87.2",
+        "display": "Hochgradige Dysplasie der Cervix uteri, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N87.9",
+        "display": "Dysplasie der Cervix uteri, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

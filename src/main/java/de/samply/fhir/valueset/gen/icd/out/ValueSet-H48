@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H48",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H48",
+  "name": "H48",
+  "title": "Affektionen des N. opticus [II. Hirnnerv] und der Sehbahn bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H48"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H48.0",
+        "display": "Optikusatrophie bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H48.1",
+        "display": "Retrobulbäre Neuritis bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H48.8",
+        "display": "Sonstige Affektionen des N. opticus und der Sehbahn bei anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N33",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N33",
+  "name": "N33",
+  "title": "Krankheiten der Harnblase bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N33"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N33.0",
+        "display": "Tuberkulöse Zystitis [A18.1 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N33.8",
+        "display": "Krankheiten der Harnblase bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

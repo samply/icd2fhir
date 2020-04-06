@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T06",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T06",
+  "name": "T06",
+  "title": "Sonstige Verletzungen mit Beteiligung mehrerer Körperregionen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T06"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T06.0",
+        "display": "Verletzungen des Gehirns und der Hirnnerven kombiniert mit Verletzungen von Nerven und Rückenmark in Halshöhe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T06.1",
+        "display": "Verletzungen der Nerven und des Rückenmarkes mit Beteiligung mehrerer sonstiger Körperregionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T06.2",
+        "display": "Verletzungen von Nerven mit Beteiligung mehrerer Körperregionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T06.3",
+        "display": "Verletzungen von Blutgefäßen mit Beteiligung mehrerer Körperregionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T06.4",
+        "display": "Verletzungen von Muskeln und Sehnen mit Beteiligung mehrerer Körperregionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T06.5",
+        "display": "Verletzungen mit Beteiligung von intrathorakalen Organen und intraabdominalen Organen oder intrathorakalen Organen und Beckenorganen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T06.8",
+        "display": "Sonstige näher bezeichnete Verletzungen mit Beteiligung mehrerer Körperregionen"
+      }
+    ]
+  }
+}

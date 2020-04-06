@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L98",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L98",
+  "name": "L98",
+  "title": "Sonstige Krankheiten der Haut und der Unterhaut, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L98"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L98.0",
+        "display": "Granuloma pediculatum [Granuloma pyogenicum]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L98.1",
+        "display": "Dermatitis factitia"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L98.2",
+        "display": "Akute febrile neutrophile Dermatose [Sweet-Syndrom]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L98.3",
+        "display": "Eosinophile Zellulitis [Wells-Syndrom]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L98.4",
+        "display": "Chronisches Ulkus der Haut, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L98.5",
+        "display": "Muzinose der Haut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L98.6",
+        "display": "Sonstige infiltrative Krankheiten der Haut und der Unterhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L98.7",
+        "display": "Überschüssige und erschlaffte Haut und Unterhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L98.8",
+        "display": "Sonstige näher bezeichnete Krankheiten der Haut und der Unterhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L98.9",
+        "display": "Krankheit der Haut und der Unterhaut, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

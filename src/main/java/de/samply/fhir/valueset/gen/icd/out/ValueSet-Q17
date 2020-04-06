@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q17",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q17",
+  "name": "Q17",
+  "title": "Sonstige angeborene Fehlbildungen des Ohres",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q17"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q17.0",
+        "display": "Akzessorische Ohrmuschel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q17.1",
+        "display": "Makrotie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q17.2",
+        "display": "Mikrotie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q17.3",
+        "display": "Sonstiges fehlgebildetes Ohr"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q17.4",
+        "display": "Lageanomalie des Ohres"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q17.5",
+        "display": "Abstehendes Ohr"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q17.8",
+        "display": "Sonstige näher bezeichnete angeborene Fehlbildungen des Ohres"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q17.9",
+        "display": "Angeborene Fehlbildung des Ohres, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

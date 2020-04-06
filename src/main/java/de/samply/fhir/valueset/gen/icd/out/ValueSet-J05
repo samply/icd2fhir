@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J05",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J05",
+  "name": "J05",
+  "title": "Akute obstruktive Laryngitis [Krupp] und Epiglottitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J05"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J05.0",
+        "display": "Akute obstruktive Laryngitis [Krupp]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J05.1",
+        "display": "Akute Epiglottitis"
+      }
+    ]
+  }
+}

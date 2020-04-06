@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F92",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F92",
+  "name": "F92",
+  "title": "Kombinierte Störung des Sozialverhaltens und der Emotionen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F92"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F92.0",
+        "display": "Störung des Sozialverhaltens mit depressiver Störung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F92.8",
+        "display": "Sonstige kombinierte Störung des Sozialverhaltens und der Emotionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F92.9",
+        "display": "Kombinierte Störung des Sozialverhaltens und der Emotionen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

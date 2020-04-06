@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J15",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J15",
+  "name": "J15",
+  "title": "Pneumonie durch Bakterien, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J15"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J15.0",
+        "display": "Pneumonie durch Klebsiella pneumoniae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J15.1",
+        "display": "Pneumonie durch Pseudomonas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J15.2",
+        "display": "Pneumonie durch Staphylokokken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J15.3",
+        "display": "Pneumonie durch Streptokokken der Gruppe B"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J15.4",
+        "display": "Pneumonie durch sonstige Streptokokken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J15.5",
+        "display": "Pneumonie durch Escherichia coli"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J15.6",
+        "display": "Pneumonie durch andere gramnegative Bakterien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J15.7",
+        "display": "Pneumonie durch Mycoplasma pneumoniae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J15.8",
+        "display": "Sonstige bakterielle Pneumonie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J15.9",
+        "display": "Bakterielle Pneumonie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

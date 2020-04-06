@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B51",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B51",
+  "name": "B51",
+  "title": "Malaria tertiana durch Plasmodium vivax",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B51"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B51.0",
+        "display": "Malaria tertiana mit Milzruptur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B51.8",
+        "display": "Malaria tertiana mit sonstigen Komplikationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B51.9",
+        "display": "Malaria tertiana ohne Komplikation"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I88",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I88",
+  "name": "I88",
+  "title": "Unspezifische Lymphadenitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I88"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I88.0",
+        "display": "Unspezifische mesenteriale Lymphadenitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I88.1",
+        "display": "Chronische Lymphadenitis, ausgenommen mesenterial"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I88.8",
+        "display": "Sonstige unspezifische Lymphadenitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I88.9",
+        "display": "Unspezifische Lymphadenitis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B95",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B95",
+  "name": "B95",
+  "title": "Streptokokken und Staphylokokken als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B95"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B95.0",
+        "display": "Streptokokken, Gruppe A, als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B95.1",
+        "display": "Streptokokken, Gruppe B, als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B95.2",
+        "display": "Streptokokken, Gruppe D, und Enterokokken als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B95.3",
+        "display": "Streptococcus pneumoniae als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B95.4",
+        "display": "Sonstige Streptokokken als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B95.5",
+        "display": "Nicht näher bezeichnete Streptokokken als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B95.6",
+        "display": "Staphylococcus aureus als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B95.7",
+        "display": "Sonstige Staphylokokken als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B95.8",
+        "display": "Nicht näher bezeichnete Staphylokokken als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      }
+    ]
+  }
+}

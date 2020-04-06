@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T14",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T14",
+  "name": "T14",
+  "title": "Verletzung an einer nicht näher bezeichneten Körperregion",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T14"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T14.0",
+        "display": "Oberflächliche Verletzung an einer nicht näher bezeichneten Körperregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T14.1",
+        "display": "Offene Wunde an einer nicht näher bezeichneten Körperregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T14.2",
+        "display": "Fraktur an einer nicht näher bezeichneten Körperregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T14.3",
+        "display": "Luxation, Verstauchung und Zerrung an einer nicht näher bezeichneten Körperregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T14.4",
+        "display": "Verletzung eines oder mehrerer Nerven an einer nicht näher bezeichneten Körperregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T14.5",
+        "display": "Verletzung eines oder mehrerer Blutgefäße an einer nicht näher bezeichneten Körperregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T14.6",
+        "display": "Verletzung von Muskeln und Sehnen an einer nicht näher bezeichneten Körperregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T14.7",
+        "display": "Zerquetschung und traumatische Amputation einer nicht näher bezeichneten Körperregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T14.8",
+        "display": "Sonstige Verletzungen einer nicht näher bezeichneten Körperregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T14.9",
+        "display": "Verletzung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M91",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M91",
+  "name": "M91",
+  "title": "Juvenile Osteochondrose der Hüfte und des Beckens",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M91"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M91.0",
+        "display": "Juvenile Osteochondrose des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M91.1",
+        "display": "Juvenile Osteochondrose des Femurkopfes [Perthes-Legg-Calvé-Krankheit]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M91.2",
+        "display": "Coxa plana"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M91.3",
+        "display": "Pseudokoxalgie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M91.8",
+        "display": "Sonstige juvenile Osteochondrose der Hüfte und des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M91.9",
+        "display": "Juvenile Osteochondrose der Hüfte und des Beckens, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

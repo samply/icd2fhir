@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B96",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B96",
+  "name": "B96",
+  "title": "Sonstige näher bezeichnete Bakterien als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B96"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B96.0",
+        "display": "Mycoplasma pneumoniae [M. pneumoniae] als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B96.1",
+        "display": "Klebsiella pneumoniae [K. pneumoniae] als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B96.2",
+        "display": "Escherichia coli [E. coli] als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B96.3",
+        "display": "Haemophilus influenzae [H. influenzae] als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B96.4",
+        "display": "Proteus (mirabilis) (morganii) als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B96.5",
+        "display": "Pseudomonas (aeruginosa) als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B96.6",
+        "display": "Bacteroides fragilis [B. fragilis] als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B96.7",
+        "display": "Clostridium perfringens [C. perfringens] als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B96.8",
+        "display": "Sonstige näher bezeichnete Bakterien als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind"
+      }
+    ]
+  }
+}

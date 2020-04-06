@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O34",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O34",
+  "name": "O34",
+  "title": "Betreuung der Mutter bei festgestellter oder vermuteter Anomalie der Beckenorgane",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O34"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O34.0",
+        "display": "Betreuung der Mutter bei angeborener Fehlbildung des Uterus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O34.1",
+        "display": "Betreuung der Mutter bei Tumor des Corpus uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O34.2",
+        "display": "Betreuung der Mutter bei Uterusnarbe durch vorangegangenen chirurgischen Eingriff"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O34.3",
+        "display": "Betreuung der Mutter bei Zervixinsuffizienz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O34.4",
+        "display": "Betreuung der Mutter bei sonstigen Anomalien der Cervix uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O34.5",
+        "display": "Betreuung der Mutter bei sonstigen Anomalien des graviden Uterus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O34.6",
+        "display": "Betreuung der Mutter bei Anomalie der Vagina"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O34.7",
+        "display": "Betreuung der Mutter bei Anomalie der Vulva und des Perineums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O34.8",
+        "display": "Betreuung der Mutter bei sonstigen Anomalien der Beckenorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O34.9",
+        "display": "Betreuung der Mutter bei Anomalie der Beckenorgane, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

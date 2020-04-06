@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N36",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N36",
+  "name": "N36",
+  "title": "Sonstige Krankheiten der Harnröhre",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N36"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N36.0",
+        "display": "Harnröhrenfistel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N36.1",
+        "display": "Harnröhrendivertikel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N36.2",
+        "display": "Harnröhrenkarunkel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N36.3",
+        "display": "Prolaps der Harnröhrenschleimhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N36.8",
+        "display": "Sonstige näher bezeichnete Krankheiten der Harnröhre"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N36.9",
+        "display": "Krankheit der Harnröhre, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

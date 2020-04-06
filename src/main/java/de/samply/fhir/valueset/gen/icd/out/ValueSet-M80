@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M80",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M80",
+  "name": "M80",
+  "title": "Osteoporose mit pathologischer Fraktur",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M80"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M80.0",
+        "display": "Postmenopausale Osteoporose mit pathologischer Fraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M80.1",
+        "display": "Osteoporose mit pathologischer Fraktur nach Ovarektomie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M80.2",
+        "display": "Inaktivitätsosteoporose mit pathologischer Fraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M80.3",
+        "display": "Osteoporose mit pathologischer Fraktur infolge Malabsorption nach chirurgischem Eingriff"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M80.4",
+        "display": "Arzneimittelinduzierte Osteoporose mit pathologischer Fraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M80.5",
+        "display": "Idiopathische Osteoporose mit pathologischer Fraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M80.8",
+        "display": "Sonstige Osteoporose mit pathologischer Fraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M80.9",
+        "display": "Nicht näher bezeichnete Osteoporose mit pathologischer Fraktur"
+      }
+    ]
+  }
+}

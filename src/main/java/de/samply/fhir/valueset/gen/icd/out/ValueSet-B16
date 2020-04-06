@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B16",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B16",
+  "name": "B16",
+  "title": "Akute Virushepatitis B",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B16"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B16.0",
+        "display": "Akute Virushepatitis B mit Delta-Virus (Begleitinfektion) und mit Coma hepaticum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B16.1",
+        "display": "Akute Virushepatitis B mit Delta-Virus (Begleitinfektion) ohne Coma hepaticum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B16.2",
+        "display": "Akute Virushepatitis B ohne Delta-Virus mit Coma hepaticum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B16.9",
+        "display": "Akute Virushepatitis B ohne Delta-Virus und ohne Coma hepaticum"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E30",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E30",
+  "name": "E30",
+  "title": "Pubertätsstörungen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E30"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E30.0",
+        "display": "Verzögerte Pubertät [Pubertas tarda]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E30.1",
+        "display": "Vorzeitige Pubertät [Pubertas praecox]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E30.8",
+        "display": "Sonstige Pubertätsstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E30.9",
+        "display": "Pubertätsstörung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

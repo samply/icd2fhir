@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E34",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E34",
+  "name": "E34",
+  "title": "Sonstige endokrine Störungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E34"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E34.0",
+        "display": "Karzinoid-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E34.1",
+        "display": "Sonstige Hypersekretion intestinaler Hormone"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E34.2",
+        "display": "Ektopische Hormonsekretion, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E34.3",
+        "display": "Kleinwuchs, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E34.4",
+        "display": "Konstitutioneller Hochwuchs"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E34.5",
+        "display": "Androgenresistenz-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E34.8",
+        "display": "Sonstige näher bezeichnete endokrine Störungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E34.9",
+        "display": "Endokrine Störung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

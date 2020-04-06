@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P52",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P52",
+  "name": "P52",
+  "title": "Intrakranielle nichttraumatische Blutung beim Fetus und Neugeborenen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P52"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P52.0",
+        "display": "Intraventrikuläre (nichttraumatische) Blutung 1. Grades beim Fetus und Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P52.1",
+        "display": "Intraventrikuläre (nichttraumatische) Blutung 2. Grades beim Fetus und Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P52.2",
+        "display": "Intraventrikuläre (nichttraumatische) Blutung 3. und 4. Grades beim Fetus und Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P52.3",
+        "display": "Nicht näher bezeichnete intraventrikuläre (nichttraumatische) Blutung beim Fetus und Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P52.4",
+        "display": "Intrazerebrale (nichttraumatische) Blutung beim Fetus und Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P52.5",
+        "display": "Subarachnoidalblutung (nichttraumatisch) beim Fetus und Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P52.6",
+        "display": "Kleinhirnblutung (nichttraumatisch) und Blutung in die Fossa cranii posterior beim Fetus und Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P52.8",
+        "display": "Sonstige intrakranielle (nichttraumatische) Blutungen beim Fetus und Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P52.9",
+        "display": "Intrakranielle (nichttraumatische) Blutung beim Fetus und Neugeborenen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

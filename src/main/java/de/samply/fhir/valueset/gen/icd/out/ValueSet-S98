@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S98",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S98",
+  "name": "S98",
+  "title": "Traumatische Amputation am oberen Sprunggelenk und Fuß",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S98"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S98.0",
+        "display": "Traumatische Amputation des Fußes in Höhe des oberen Sprunggelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S98.1",
+        "display": "Traumatische Amputation einer einzelnen Zehe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S98.2",
+        "display": "Traumatische Amputation von zwei oder mehr Zehen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S98.3",
+        "display": "Traumatische Amputation sonstiger Teile des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S98.4",
+        "display": "Traumatische Amputation am Fuß, Höhe nicht näher bezeichnet"
+      }
+    ]
+  }
+}

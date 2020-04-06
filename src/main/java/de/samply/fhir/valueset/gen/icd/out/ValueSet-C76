@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C76",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C76",
+  "name": "C76",
+  "title": "Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C76"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C76.0",
+        "display": "Kopf, Gesicht und Hals"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C76.1",
+        "display": "Thorax"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C76.2",
+        "display": "Abdomen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C76.3",
+        "display": "Becken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C76.4",
+        "display": "Obere Extremität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C76.5",
+        "display": "Untere Extremität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C76.7",
+        "display": "Sonstige ungenau bezeichnete Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C76.8",
+        "display": "Sonstige und ungenau bezeichnete Lokalisationen, mehrere Teilbereiche überlappend"
+      }
+    ]
+  }
+}

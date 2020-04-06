@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H01",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H01",
+  "name": "H01",
+  "title": "Sonstige Entzündung des Augenlides",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H01"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H01.0",
+        "display": "Blepharitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H01.1",
+        "display": "Nichtinfektiöse Dermatosen des Augenlides"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H01.8",
+        "display": "Sonstige näher bezeichnete Entzündungen des Augenlides"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H01.9",
+        "display": "Entzündung des Augenlides, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

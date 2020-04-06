@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I61",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I61",
+  "name": "I61",
+  "title": "Intrazerebrale Blutung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I61"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I61.0",
+        "display": "Intrazerebrale Blutung in die Großhirnhemisphäre, subkortikal"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I61.1",
+        "display": "Intrazerebrale Blutung in die Großhirnhemisphäre, kortikal"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I61.2",
+        "display": "Intrazerebrale Blutung in die Großhirnhemisphäre, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I61.3",
+        "display": "Intrazerebrale Blutung in den Hirnstamm"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I61.4",
+        "display": "Intrazerebrale Blutung in das Kleinhirn"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I61.5",
+        "display": "Intrazerebrale intraventrikuläre Blutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I61.6",
+        "display": "Intrazerebrale Blutung an mehreren Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I61.8",
+        "display": "Sonstige intrazerebrale Blutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I61.9",
+        "display": "Intrazerebrale Blutung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

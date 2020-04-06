@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O08",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O08",
+  "name": "O08",
+  "title": "Komplikationen nach Abort, Extrauteringravidität und Molenschwangerschaft",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O08"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O08.0",
+        "display": "Infektion des Genitaltraktes und des Beckens nach Abort, Extrauteringravidität und Molenschwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O08.1",
+        "display": "Spätblutung oder verstärkte Blutung nach Abort, Extrauteringravidität und Molenschwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O08.2",
+        "display": "Embolie nach Abort, Extrauteringravidität und Molenschwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O08.3",
+        "display": "Schock nach Abort, Extrauteringravidität und Molenschwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O08.4",
+        "display": "Niereninsuffizienz nach Abort, Extrauteringravidität und Molenschwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O08.5",
+        "display": "Stoffwechselstörungen nach Abort, Extrauteringravidität und Molenschwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O08.6",
+        "display": "Verletzung von Beckenorganen und -geweben nach Abort, Extrauteringravidität und Molenschwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O08.7",
+        "display": "Sonstige Venenkrankheiten als Komplikation nach Abort, Extrauteringravidität und Molenschwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O08.8",
+        "display": "Sonstige Komplikationen nach Abort, Extrauteringravidität und Molenschwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O08.9",
+        "display": "Komplikation nach Abort, Extrauteringravidität und Molenschwangerschaft, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C48",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C48",
+  "name": "C48",
+  "title": "Bösartige Neubildung des Retroperitoneums und des Peritoneums",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C48"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C48.0",
+        "display": "Retroperitoneum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C48.1",
+        "display": "Näher bezeichnete Teile des Peritoneums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C48.2",
+        "display": "Peritoneum, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C48.8",
+        "display": "Retroperitoneum und Peritoneum, mehrere Teilbereiche überlappend"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S66",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S66",
+  "name": "S66",
+  "title": "Verletzung von Muskeln und Sehnen in Höhe des Handgelenkes und der Hand",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S66"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S66.0",
+        "display": "Verletzung der langen Beugemuskeln und -sehnen des Daumens in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S66.1",
+        "display": "Verletzung der Beugemuskeln und -sehnen sonstiger Finger in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S66.2",
+        "display": "Verletzung der Streckmuskeln und -sehnen des Daumens in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S66.3",
+        "display": "Verletzung der Streckmuskeln und -sehnen sonstiger Finger in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S66.4",
+        "display": "Verletzung der kurzen Muskeln und Sehnen des Daumens in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S66.5",
+        "display": "Verletzung der kurzen Muskeln und Sehnen sonstiger Finger in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S66.6",
+        "display": "Verletzung mehrerer Beugemuskeln und -sehnen in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S66.7",
+        "display": "Verletzung mehrerer Streckmuskeln und -sehnen in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S66.8",
+        "display": "Verletzung sonstiger Muskeln und Sehnen in Höhe des Handgelenkes und der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S66.9",
+        "display": "Verletzung eines nicht näher bezeichneten Muskels oder einer nicht näher bezeichneten Sehne in Höhe des Handgelenkes und der Hand"
+      }
+    ]
+  }
+}

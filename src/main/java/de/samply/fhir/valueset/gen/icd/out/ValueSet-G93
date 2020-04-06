@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G93",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G93",
+  "name": "G93",
+  "title": "Sonstige Krankheiten des Gehirns",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G93"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G93.0",
+        "display": "Hirnzysten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G93.1",
+        "display": "Anoxische Hirnschädigung, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G93.2",
+        "display": "Benigne intrakranielle Hypertension [Pseudotumor cerebri]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G93.3",
+        "display": "Chronisches Müdigkeitssyndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G93.4",
+        "display": "Enzephalopathie, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G93.5",
+        "display": "Compressio cerebri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G93.6",
+        "display": "Hirnödem"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G93.7",
+        "display": "Reye-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G93.8",
+        "display": "Sonstige näher bezeichnete Krankheiten des Gehirns"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G93.9",
+        "display": "Krankheit des Gehirns, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

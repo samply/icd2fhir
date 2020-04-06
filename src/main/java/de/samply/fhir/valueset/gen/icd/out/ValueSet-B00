@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B00",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B00",
+  "name": "B00",
+  "title": "Infektionen durch Herpesviren [Herpes simplex]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B00"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B00.0",
+        "display": "Ekzema herpeticatum Kaposi"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B00.1",
+        "display": "Dermatitis vesicularis durch Herpesviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B00.2",
+        "display": "Gingivostomatitis herpetica und Pharyngotonsillitis herpetica"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B00.3",
+        "display": "Meningitis durch Herpesviren [G02.0 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B00.4",
+        "display": "Enzephalitis durch Herpesviren [G05.1 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B00.5",
+        "display": "Augenkrankheit durch Herpesviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B00.7",
+        "display": "Disseminierte Herpesvirus-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B00.8",
+        "display": "Sonstige Infektionsformen durch Herpesviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B00.9",
+        "display": "Infektion durch Herpesviren, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

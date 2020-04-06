@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A07",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A07",
+  "name": "A07",
+  "title": "Sonstige Darmkrankheiten durch Protozoen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A07"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A07.0",
+        "display": "Balantidiose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A07.1",
+        "display": "Giardiasis [Lambliasis]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A07.2",
+        "display": "Kryptosporidiose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A07.3",
+        "display": "Isosporose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A07.8",
+        "display": "Sonstige näher bezeichnete Darmkrankheiten durch Protozoen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A07.9",
+        "display": "Darmkrankheit durch Protozoen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

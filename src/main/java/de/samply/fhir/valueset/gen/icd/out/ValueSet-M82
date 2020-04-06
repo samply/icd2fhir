@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M82",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M82",
+  "name": "M82",
+  "title": "Osteoporose bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M82"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M82.0",
+        "display": "Osteoporose bei Plasmozytom[C90.0]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M82.1",
+        "display": "Osteoporose bei endokrinen Störungen[E00-E34]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M82.8",
+        "display": "Osteoporose bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

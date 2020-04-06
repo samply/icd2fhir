@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P07",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P07",
+  "name": "P07",
+  "title": "Störungen im Zusammenhang mit kurzer Schwangerschaftsdauer und niedrigem Geburtsgewicht, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P07"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P07.0",
+        "display": "Neugeborenes mit extrem niedrigem Geburtsgewicht"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P07.1",
+        "display": "Neugeborenes mit sonstigem niedrigem Geburtsgewicht"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P07.2",
+        "display": "Neugeborenes mit extremer Unreife"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P07.3",
+        "display": "Sonstige vor dem Termin Geborene"
+      }
+    ]
+  }
+}

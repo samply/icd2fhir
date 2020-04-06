@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I33",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I33",
+  "name": "I33",
+  "title": "Akute und subakute Endokarditis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I33"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I33.0",
+        "display": "Akute und subakute infektiöse Endokarditis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I33.9",
+        "display": "Akute Endokarditis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

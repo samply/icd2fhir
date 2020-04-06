@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E78",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E78",
+  "name": "E78",
+  "title": "Störungen des Lipoproteinstoffwechsels und sonstige Lipidämien",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E78"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E78.0",
+        "display": "Reine Hypercholesterinämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E78.1",
+        "display": "Reine Hypertriglyzeridämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E78.2",
+        "display": "Gemischte Hyperlipidämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E78.3",
+        "display": "Hyperchylomikronämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E78.4",
+        "display": "Sonstige Hyperlipidämien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E78.5",
+        "display": "Hyperlipidämie, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E78.6",
+        "display": "Lipoproteinmangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E78.8",
+        "display": "Sonstige Störungen des Lipoproteinstoffwechsels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E78.9",
+        "display": "Störung des Lipoproteinstoffwechsels, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

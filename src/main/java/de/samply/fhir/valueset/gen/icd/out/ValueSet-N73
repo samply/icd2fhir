@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N73",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N73",
+  "name": "N73",
+  "title": "Sonstige entzündliche Krankheiten im weiblichen Becken",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N73"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N73.0",
+        "display": "Akute Parametritis und Entzündung des Beckenbindegewebes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N73.1",
+        "display": "Chronische Parametritis und Entzündung des Beckenbindegewebes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N73.2",
+        "display": "Nicht näher bezeichnete Parametritis und Entzündung des Beckenbindegewebes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N73.3",
+        "display": "Akute Pelveoperitonitis bei der Frau"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N73.4",
+        "display": "Chronische Pelveoperitonitis bei der Frau"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N73.5",
+        "display": "Pelveoperitonitis bei der Frau, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N73.6",
+        "display": "Peritoneale Adhäsionen im weiblichen Becken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N73.8",
+        "display": "Sonstige näher bezeichnete entzündliche Krankheiten im weiblichen Becken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N73.9",
+        "display": "Entzündliche Krankheit im weiblichen Becken, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

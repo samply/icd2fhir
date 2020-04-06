@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L53",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L53",
+  "name": "L53",
+  "title": "Sonstige erythematöse Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L53"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L53.0",
+        "display": "Erythema toxicum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L53.1",
+        "display": "Erythema anulare centrifugum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L53.2",
+        "display": "Erythema marginatum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L53.3",
+        "display": "Sonstiges figuriertes chronisches Erythem"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L53.8",
+        "display": "Sonstige näher bezeichnete erythematöse Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L53.9",
+        "display": "Erythematöse Krankheit, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

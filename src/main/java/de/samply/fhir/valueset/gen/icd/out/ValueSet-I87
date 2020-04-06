@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I87",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I87",
+  "name": "I87",
+  "title": "Sonstige Venenkrankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I87"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I87.0",
+        "display": "Postthrombotisches Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I87.1",
+        "display": "Venenkompression"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I87.2",
+        "display": "Venöse Insuffizienz (chronisch) (peripher)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I87.8",
+        "display": "Sonstige näher bezeichnete Venenkrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I87.9",
+        "display": "Venenkrankheit, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

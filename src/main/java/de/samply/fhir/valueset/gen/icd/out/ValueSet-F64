@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F64",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F64",
+  "name": "F64",
+  "title": "Störungen der Geschlechtsidentität",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F64"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F64.0",
+        "display": "Transsexualismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F64.1",
+        "display": "Transvestitismus unter Beibehaltung beider Geschlechtsrollen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F64.2",
+        "display": "Störung der Geschlechtsidentität des Kindesalters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F64.8",
+        "display": "Sonstige Störungen der Geschlechtsidentität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F64.9",
+        "display": "Störung der Geschlechtsidentität, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

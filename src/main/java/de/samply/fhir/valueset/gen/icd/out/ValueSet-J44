@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J44",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J44",
+  "name": "J44",
+  "title": "Sonstige chronische obstruktive Lungenkrankheit",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J44"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J44.0",
+        "display": "Chronische obstruktive Lungenkrankheit mit akuter Infektion der unteren Atemwege"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J44.1",
+        "display": "Chronische obstruktive Lungenkrankheit mit akuter Exazerbation, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J44.8",
+        "display": "Sonstige näher bezeichnete chronische obstruktive Lungenkrankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J44.9",
+        "display": "Chronische obstruktive Lungenkrankheit, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

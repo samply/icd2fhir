@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H70",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H70",
+  "name": "H70",
+  "title": "Mastoiditis und verwandte Zustände",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H70"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H70.0",
+        "display": "Akute Mastoiditis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H70.1",
+        "display": "Chronische Mastoiditis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H70.2",
+        "display": "Petrositis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H70.8",
+        "display": "Sonstige Mastoiditis und verwandte Zustände"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H70.9",
+        "display": "Mastoiditis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

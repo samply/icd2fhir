@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y49",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y49",
+  "name": "Y49",
+  "title": "Psychotrope Substanzen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y49"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y49.0",
+        "display": "Tri- und tetrazyklische Antidepressiva"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y49.1",
+        "display": "Monoaminooxidase-hemmende Antidepressiva"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y49.2",
+        "display": "Sonstige und nicht näher bezeichnete Antidepressiva"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y49.3",
+        "display": "Antipsychotika und Neuroleptika auf Phenothiazin-Basis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y49.4",
+        "display": "Neuroleptika auf Butyrophenon- und Thioxanthen-Basis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y49.5",
+        "display": "Sonstige Antipsychotika und Neuroleptika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y49.6",
+        "display": "Psychodysleptika [Halluzinogene]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y49.7",
+        "display": "Psychostimulanzien mit Missbrauchspotential"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y49.8",
+        "display": "Sonstige psychotrope Substanzen, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y49.9",
+        "display": "Psychotrope Substanz, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

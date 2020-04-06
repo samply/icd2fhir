@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T95",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T95",
+  "name": "T95",
+  "title": "Folgen von Verbrennungen, Verätzungen oder Erfrierungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T95"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T95.0",
+        "display": "Folgen einer Verbrennung, Verätzung oder Erfrierung des Kopfes oder des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T95.1",
+        "display": "Folgen einer Verbrennung, Verätzung oder Erfrierung des Rumpfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T95.2",
+        "display": "Folgen einer Verbrennung, Verätzung oder Erfrierung der oberen Extremität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T95.3",
+        "display": "Folgen einer Verbrennung, Verätzung oder Erfrierung der unteren Extremität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T95.4",
+        "display": "Folgen einer Verbrennung oder Verätzung, die nur nach der Größe der betroffenen Körperoberfläche klassifizierbar ist"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T95.8",
+        "display": "Folgen einer sonstigen näher bezeichneten Verbrennung, Verätzung oder Erfrierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T95.9",
+        "display": "Folgen einer nicht näher bezeichneten Verbrennung, Verätzung oder Erfrierung"
+      }
+    ]
+  }
+}

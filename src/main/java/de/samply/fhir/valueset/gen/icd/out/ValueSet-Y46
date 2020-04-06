@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y46",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y46",
+  "name": "Y46",
+  "title": "Antiepileptika und Antiparkinsonmittel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y46"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y46.0",
+        "display": "Succinimide"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y46.1",
+        "display": "Oxazolidine"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y46.2",
+        "display": "Hydantoin-Derivate"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y46.3",
+        "display": "Desoxybarbiturate"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y46.4",
+        "display": "Iminostilbene"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y46.5",
+        "display": "Valproinsäure"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y46.6",
+        "display": "Sonstige und nicht näher bezeichnete Antiepileptika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y46.7",
+        "display": "Antiparkinsonmittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y46.8",
+        "display": "Spasmolytika"
+      }
+    ]
+  }
+}

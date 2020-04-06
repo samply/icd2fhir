@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z47",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z47",
+  "name": "Z47",
+  "title": "Andere orthopädische Nachbehandlung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z47"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z47.0",
+        "display": "Entfernung einer Metallplatte oder einer anderen inneren Fixationsvorrichtung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z47.8",
+        "display": "Sonstige näher bezeichnete orthopädische Nachbehandlung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z47.9",
+        "display": "Orthopädische Nachbehandlung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q70",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q70",
+  "name": "Q70",
+  "title": "Syndaktylie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q70"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q70.0",
+        "display": "Miteinander verwachsene Finger"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q70.1",
+        "display": "Schwimmhautbildung an den Fingern"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q70.2",
+        "display": "Miteinander verwachsene Zehen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q70.3",
+        "display": "Schwimmhautbildung an den Zehen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q70.4",
+        "display": "Polysyndaktylie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q70.9",
+        "display": "Syndaktylie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

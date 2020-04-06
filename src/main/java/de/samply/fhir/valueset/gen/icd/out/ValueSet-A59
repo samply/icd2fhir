@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A59",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A59",
+  "name": "A59",
+  "title": "Trichomoniasis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A59"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A59.0",
+        "display": "Trichomoniasis urogenitalis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A59.8",
+        "display": "Sonstige Lokalisationen der Trichomoniasis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A59.9",
+        "display": "Trichomoniasis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

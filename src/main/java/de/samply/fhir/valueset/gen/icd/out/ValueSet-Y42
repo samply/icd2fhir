@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y42",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y42",
+  "name": "Y42",
+  "title": "Hormone, deren synthetische Ersatzstoffe und Antagonisten, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y42"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y42.0",
+        "display": "Glukokortikoide und synthetische Ersatzstoffe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y42.1",
+        "display": "Schilddrüsenhormone und Ersatzstoffe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y42.2",
+        "display": "Thyreostatika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y42.3",
+        "display": "Insulin und orale blutzuckersenkende Arzneimittel [Antidiabetika]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y42.4",
+        "display": "Orale Kontrazeptiva"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y42.5",
+        "display": "Sonstige Östrogene und Gestagene"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y42.6",
+        "display": "Antigonadotropine, Antiöstrogene und Antiandrogene, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y42.7",
+        "display": "Androgene und verwandte Anabolika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y42.8",
+        "display": "Sonstige und nicht näher bezeichnete Hormone und synthetische Ersatzstoffe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y42.9",
+        "display": "Sonstige und nicht näher bezeichnete Hormonantagonisten"
+      }
+    ]
+  }
+}

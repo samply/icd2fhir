@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T29",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T29",
+  "name": "T29",
+  "title": "Verbrennungen oder Verätzungen mehrerer Körperregionen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T29"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T29.0",
+        "display": "Verbrennungen mehrerer Körperregionen nicht näher bezeichneten Grades"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T29.1",
+        "display": "Verbrennungen mehrerer Körperregionen, wobei höchstens Verbrennungen 1. Grades angegeben sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T29.2",
+        "display": "Verbrennungen mehrerer Körperregionen, wobei höchstens Verbrennungen 2. Grades angegeben sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T29.3",
+        "display": "Verbrennungen mehrerer Körperregionen, wobei mindestens eine Verbrennung 3. Grades angegeben ist"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T29.4",
+        "display": "Verätzungen mehrerer Körperregionen nicht näher bezeichneten Grades"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T29.5",
+        "display": "Verätzungen mehrerer Körperregionen, wobei höchstens Verätzungen 1. Grades angegeben sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T29.6",
+        "display": "Verätzungen mehrerer Körperregionen, wobei höchstens Verätzungen 2. Grades angegeben sind"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T29.7",
+        "display": "Verätzungen mehrerer Körperregionen, wobei mindestens eine Verätzung 3. Grades angegeben ist"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B60",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B60",
+  "name": "B60",
+  "title": "Sonstige Protozoenkrankheiten, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B60"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B60.0",
+        "display": "Babesiose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B60.1",
+        "display": "Akanthamöbiasis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B60.2",
+        "display": "Naegleriainfektion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B60.8",
+        "display": "Sonstige näher bezeichnete Protozoenkrankheiten"
+      }
+    ]
+  }
+}

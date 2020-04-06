@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E04",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E04",
+  "name": "E04",
+  "title": "Sonstige nichttoxische Struma",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E04"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E04.0",
+        "display": "Nichttoxische diffuse Struma"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E04.1",
+        "display": "Nichttoxischer solitärer Schilddrüsenknoten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E04.2",
+        "display": "Nichttoxische mehrknotige Struma"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E04.8",
+        "display": "Sonstige näher bezeichnete nichttoxische Struma"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E04.9",
+        "display": "Nichttoxische Struma, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

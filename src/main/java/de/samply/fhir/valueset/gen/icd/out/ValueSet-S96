@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S96",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S96",
+  "name": "S96",
+  "title": "Verletzung von Muskeln und Sehnen in Höhe des Knöchels und des Fußes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S96"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S96.0",
+        "display": "Verletzung von Muskeln und Sehnen der langen Beugemuskeln der Zehen in Höhe des Knöchels und des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S96.1",
+        "display": "Verletzung von Muskeln und Sehnen der langen Streckmuskeln der Zehen in Höhe des Knöchels und des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S96.2",
+        "display": "Verletzung von kurzen Muskeln und Sehnen in Höhe des Knöchels und des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S96.7",
+        "display": "Verletzung mehrerer Muskeln und Sehnen in Höhe des Knöchels und des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S96.8",
+        "display": "Verletzung sonstiger Muskeln und Sehnen in Höhe des Knöchels und des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S96.9",
+        "display": "Verletzung eines nicht näher bezeichneten Muskels oder einer nicht näher bezeichneten Sehne in Höhe des Knöchels und des Fußes"
+      }
+    ]
+  }
+}

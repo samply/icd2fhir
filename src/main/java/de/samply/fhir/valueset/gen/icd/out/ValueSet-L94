@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L94",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L94",
+  "name": "L94",
+  "title": "Sonstige lokalisierte Krankheiten des Bindegewebes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L94"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L94.0",
+        "display": "Sclerodermia circumscripta [Morphaea]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L94.1",
+        "display": "Lineare oder bandförmige Sklerodermie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L94.2",
+        "display": "Calcinosis cutis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L94.3",
+        "display": "Sklerodaktylie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L94.4",
+        "display": "Gottron-Papeln"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L94.5",
+        "display": "Poikilodermia atrophicans vascularis [Jacobi]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L94.6",
+        "display": "Ainhum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L94.8",
+        "display": "Sonstige näher bezeichnete lokalisierte Krankheiten des Bindegewebes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L94.9",
+        "display": "Lokalisierte Krankheit des Bindegewebes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

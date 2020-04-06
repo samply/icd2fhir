@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O47",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O47",
+  "name": "O47",
+  "title": "Frustrane Kontraktionen [Unnütze Wehen]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O47"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O47.0",
+        "display": "Frustrane Kontraktionen vor 37 vollendeten Schwangerschaftswochen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O47.1",
+        "display": "Frustrane Kontraktionen ab 37 oder mehr vollendeten Schwangerschaftswochen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O47.9",
+        "display": "Frustrane Kontraktionen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

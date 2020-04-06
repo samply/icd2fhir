@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N37",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N37",
+  "name": "N37",
+  "title": "Krankheiten der Harnröhre bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N37"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N37.0",
+        "display": "Urethritis bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N37.8",
+        "display": "Sonstige Krankheiten der Harnröhre bei anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

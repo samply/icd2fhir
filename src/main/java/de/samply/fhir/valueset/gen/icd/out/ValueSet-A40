@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A40",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A40",
+  "name": "A40",
+  "title": "Streptokokkensepsis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A40"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A40.0",
+        "display": "Sepsis durch Streptokokken, Gruppe A"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A40.1",
+        "display": "Sepsis durch Streptokokken, Gruppe B"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A40.2",
+        "display": "Sepsis durch Streptokokken, Gruppe D"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A40.3",
+        "display": "Sepsis durch Streptococcus pneumoniae"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A40.8",
+        "display": "Sonstige Sepsis durch Streptokokken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A40.9",
+        "display": "Sepsis durch Streptokokken, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

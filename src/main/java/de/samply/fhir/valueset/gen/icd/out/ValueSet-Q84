@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q84",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q84",
+  "name": "Q84",
+  "title": "Sonstige angeborene Fehlbildungen des Integumentes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q84"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q84.0",
+        "display": "Angeborene Alopezie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q84.1",
+        "display": "Angeborene morphologische Störungen der Haare, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q84.2",
+        "display": "Sonstige angeborene Fehlbildungen der Haare"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q84.3",
+        "display": "Anonychie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q84.4",
+        "display": "Angeborene Leukonychie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q84.5",
+        "display": "Vergrößerte und hypertrophierte Nägel (angeboren)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q84.6",
+        "display": "Sonstige angeborene Fehlbildungen der Nägel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q84.8",
+        "display": "Sonstige näher bezeichnete angeborene Fehlbildungen des Integumentes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q84.9",
+        "display": "Angeborene Fehlbildung des Integumentes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

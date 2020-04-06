@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F48",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F48",
+  "name": "F48",
+  "title": "Andere neurotische Störungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F48"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F48.0",
+        "display": "Neurasthenie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F48.1",
+        "display": "Depersonalisations- und Derealisationssyndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F48.8",
+        "display": "Sonstige neurotische Störungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F48.9",
+        "display": "Neurotische Störung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

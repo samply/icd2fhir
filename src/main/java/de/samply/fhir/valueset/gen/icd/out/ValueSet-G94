@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G94",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G94",
+  "name": "G94",
+  "title": "Sonstige Krankheiten des Gehirns bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G94"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G94.0",
+        "display": "Hydrozephalus bei anderenorts klassifizierten infektiösen und parasitären Krankheiten [A00-B99 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G94.1",
+        "display": "Hydrozephalus bei Neubildungen [C00-D48 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G94.2",
+        "display": "Hydrozephalus bei sonstigen anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G94.8",
+        "display": "Sonstige näher bezeichnete Krankheiten des Gehirns bei anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

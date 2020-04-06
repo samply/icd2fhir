@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B70",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B70",
+  "name": "B70",
+  "title": "Diphyllobothriose und Sparganose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B70"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B70.0",
+        "display": "Diphyllobothriose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B70.1",
+        "display": "Sparganose"
+      }
+    ]
+  }
+}

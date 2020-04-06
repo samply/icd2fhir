@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G37",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G37",
+  "name": "G37",
+  "title": "Sonstige demyelinisierende Krankheiten des Zentralnervensystems",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G37"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G37.0",
+        "display": "Diffuse Hirnsklerose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G37.1",
+        "display": "Zentrale Demyelinisation des Corpus callosum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G37.2",
+        "display": "Zentrale pontine Myelinolyse"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G37.3",
+        "display": "Myelitis transversa acuta bei demyelinisierender Krankheit des Zentralnervensystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G37.4",
+        "display": "Subakute nekrotisierende Myelitis [Foix-Alajouanine-Syndrom]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G37.5",
+        "display": "Konzentrische Sklerose [Baló-Krankheit]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G37.8",
+        "display": "Sonstige näher bezeichnete demyelinisierende Krankheiten des Zentralnervensystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G37.9",
+        "display": "Demyelinisierende Krankheit des Zentralnervensystems, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

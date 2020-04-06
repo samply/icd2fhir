@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E53",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E53",
+  "name": "E53",
+  "title": "Mangel an sonstigen Vitaminen des Vitamin-B-Komplexes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E53"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E53.0",
+        "display": "Riboflavinmangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E53.1",
+        "display": "Pyridoxinmangel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E53.8",
+        "display": "Mangel an sonstigen näher bezeichneten Vitaminen des Vitamin-B-Komplexes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E53.9",
+        "display": "Vitamin-B-Mangel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

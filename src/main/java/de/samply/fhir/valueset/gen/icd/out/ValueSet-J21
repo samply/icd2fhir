@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J21",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J21",
+  "name": "J21",
+  "title": "Akute Bronchiolitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J21"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J21.0",
+        "display": "Akute Bronchiolitis durch Respiratory-Syncytial-Viren [RS-Viren]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J21.1",
+        "display": "Akute Bronchiolitis durch humanes Metapneumovirus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J21.8",
+        "display": "Akute Bronchiolitis durch sonstige näher bezeichnete Erreger"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J21.9",
+        "display": "Akute Bronchiolitis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

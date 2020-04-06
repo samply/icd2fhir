@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A28",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A28",
+  "name": "A28",
+  "title": "Sonstige bakterielle Zoonosen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A28"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A28.0",
+        "display": "Pasteurellose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A28.1",
+        "display": "Katzenkratzkrankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A28.2",
+        "display": "Extraintestinale Yersiniose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A28.8",
+        "display": "Sonstige näher bezeichnete bakterielle Zoonosen, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A28.9",
+        "display": "Bakterielle Zoonose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

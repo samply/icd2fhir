@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C06",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C06",
+  "name": "C06",
+  "title": "Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile des Mundes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C06"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C06.0",
+        "display": "Wangenschleimhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C06.1",
+        "display": "Vestibulum oris"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C06.2",
+        "display": "Retromolarregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C06.8",
+        "display": "Sonstige und nicht näher bezeichnete Teile des Mundes, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C06.9",
+        "display": "Mund, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

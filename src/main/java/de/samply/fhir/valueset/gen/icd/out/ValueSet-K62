@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K62",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K62",
+  "name": "K62",
+  "title": "Sonstige Krankheiten des Anus und des Rektums",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K62"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K62.0",
+        "display": "Analpolyp"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K62.1",
+        "display": "Rektumpolyp"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K62.2",
+        "display": "Analprolaps"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K62.3",
+        "display": "Rektumprolaps"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K62.4",
+        "display": "Stenose des Anus und des Rektums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K62.5",
+        "display": "Hämorrhagie des Anus und des Rektums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K62.6",
+        "display": "Ulkus des Anus und des Rektums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K62.7",
+        "display": "Strahlenproktitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K62.8",
+        "display": "Sonstige näher bezeichnete Krankheiten des Anus und des Rektums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K62.9",
+        "display": "Krankheit des Anus und des Rektums, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

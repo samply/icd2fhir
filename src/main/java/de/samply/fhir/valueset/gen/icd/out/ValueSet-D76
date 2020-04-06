@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D76",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D76",
+  "name": "D76",
+  "title": "Sonstige näher bezeichnete Krankheiten mit Beteiligung des lymphoretikulären Gewebes und des retikulohistiozytären Systems",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D76"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D76.1",
+        "display": "Hämophagozytäre Lymphohistiozytose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D76.2",
+        "display": "Hämophagozytäres Syndrom bei Infektionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D76.3",
+        "display": "Sonstige Histiozytose-Syndrome"
+      }
+    ]
+  }
+}

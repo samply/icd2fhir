@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K03",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K03",
+  "name": "K03",
+  "title": "Sonstige Krankheiten der Zahnhartsubstanzen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K03"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K03.0",
+        "display": "Ausgeprägte Attrition der Zähne"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K03.1",
+        "display": "Abrasion der Zähne"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K03.2",
+        "display": "Erosion der Zähne"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K03.3",
+        "display": "Pathologische Zahnresorption"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K03.4",
+        "display": "Hyperzementose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K03.5",
+        "display": "Ankylose der Zähne"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K03.6",
+        "display": "Auflagerungen [Beläge] auf den Zähnen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K03.7",
+        "display": "Farbänderungen der Zahnhartsubstanzen nach dem Zahndurchbruch"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K03.8",
+        "display": "Sonstige näher bezeichnete Krankheiten der Zahnhartsubstanzen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K03.9",
+        "display": "Krankheit der Zahnhartsubstanzen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

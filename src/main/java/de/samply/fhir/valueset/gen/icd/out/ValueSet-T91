@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T91",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T91",
+  "name": "T91",
+  "title": "Folgen von Verletzungen des Halses und des Rumpfes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T91"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T91.0",
+        "display": "Folgen einer oberflächlichen Verletzung und einer offenen Wunde des Halses und des Rumpfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T91.1",
+        "display": "Folgen einer Fraktur der Wirbelsäule"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T91.2",
+        "display": "Folgen einer sonstigen Fraktur des Thorax und des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T91.3",
+        "display": "Folgen einer Verletzung des Rückenmarkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T91.4",
+        "display": "Folgen einer Verletzung der intrathorakalen Organe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T91.5",
+        "display": "Folgen einer Verletzung der intraabdominalen Organe und der Beckenorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T91.8",
+        "display": "Folgen sonstiger näher bezeichneter Verletzungen des Halses und des Rumpfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T91.9",
+        "display": "Folgen einer nicht näher bezeichneten Verletzung des Halses und des Rumpfes"
+      }
+    ]
+  }
+}

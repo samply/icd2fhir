@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P08",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P08",
+  "name": "P08",
+  "title": "Störungen im Zusammenhang mit langer Schwangerschaftsdauer und hohem Geburtsgewicht",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P08"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P08.0",
+        "display": "Übergewichtige Neugeborene"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P08.1",
+        "display": "Sonstige für das Gestationsalter zu schwere Neugeborene"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P08.2",
+        "display": "Nach dem Termin Geborenes, nicht zu schwer für das Gestationsalter"
+      }
+    ]
+  }
+}

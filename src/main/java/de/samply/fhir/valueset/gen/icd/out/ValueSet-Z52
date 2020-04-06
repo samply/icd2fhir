@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z52",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z52",
+  "name": "Z52",
+  "title": "Spender von Organen oder Geweben",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z52"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z52.0",
+        "display": "Blutspender"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z52.1",
+        "display": "Hautspender"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z52.2",
+        "display": "Knochenspender"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z52.3",
+        "display": "Knochenmarkspender"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z52.4",
+        "display": "Nierenspender"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z52.5",
+        "display": "Korneaspender"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z52.6",
+        "display": "Leberspender"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z52.7",
+        "display": "Herzspender"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z52.8",
+        "display": "Spender sonstiger Organe oder Gewebe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z52.9",
+        "display": "Spender eines nicht näher bezeichneten Organs oder Gewebes"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A08",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A08",
+  "name": "A08",
+  "title": "Virusbedingte und sonstige näher bezeichnete Darminfektionen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A08"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A08.0",
+        "display": "Enteritis durch Rotaviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A08.1",
+        "display": "Akute Gastroenteritis durch Norovirus [Norwalk-Virus]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A08.2",
+        "display": "Enteritis durch Adenoviren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A08.3",
+        "display": "Enteritis durch sonstige Viren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A08.4",
+        "display": "Virusbedingte Darminfektion, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A08.5",
+        "display": "Sonstige näher bezeichnete Darminfektionen"
+      }
+    ]
+  }
+}

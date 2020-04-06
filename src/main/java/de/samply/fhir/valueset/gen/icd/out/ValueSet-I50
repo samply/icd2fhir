@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I50",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I50",
+  "name": "I50",
+  "title": "Herzinsuffizienz",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I50"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I50.0",
+        "display": "Kongestive Herzinsuffizienz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I50.1",
+        "display": "Linksherzinsuffizienz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I50.9",
+        "display": "Herzinsuffizienz, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

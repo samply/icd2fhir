@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K43",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K43",
+  "name": "K43",
+  "title": "Hernia ventralis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K43"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K43.0",
+        "display": "Narbenhernie mit Einklemmung, ohne Gangrän"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K43.1",
+        "display": "Narbenhernie mit Gangrän"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K43.2",
+        "display": "Narbenhernie ohne Einklemmung und ohne Gangrän"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K43.3",
+        "display": "Parastomale Hernie mit Einklemmung, ohne Gangrän"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K43.4",
+        "display": "Parastomale Hernie mit Gangrän"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K43.5",
+        "display": "Parastomale Hernie ohne Einklemmung und ohne Gangrän"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K43.6",
+        "display": "Sonstige und nicht näher bezeichnete Hernia ventralis mit Einklemmung, ohne Gangrän"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K43.7",
+        "display": "Sonstige und nicht näher bezeichnete Hernia ventralis mit Gangrän"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K43.9",
+        "display": "Sonstige und nicht näher bezeichnete Hernia ventralis ohne Einklemmung und ohne Gangrän"
+      }
+    ]
+  }
+}

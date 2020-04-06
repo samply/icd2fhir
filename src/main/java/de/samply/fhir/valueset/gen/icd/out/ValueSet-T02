@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T02",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T02",
+  "name": "T02",
+  "title": "Frakturen mit Beteiligung mehrerer Körperregionen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T02"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T02.0",
+        "display": "Frakturen mit Beteiligung von Kopf und Hals"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T02.1",
+        "display": "Frakturen mit Beteiligung von Thorax und Lumbosakralgegend oder von Thorax und Becken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T02.2",
+        "display": "Frakturen mit Beteiligung mehrerer Regionen einer oberen Extremität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T02.3",
+        "display": "Frakturen mit Beteiligung mehrerer Regionen einer unteren Extremität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T02.4",
+        "display": "Frakturen mit Beteiligung mehrerer Regionen beider oberer Extremitäten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T02.5",
+        "display": "Frakturen mit Beteiligung mehrerer Regionen beider unterer Extremitäten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T02.6",
+        "display": "Frakturen mit Beteiligung mehrerer Regionen der oberen Extremität(en) und mehrerer Regionen der unteren Extremität(en)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T02.7",
+        "display": "Frakturen mit Beteiligung von Thorax, Lumbosakralgegend und Extremität(en) oder von Thorax, Becken und Extremität(en)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T02.8",
+        "display": "Frakturen mit Beteiligung sonstiger Kombinationen von Körperregionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T02.9",
+        "display": "Multiple Frakturen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

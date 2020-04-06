@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I42",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I42",
+  "name": "I42",
+  "title": "Kardiomyopathie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I42"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I42.0",
+        "display": "Dilatative Kardiomyopathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I42.1",
+        "display": "Hypertrophische obstruktive Kardiomyopathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I42.2",
+        "display": "Sonstige hypertrophische Kardiomyopathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I42.3",
+        "display": "Eosinophile endomyokardiale Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I42.4",
+        "display": "Endokardfibroelastose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I42.5",
+        "display": "Sonstige restriktive Kardiomyopathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I42.6",
+        "display": "Alkoholische Kardiomyopathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I42.7",
+        "display": "Kardiomyopathie durch Arzneimittel oder sonstige exogene Substanzen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I42.8",
+        "display": "Sonstige Kardiomyopathien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I42.9",
+        "display": "Kardiomyopathie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

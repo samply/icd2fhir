@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N48",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N48",
+  "name": "N48",
+  "title": "Sonstige Krankheiten des Penis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N48"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N48.0",
+        "display": "Leukoplakie des Penis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N48.1",
+        "display": "Balanoposthitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N48.2",
+        "display": "Sonstige entzündliche Krankheiten des Penis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N48.3",
+        "display": "Priapismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N48.4",
+        "display": "Impotenz organischen Ursprungs"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N48.5",
+        "display": "Ulkus des Penis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N48.6",
+        "display": "Induratio penis plastica"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N48.8",
+        "display": "Sonstige näher bezeichnete Krankheiten des Penis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N48.9",
+        "display": "Krankheit des Penis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

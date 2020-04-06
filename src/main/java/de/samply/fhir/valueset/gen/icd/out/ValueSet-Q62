@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q62",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q62",
+  "name": "Q62",
+  "title": "Angeborene obstruktive Defekte des Nierenbeckens und angeborene Fehlbildungen des Ureters",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q62"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q62.0",
+        "display": "Angeborene Hydronephrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q62.1",
+        "display": "Atresie und (angeborene) Stenose des Ureters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q62.2",
+        "display": "Angeborener Megaureter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q62.3",
+        "display": "Sonstige (angeborene) obstruktive Defekte des Nierenbeckens und des Ureters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q62.4",
+        "display": "Agenesie des Ureters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q62.5",
+        "display": "Duplikatur des Ureters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q62.6",
+        "display": "Lageanomalie des Ureters"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q62.7",
+        "display": "Angeborener vesiko-uretero-renaler Reflux"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q62.8",
+        "display": "Sonstige angeborene Fehlbildungen des Ureters"
+      }
+    ]
+  }
+}

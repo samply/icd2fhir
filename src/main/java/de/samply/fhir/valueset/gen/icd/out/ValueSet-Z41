@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z41",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z41",
+  "name": "Z41",
+  "title": "Maßnahmen aus anderen Gründen als der Wiederherstellung des Gesundheitszustandes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z41"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z41.0",
+        "display": "Haartransplantation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z41.1",
+        "display": "Andere plastische Chirurgie aus kosmetischen Gründen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z41.2",
+        "display": "Zirkumzision als Routinemaßnahme oder aus rituellen Gründen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z41.3",
+        "display": "Ohrlochstechen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z41.8",
+        "display": "Sonstige Maßnahmen aus anderen Gründen als der Wiederherstellung des Gesundheitszustandes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z41.9",
+        "display": "Maßnahme aus anderen Gründen als der Wiederherstellung des Gesundheitszustandes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

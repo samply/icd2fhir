@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M12",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M12",
+  "name": "M12",
+  "title": "Sonstige näher bezeichnete Arthropathien",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M12"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M12.0",
+        "display": "Chronische postrheumatische Arthritis [Jaccoud-Arthritis]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M12.1",
+        "display": "Kaschin-Beck-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M12.2",
+        "display": "Villonoduläre Synovitis (pigmentiert)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M12.3",
+        "display": "Palindromer Rheumatismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M12.4",
+        "display": "Hydrops intermittens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M12.5",
+        "display": "Traumatische Arthropathie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M12.8",
+        "display": "Sonstige näher bezeichnete Arthropathien, anderenorts nicht klassifiziert"
+      }
+    ]
+  }
+}

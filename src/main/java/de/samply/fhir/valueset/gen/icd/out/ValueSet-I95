@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I95",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I95",
+  "name": "I95",
+  "title": "Hypotonie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I95"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I95.0",
+        "display": "Idiopathische Hypotonie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I95.1",
+        "display": "Orthostatische Hypotonie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I95.2",
+        "display": "Hypotonie durch Arzneimittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I95.8",
+        "display": "Sonstige Hypotonie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I95.9",
+        "display": "Hypotonie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

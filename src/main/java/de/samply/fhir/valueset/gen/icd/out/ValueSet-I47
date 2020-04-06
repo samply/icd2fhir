@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I47",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I47",
+  "name": "I47",
+  "title": "Paroxysmale Tachykardie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I47"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I47.0",
+        "display": "Ventrikuläre Arrhythmie durch Re-entry"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I47.1",
+        "display": "Supraventrikuläre Tachykardie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I47.2",
+        "display": "Ventrikuläre Tachykardie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I47.9",
+        "display": "Paroxysmale Tachykardie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

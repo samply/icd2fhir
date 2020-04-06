@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I97",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I97",
+  "name": "I97",
+  "title": "Kreislaufkomplikationen nach medizinischen Maßnahmen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I97"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I97.0",
+        "display": "Postkardiotomie-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I97.1",
+        "display": "Sonstige Funktionsstörungen nach kardiochirurgischem Eingriff"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I97.2",
+        "display": "Lymphödem nach Mastektomie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I97.8",
+        "display": "Sonstige Kreislaufkomplikationen nach medizinischen Maßnahmen, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I97.9",
+        "display": "Kreislaufkomplikation nach medizinischer Maßnahme, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

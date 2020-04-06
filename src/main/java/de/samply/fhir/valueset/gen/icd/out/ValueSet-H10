@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H10",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H10",
+  "name": "H10",
+  "title": "Konjunktivitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H10"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H10.0",
+        "display": "Mukopurulente Konjunktivitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H10.1",
+        "display": "Akute allergische Konjunktivitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H10.2",
+        "display": "Sonstige akute Konjunktivitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H10.3",
+        "display": "Akute Konjunktivitis, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H10.4",
+        "display": "Chronische Konjunktivitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H10.5",
+        "display": "Blepharokonjunktivitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H10.8",
+        "display": "Sonstige Konjunktivitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H10.9",
+        "display": "Konjunktivitis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

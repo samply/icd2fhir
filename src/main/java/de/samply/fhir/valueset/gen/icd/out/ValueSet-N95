@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N95",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N95",
+  "name": "N95",
+  "title": "Klimakterische Störungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N95"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N95.0",
+        "display": "Postmenopausenblutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N95.1",
+        "display": "Zustände im Zusammenhang mit der Menopause und dem Klimakterium"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N95.2",
+        "display": "Atrophische Kolpitis in der Postmenopause"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N95.3",
+        "display": "Zustände im Zusammenhang mit artifizieller Menopause"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N95.8",
+        "display": "Sonstige näher bezeichnete klimakterische Störungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N95.9",
+        "display": "Klimakterische Störung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

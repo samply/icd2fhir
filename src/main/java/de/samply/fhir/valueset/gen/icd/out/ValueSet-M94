@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M94",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M94",
+  "name": "M94",
+  "title": "Sonstige Knorpelkrankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M94"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M94.0",
+        "display": "Tietze-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M94.1",
+        "display": "Panchondritis [Rezidivierende Polychondritis]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M94.2",
+        "display": "Chondromalazie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M94.3",
+        "display": "Chondrolyse"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M94.8",
+        "display": "Sonstige näher bezeichnete Knorpelkrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M94.9",
+        "display": "Knorpelkrankheit, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

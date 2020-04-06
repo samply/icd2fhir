@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O01",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O01",
+  "name": "O01",
+  "title": "Blasenmole",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O01"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O01.0",
+        "display": "Klassische Blasenmole"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O01.1",
+        "display": "Partielle oder inkomplette Blasenmole"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O01.9",
+        "display": "Blasenmole, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

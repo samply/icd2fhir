@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "R95",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/R95",
+  "name": "R95",
+  "title": "Plötzlicher Kindstod",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "R95"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R95.0",
+        "display": "Plötzlicher Kindstod mit Angabe einer Obduktion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "R95.9",
+        "display": "Plötzlicher Kindstod ohne Angabe einer Obduktion"
+      }
+    ]
+  }
+}

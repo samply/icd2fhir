@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F95",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F95",
+  "name": "F95",
+  "title": "Ticstörungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F95"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F95.0",
+        "display": "Vorübergehende Ticstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F95.1",
+        "display": "Chronische motorische oder vokale Ticstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F95.2",
+        "display": "Kombinierte vokale und multiple motorische Tics [Tourette-Syndrom]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F95.8",
+        "display": "Sonstige Ticstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F95.9",
+        "display": "Ticstörung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

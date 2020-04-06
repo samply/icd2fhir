@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L60",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L60",
+  "name": "L60",
+  "title": "Krankheiten der Nägel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L60"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L60.0",
+        "display": "Unguis incarnatus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L60.1",
+        "display": "Onycholysis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L60.2",
+        "display": "Onychogryposis [Onychogryphosis]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L60.3",
+        "display": "Nageldystrophie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L60.4",
+        "display": "Beau-Reil-Querfurchen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L60.5",
+        "display": "Yellow-nail-Syndrom [Syndrom der gelben Nägel]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L60.8",
+        "display": "Sonstige Krankheiten der Nägel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L60.9",
+        "display": "Krankheit der Nägel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

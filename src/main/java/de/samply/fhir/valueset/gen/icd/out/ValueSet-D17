@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D17",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D17",
+  "name": "D17",
+  "title": "Gutartige Neubildung des Fettgewebes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D17"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D17.0",
+        "display": "Gutartige Neubildung des Fettgewebes der Haut und der Unterhaut des Kopfes, des Gesichtes und des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D17.1",
+        "display": "Gutartige Neubildung des Fettgewebes der Haut und der Unterhaut des Rumpfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D17.2",
+        "display": "Gutartige Neubildung des Fettgewebes der Haut und der Unterhaut der Extremitäten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D17.3",
+        "display": "Gutartige Neubildung des Fettgewebes der Haut und der Unterhaut an sonstigen und nicht näher bezeichneten Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D17.4",
+        "display": "Gutartige Neubildung des Fettgewebes der intrathorakalen Organe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D17.5",
+        "display": "Gutartige Neubildung des Fettgewebes der intraabdominalen Organe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D17.6",
+        "display": "Gutartige Neubildung des Fettgewebes des Samenstrangs"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D17.7",
+        "display": "Gutartige Neubildung des Fettgewebes an sonstigen Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D17.9",
+        "display": "Gutartige Neubildung des Fettgewebes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

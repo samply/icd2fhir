@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T35",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T35",
+  "name": "T35",
+  "title": "Erfrierung mit Beteiligung mehrerer Körperregionen und nicht näher bezeichnete Erfrierung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T35"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T35.0",
+        "display": "Oberflächliche Erfrierung mit Beteiligung mehrerer Körperregionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T35.1",
+        "display": "Erfrierung mit Gewebsnekrose mit Beteiligung mehrerer Körperregionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T35.2",
+        "display": "Nicht näher bezeichnete Erfrierung des Kopfes und des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T35.3",
+        "display": "Nicht näher bezeichnete Erfrierung des Thorax, des Abdomens, der Lumbosakralgegend und des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T35.4",
+        "display": "Nicht näher bezeichnete Erfrierung der oberen Extremität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T35.5",
+        "display": "Nicht näher bezeichnete Erfrierung der unteren Extremität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T35.6",
+        "display": "Nicht näher bezeichnete Erfrierung mit Beteiligung mehrerer Körperregionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T35.7",
+        "display": "Nicht näher bezeichnete Erfrierung an nicht näher bezeichneten Lokalisationen"
+      }
+    ]
+  }
+}

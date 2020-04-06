@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L99",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L99",
+  "name": "L99",
+  "title": "Sonstige Krankheiten der Haut und der Unterhaut bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L99"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L99.0",
+        "display": "Kutane Amyloidose [E85.- ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L99.8",
+        "display": "Sonstige näher bezeichnete Krankheiten der Haut und der Unterhaut bei anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

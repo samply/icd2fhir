@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S93",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S93",
+  "name": "S93",
+  "title": "Luxation, Verstauchung und Zerrung der Gelenke und Bänder in Höhe des oberen Sprunggelenkes und des Fußes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S93"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S93.0",
+        "display": "Luxation des oberen Sprunggelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S93.1",
+        "display": "Luxation einer oder mehrerer Zehen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S93.2",
+        "display": "Traumatische Ruptur von Bändern in Höhe des oberen Sprunggelenkes und des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S93.3",
+        "display": "Luxation sonstiger und nicht näher bezeichneter Teile des Fußes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S93.4",
+        "display": "Verstauchung und Zerrung des oberen Sprunggelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S93.5",
+        "display": "Verstauchung und Zerrung einer oder mehrerer Zehen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S93.6",
+        "display": "Verstauchung und Zerrung sonstiger und nicht näher bezeichneter Teile des Fußes"
+      }
+    ]
+  }
+}

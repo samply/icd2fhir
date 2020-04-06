@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F43",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F43",
+  "name": "F43",
+  "title": "Reaktionen auf schwere Belastungen und Anpassungsstörungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F43"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F43.0",
+        "display": "Akute Belastungsreaktion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F43.1",
+        "display": "Posttraumatische Belastungsstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F43.2",
+        "display": "Anpassungsstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F43.8",
+        "display": "Sonstige Reaktionen auf schwere Belastung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F43.9",
+        "display": "Reaktion auf schwere Belastung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

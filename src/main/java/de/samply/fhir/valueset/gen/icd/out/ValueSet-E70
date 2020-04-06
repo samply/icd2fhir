@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E70",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E70",
+  "name": "E70",
+  "title": "Störungen des Stoffwechsels aromatischer Aminosäuren",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E70"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E70.0",
+        "display": "Klassische Phenylketonurie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E70.1",
+        "display": "Sonstige Hyperphenylalaninämien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E70.2",
+        "display": "Störungen des Tyrosinstoffwechsels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E70.3",
+        "display": "Albinismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E70.8",
+        "display": "Sonstige Störungen des Stoffwechsels aromatischer Aminosäuren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E70.9",
+        "display": "Störung des Stoffwechsels aromatischer Aminosäuren, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

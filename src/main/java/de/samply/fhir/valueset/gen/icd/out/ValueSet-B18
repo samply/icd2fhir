@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B18",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B18",
+  "name": "B18",
+  "title": "Chronische Virushepatitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B18"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B18.0",
+        "display": "Chronische Virushepatitis B mit Delta-Virus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B18.1",
+        "display": "Chronische Virushepatitis B ohne Delta-Virus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B18.2",
+        "display": "Chronische Virushepatitis C"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B18.8",
+        "display": "Sonstige chronische Virushepatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B18.9",
+        "display": "Chronische Virushepatitis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

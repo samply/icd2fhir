@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O42",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O42",
+  "name": "O42",
+  "title": "Vorzeitiger Blasensprung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O42"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O42.0",
+        "display": "Vorzeitiger Blasensprung, Wehenbeginn innerhalb von 24 Stunden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O42.1",
+        "display": "Vorzeitiger Blasensprung, Wehenbeginn nach Ablauf von 24 Stunden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O42.2",
+        "display": "Vorzeitiger Blasensprung, Wehenhemmung durch Therapie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O42.9",
+        "display": "Vorzeitiger Blasensprung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

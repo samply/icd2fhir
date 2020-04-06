@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q33",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q33",
+  "name": "Q33",
+  "title": "Angeborene Fehlbildungen der Lunge",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q33"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q33.0",
+        "display": "Angeborene Zystenlunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q33.1",
+        "display": "Akzessorischer Lungenlappen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q33.2",
+        "display": "Lungensequestration (angeboren)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q33.3",
+        "display": "Agenesie der Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q33.4",
+        "display": "Angeborene Bronchiektasie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q33.5",
+        "display": "Ektopisches Gewebe in der Lunge (angeboren)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q33.6",
+        "display": "Hypoplasie und Dysplasie der Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q33.8",
+        "display": "Sonstige angeborene Fehlbildungen der Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q33.9",
+        "display": "Angeborene Fehlbildung der Lunge, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

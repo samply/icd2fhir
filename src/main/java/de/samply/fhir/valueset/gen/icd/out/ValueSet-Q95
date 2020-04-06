@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q95",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q95",
+  "name": "Q95",
+  "title": "Balancierte Chromosomen-Rearrangements und Struktur-Marker, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q95"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q95.0",
+        "display": "Balancierte Translokation und Insertion beim normalen Individuum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q95.1",
+        "display": "Chromosomen-Inversion beim normalen Individuum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q95.2",
+        "display": "Balanciertes Rearrangement der Autosomen beim abnormen Individuum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q95.3",
+        "display": "Balanciertes Rearrangement zwischen Gonosomen und Autosomen beim abnormen Individuum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q95.4",
+        "display": "Individuen mit Marker-Heterochromatin"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q95.5",
+        "display": "Individuen mit autosomaler Bruchstelle"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q95.8",
+        "display": "Sonstige balancierte Chromosomen-Rearrangements und Struktur-Marker"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q95.9",
+        "display": "Balanciertes Chromosomen-Rearrangement und Struktur-Marker, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

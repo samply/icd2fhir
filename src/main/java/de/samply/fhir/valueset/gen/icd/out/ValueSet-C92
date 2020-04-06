@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C92",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C92",
+  "name": "C92",
+  "title": "Myeloische Leukämie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C92"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C92.0",
+        "display": "Akute myeloblastische Leukämie [AML]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C92.1",
+        "display": "Chronische myeloische Leukämie [CML], BCR/ABL-positiv"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C92.2",
+        "display": "Atypische chronische myeloische Leukämie, BCR/ABL-negativ"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C92.3",
+        "display": "Myelosarkom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C92.4",
+        "display": "Akute Promyelozyten-Leukämie [PCL]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C92.5",
+        "display": "Akute myelomonozytäre Leukämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C92.6",
+        "display": "Akute myeloische Leukämie mit 11q23-Abnormität"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C92.7",
+        "display": "Sonstige myeloische Leukämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C92.8",
+        "display": "Akute myeloische Leukämie mit multilineärer Dysplasie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C92.9",
+        "display": "Myeloische Leukämie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

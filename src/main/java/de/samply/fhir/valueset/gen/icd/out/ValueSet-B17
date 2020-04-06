@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B17",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B17",
+  "name": "B17",
+  "title": "Sonstige akute Virushepatitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B17"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B17.0",
+        "display": "Akute Delta-Virus- (Super-) Infektion eines Hepatitis-B- (Virus-) Trägers"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B17.1",
+        "display": "Akute Virushepatitis C"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B17.2",
+        "display": "Akute Virushepatitis E"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B17.8",
+        "display": "Sonstige näher bezeichnete akute Virushepatitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B17.9",
+        "display": "Akute Virushepatitis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O67",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O67",
+  "name": "O67",
+  "title": "Komplikationen bei Wehen und Entbindung durch intrapartale Blutung, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O67"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O67.0",
+        "display": "Intrapartale Blutung bei Gerinnungsstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O67.8",
+        "display": "Sonstige intrapartale Blutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O67.9",
+        "display": "Intrapartale Blutung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

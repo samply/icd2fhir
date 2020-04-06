@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I85",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I85",
+  "name": "I85",
+  "title": "Ösophagusvarizen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I85"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I85.0",
+        "display": "Ösophagusvarizen mit Blutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I85.9",
+        "display": "Ösophagusvarizen ohne Blutung"
+      }
+    ]
+  }
+}

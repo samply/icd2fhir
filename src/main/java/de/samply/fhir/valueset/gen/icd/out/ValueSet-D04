@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D04",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D04",
+  "name": "D04",
+  "title": "Carcinoma in situ der Haut",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D04"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D04.0",
+        "display": "Lippenhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D04.1",
+        "display": "Haut des Augenlides, einschließlich Kanthus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D04.2",
+        "display": "Haut des Ohres und des äußeren Gehörganges"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D04.3",
+        "display": "Haut sonstiger und nicht näher bezeichneter Teile des Gesichtes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D04.4",
+        "display": "Behaarte Kopfhaut und Haut des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D04.5",
+        "display": "Haut des Rumpfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D04.6",
+        "display": "Haut der oberen Extremität, einschließlich Schulter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D04.7",
+        "display": "Haut der unteren Extremität, einschließlich Hüfte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D04.8",
+        "display": "Haut an sonstigen Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D04.9",
+        "display": "Haut, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

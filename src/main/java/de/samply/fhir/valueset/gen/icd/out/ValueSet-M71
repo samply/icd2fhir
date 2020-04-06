@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M71",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M71",
+  "name": "M71",
+  "title": "Sonstige Bursopathien",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M71"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M71.0",
+        "display": "Schleimbeutelabszess"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M71.1",
+        "display": "Sonstige infektiöse Bursitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M71.2",
+        "display": "Synovialzyste im Bereich der Kniekehle [Baker-Zyste]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M71.3",
+        "display": "Sonstige Schleimbeutelzyste"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M71.4",
+        "display": "Bursitis calcarea"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M71.5",
+        "display": "Sonstige Bursitis, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M71.8",
+        "display": "Sonstige näher bezeichnete Bursopathien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M71.9",
+        "display": "Bursopathie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

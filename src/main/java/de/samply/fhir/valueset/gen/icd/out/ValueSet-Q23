@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q23",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q23",
+  "name": "Q23",
+  "title": "Angeborene Fehlbildungen der Aorten- und der Mitralklappe",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q23"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q23.0",
+        "display": "Angeborene Aortenklappenstenose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q23.1",
+        "display": "Angeborene Aortenklappeninsuffizienz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q23.2",
+        "display": "Angeborene Mitralklappenstenose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q23.3",
+        "display": "Angeborene Mitralklappeninsuffizienz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q23.4",
+        "display": "Hypoplastisches Linksherzsyndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q23.8",
+        "display": "Sonstige angeborene Fehlbildungen der Aorten- und Mitralklappe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q23.9",
+        "display": "Angeborene Fehlbildung der Aorten- und Mitralklappe, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

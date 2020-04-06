@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J96",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J96",
+  "name": "J96",
+  "title": "Respiratorische Insuffizienz, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J96"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J96.0",
+        "display": "Akute respiratorische Insuffizienz, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J96.1",
+        "display": "Chronische respiratorische Insuffizienz, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J96.9",
+        "display": "Respiratorische Insuffizienz, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

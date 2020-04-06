@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F50",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F50",
+  "name": "F50",
+  "title": "Essstörungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F50"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F50.0",
+        "display": "Anorexia nervosa"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F50.1",
+        "display": "Atypische Anorexia nervosa"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F50.2",
+        "display": "Bulimia nervosa"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F50.3",
+        "display": "Atypische Bulimia nervosa"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F50.4",
+        "display": "Essattacken bei anderen psychischen Störungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F50.5",
+        "display": "Erbrechen bei anderen psychischen Störungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F50.8",
+        "display": "Sonstige Essstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F50.9",
+        "display": "Essstörung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

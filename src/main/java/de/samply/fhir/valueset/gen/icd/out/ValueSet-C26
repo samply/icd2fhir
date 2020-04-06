@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C26",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C26",
+  "name": "C26",
+  "title": "Bösartige Neubildung sonstiger und ungenau bezeichneter Verdauungsorgane",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C26"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C26.0",
+        "display": "Intestinaltrakt, Teil nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C26.1",
+        "display": "Milz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C26.8",
+        "display": "Verdauungssystem, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C26.9",
+        "display": "Ungenau bezeichnete Lokalisationen des Verdauungssystems"
+      }
+    ]
+  }
+}

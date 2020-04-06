@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T32",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T32",
+  "name": "T32",
+  "title": "Verätzungen, klassifiziert nach dem Ausmaß der betroffenen Körperoberfläche",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T32"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T32.0",
+        "display": "Verätzungen von weniger als 10 % der Körperoberfläche"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T32.1",
+        "display": "Verätzungen von 10-19 % der Körperoberfläche"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T32.2",
+        "display": "Verätzungen von 20-29 % der Körperoberfläche"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T32.3",
+        "display": "Verätzungen von 30-39 % der Körperoberfläche"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T32.4",
+        "display": "Verätzungen von 40-49 % der Körperoberfläche"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T32.5",
+        "display": "Verätzungen von 50-59 % der Körperoberfläche"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T32.6",
+        "display": "Verätzungen von 60-69 % der Körperoberfläche"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T32.7",
+        "display": "Verätzungen von 70-79 % der Körperoberfläche"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T32.8",
+        "display": "Verätzungen von 80-89 % der Körperoberfläche"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T32.9",
+        "display": "Verätzungen von 90 % oder mehr der Körperoberfläche"
+      }
+    ]
+  }
+}

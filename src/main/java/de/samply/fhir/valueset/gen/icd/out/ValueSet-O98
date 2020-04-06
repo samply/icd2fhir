@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O98",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O98",
+  "name": "O98",
+  "title": "Infektiöse und parasitäre Krankheiten der Mutter, die anderenorts klassifizierbar sind, die jedoch Schwangerschaft, Geburt und Wochenbett komplizieren",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O98"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O98.0",
+        "display": "Tuberkulose, die Schwangerschaft, Geburt und Wochenbett kompliziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O98.1",
+        "display": "Syphilis, die Schwangerschaft, Geburt und Wochenbett kompliziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O98.2",
+        "display": "Gonorrhoe, die Schwangerschaft, Geburt und Wochenbett kompliziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O98.3",
+        "display": "Sonstige Infektionen, hauptsächlich durch Geschlechtsverkehr übertragen, die Schwangerschaft, Geburt und Wochenbett komplizieren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O98.4",
+        "display": "Virushepatitis, die Schwangerschaft, Geburt und Wochenbett kompliziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O98.5",
+        "display": "Sonstige Viruskrankheiten, die Schwangerschaft, Geburt und Wochenbett komplizieren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O98.6",
+        "display": "Protozoenkrankheiten, die Schwangerschaft, Geburt oder Wochenbett komplizieren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O98.7",
+        "display": "HIV-Krankheit [Humane Immundefizienz-Viruskrankheit], die Schwangerschaft, Geburt und Wochenbett kompliziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O98.8",
+        "display": "Sonstige infektiöse und parasitäre Krankheiten der Mutter, die Schwangerschaft, Geburt und Wochenbett komplizieren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O98.9",
+        "display": "Nicht näher bezeichnete infektiöse oder parasitäre Krankheit der Mutter, die Schwangerschaft, Geburt und Wochenbett kompliziert"
+      }
+    ]
+  }
+}

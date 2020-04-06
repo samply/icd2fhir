@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S13",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S13",
+  "name": "S13",
+  "title": "Luxation, Verstauchung und Zerrung von Gelenken und Bändern in Halshöhe",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S13"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S13.0",
+        "display": "Traumatische Ruptur einer zervikalen Bandscheibe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S13.1",
+        "display": "Luxation eines Halswirbels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S13.2",
+        "display": "Luxation sonstiger und nicht näher bezeichneter Teile im Bereich des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S13.3",
+        "display": "Multiple Luxationen im Bereich des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S13.4",
+        "display": "Verstauchung und Zerrung der Halswirbelsäule"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S13.5",
+        "display": "Verstauchung und Zerrung in der Schilddrüsenregion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S13.6",
+        "display": "Verstauchung und Zerrung von Gelenken und Bändern sonstiger und nicht näher bezeichneter Teile des Halses"
+      }
+    ]
+  }
+}

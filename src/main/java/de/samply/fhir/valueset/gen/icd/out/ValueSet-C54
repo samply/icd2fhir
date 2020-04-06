@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C54",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C54",
+  "name": "C54",
+  "title": "Bösartige Neubildung des Corpus uteri",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C54"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C54.0",
+        "display": "Isthmus uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C54.1",
+        "display": "Endometrium"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C54.2",
+        "display": "Myometrium"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C54.3",
+        "display": "Fundus uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C54.8",
+        "display": "Corpus uteri, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C54.9",
+        "display": "Corpus uteri, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

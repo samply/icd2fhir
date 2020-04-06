@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C38",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C38",
+  "name": "C38",
+  "title": "Bösartige Neubildung des Herzens, des Mediastinums und der Pleura",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C38"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C38.0",
+        "display": "Herz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C38.1",
+        "display": "Vorderes Mediastinum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C38.2",
+        "display": "Hinteres Mediastinum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C38.3",
+        "display": "Mediastinum, Teil nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C38.4",
+        "display": "Pleura"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C38.8",
+        "display": "Herz, Mediastinum und Pleura, mehrere Teilbereiche überlappend"
+      }
+    ]
+  }
+}

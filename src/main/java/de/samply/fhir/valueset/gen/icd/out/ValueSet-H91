@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H91",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H91",
+  "name": "H91",
+  "title": "Sonstiger Hörverlust",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H91"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H91.0",
+        "display": "Ototoxischer Hörverlust"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H91.1",
+        "display": "Presbyakusis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H91.2",
+        "display": "Idiopathischer Hörsturz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H91.3",
+        "display": "Taubstummheit, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H91.8",
+        "display": "Sonstiger näher bezeichneter Hörverlust"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H91.9",
+        "display": "Hörverlust, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

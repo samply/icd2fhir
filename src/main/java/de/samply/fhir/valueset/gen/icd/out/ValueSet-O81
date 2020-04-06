@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O81",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O81",
+  "name": "O81",
+  "title": "Geburt eines Einlings durch Zangen- oder Vakuumextraktion",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O81"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O81.0",
+        "display": "Zangenentbindung eines Einlings aus Beckenausgang"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O81.1",
+        "display": "Zangenentbindung eines Einlings aus Beckenmitte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O81.2",
+        "display": "Zangenentbindung eines Einlings aus Beckenmitte mit Rotation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O81.3",
+        "display": "Sonstige und nicht näher bezeichnete Zangenentbindung eines Einlings"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O81.4",
+        "display": "Entbindung eines Einlings mittels Vakuumextraktor"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O81.5",
+        "display": "Entbindung eines Einlings mittels Kombination von Vakuum- und Zangenextraktion"
+      }
+    ]
+  }
+}

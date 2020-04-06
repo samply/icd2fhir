@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y47",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y47",
+  "name": "Y47",
+  "title": "Sedativa, Hypnotika und Anxiolytika",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y47"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y47.0",
+        "display": "Barbiturate, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y47.1",
+        "display": "Benzodiazepine"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y47.2",
+        "display": "Chloralderivate"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y47.3",
+        "display": "Paraldehyd"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y47.4",
+        "display": "Bromverbindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y47.5",
+        "display": "Kombinierte Sedativa und Hypnotika, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y47.8",
+        "display": "Sonstige Sedativa, Hypnotika und Anxiolytika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y47.9",
+        "display": "Sedativum, Hypnotikum und Anxiolytikum, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

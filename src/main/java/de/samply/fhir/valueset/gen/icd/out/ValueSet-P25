@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P25",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P25",
+  "name": "P25",
+  "title": "Interstitielles Emphysem und verwandte Zustände mit Ursprung in der Perinatalperiode",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P25"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P25.0",
+        "display": "Interstitielles Emphysem mit Ursprung in der Perinatalperiode"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P25.1",
+        "display": "Pneumothorax mit Ursprung in der Perinatalperiode"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P25.2",
+        "display": "Pneumomediastinum mit Ursprung in der Perinatalperiode"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P25.3",
+        "display": "Pneumoperikard mit Ursprung in der Perinatalperiode"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P25.8",
+        "display": "Sonstige Zustände in Verbindung mit interstitiellem Emphysem mit Ursprung in der Perinatalperiode"
+      }
+    ]
+  }
+}

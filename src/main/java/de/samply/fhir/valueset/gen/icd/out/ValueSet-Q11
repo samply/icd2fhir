@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q11",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q11",
+  "name": "Q11",
+  "title": "Anophthalmus, Mikrophthalmus und Makrophthalmus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q11"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q11.0",
+        "display": "Zystenauge [cystic eyeball]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q11.1",
+        "display": "Sonstiger Anophthalmus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q11.2",
+        "display": "Mikrophthalmus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q11.3",
+        "display": "Makrophthalmus"
+      }
+    ]
+  }
+}

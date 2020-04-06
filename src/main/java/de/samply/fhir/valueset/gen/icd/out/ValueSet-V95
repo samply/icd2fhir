@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "V95",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/V95",
+  "name": "V95",
+  "title": "Unfall eines Luftfahrzeuges mit Kraftantrieb, der eine Verletzung von Insassen verursacht",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "V95"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V95.0",
+        "display": "Unfall eines Hubschraubers mit Verletzung von Insassen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V95.1",
+        "display": "Unfall eines Ultraleicht-, Mikroleicht- oder Motorgleiters mit Verletzung von Insassen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V95.2",
+        "display": "Unfall eines sonstigen privaten Starrflüglers mit Verletzung von Insassen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V95.3",
+        "display": "Unfall eines kommerziellen Starrflüglers mit Verletzung von Insassen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V95.4",
+        "display": "Unfall eines Raumfahrzeuges mit Verletzung von Insassen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V95.8",
+        "display": "Sonstige Luftfahrzeugunfälle mit Verletzung von Insassen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V95.9",
+        "display": "Nicht näher bezeichneter Luftfahrzeugunfall mit Verletzung von Insassen"
+      }
+    ]
+  }
+}

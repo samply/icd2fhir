@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y88",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y88",
+  "name": "Y88",
+  "title": "Folgezustände von chirurgischem Eingriff und medizinischer Behandlung als äußere Ursache",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y88"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y88.0",
+        "display": "Folgezustände nach Verabreichung von Arzneimitteln, Drogen und biologisch aktiven Substanzen, die bei therapeutischer Anwendung unerwünschte Nebenwirkungen verursachten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y88.1",
+        "display": "Folgezustände nach Zwischenfällen während chirurgischer und medizinischer Maßnahmen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y88.2",
+        "display": "Folgezustände nach Zwischenfällen bei der Verwendung medizintechnischer Geräte und Produkte bei diagnostischer oder therapeutischer Anwendung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y88.3",
+        "display": "Folgezustände nach chirurgischen und medizinischen Maßnahmen als Ursache einer abnormen Reaktion eines Patienten oder einer späteren Komplikation, ohne Angabe eines Zwischenfalls zum Zeitpunkt der Durchführung der Maßnahme"
+      }
+    ]
+  }
+}

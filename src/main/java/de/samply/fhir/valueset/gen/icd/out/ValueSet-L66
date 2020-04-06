@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L66",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L66",
+  "name": "L66",
+  "title": "Narbige Alopezie [Haarausfall mit Narbenbildung]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L66"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L66.0",
+        "display": "Pseudopelade Brocq"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L66.1",
+        "display": "Lichen planopilaris"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L66.2",
+        "display": "Folliculitis decalvans"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L66.3",
+        "display": "Folliculitis et Perifolliculitis capitis abscedens et suffodiens [Hoffmann]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L66.4",
+        "display": "Atrophodermia vermiculata"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L66.8",
+        "display": "Sonstige narbige Alopezie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L66.9",
+        "display": "Narbige Alopezie, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

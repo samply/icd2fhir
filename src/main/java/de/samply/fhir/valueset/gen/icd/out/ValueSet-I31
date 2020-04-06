@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I31",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I31",
+  "name": "I31",
+  "title": "Sonstige Krankheiten des Perikards",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I31"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I31.0",
+        "display": "Chronische adhäsive Perikarditis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I31.1",
+        "display": "Chronische konstriktive Perikarditis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I31.2",
+        "display": "Hämoperikard, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I31.3",
+        "display": "Perikarderguss (nichtentzündlich)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I31.8",
+        "display": "Sonstige näher bezeichnete Krankheiten des Perikards"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I31.9",
+        "display": "Krankheit des Perikards, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

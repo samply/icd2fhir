@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A87",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A87",
+  "name": "A87",
+  "title": "Virusmeningitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A87"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A87.0",
+        "display": "Meningitis durch Enteroviren [G02.0 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A87.1",
+        "display": "Meningitis durch Adenoviren [G02.0 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A87.2",
+        "display": "Lymphozytäre Choriomeningitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A87.8",
+        "display": "Sonstige Virusmeningitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A87.9",
+        "display": "Virusmeningitis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

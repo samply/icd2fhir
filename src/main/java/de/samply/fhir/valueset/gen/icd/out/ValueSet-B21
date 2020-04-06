@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B21",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B21",
+  "name": "B21",
+  "title": "Bösartige Neubildungen infolge HIV-Krankheit [Humane Immundefizienz-Viruskrankheit]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B21"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B21.0",
+        "display": "Kaposi-Sarkom infolge HIV-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B21.1",
+        "display": "Burkitt-Lymphom infolge HIV-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B21.2",
+        "display": "Sonstige Typen des Non-Hodgkin-Lymphoms infolge HIV-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B21.3",
+        "display": "Sonstige bösartige Neubildungen des lymphatischen, blutbildenden und verwandten Gewebes infolge HIV-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B21.7",
+        "display": "Mehrere bösartige Neubildungen infolge HIV-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B21.8",
+        "display": "Sonstige bösartige Neubildungen infolge HIV-Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B21.9",
+        "display": "Nicht näher bezeichnete bösartige Neubildungen infolge HIV-Krankheit"
+      }
+    ]
+  }
+}

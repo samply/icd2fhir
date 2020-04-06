@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H43",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H43",
+  "name": "H43",
+  "title": "Affektionen des Glaskörpers",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H43"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H43.0",
+        "display": "Glaskörperprolaps"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H43.1",
+        "display": "Glaskörperblutung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H43.2",
+        "display": "Kristalline Ablagerungen im Glaskörper"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H43.3",
+        "display": "Sonstige Glaskörpertrübungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H43.8",
+        "display": "Sonstige Affektionen des Glaskörpers"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H43.9",
+        "display": "Affektion des Glaskörpers, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

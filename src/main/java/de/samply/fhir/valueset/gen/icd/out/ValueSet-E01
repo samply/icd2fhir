@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E01",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E01",
+  "name": "E01",
+  "title": "Jodmangelbedingte Schilddrüsenkrankheiten und verwandte Zustände",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E01"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E01.0",
+        "display": "Jodmangelbedingte diffuse Struma (endemisch)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E01.1",
+        "display": "Jodmangelbedingte mehrknotige Struma (endemisch)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E01.2",
+        "display": "Jodmangelbedingte Struma (endemisch), nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E01.8",
+        "display": "Sonstige jodmangelbedingte Schilddrüsenkrankheiten und verwandte Zustände"
+      }
+    ]
+  }
+}

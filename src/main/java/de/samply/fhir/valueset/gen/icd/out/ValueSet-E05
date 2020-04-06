@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E05",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E05",
+  "name": "E05",
+  "title": "Hyperthyreose [Thyreotoxikose]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E05"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E05.0",
+        "display": "Hyperthyreose mit diffuser Struma"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E05.1",
+        "display": "Hyperthyreose mit toxischem solitärem Schilddrüsenknoten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E05.2",
+        "display": "Hyperthyreose mit toxischer mehrknotiger Struma"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E05.3",
+        "display": "Hyperthyreose durch ektopisches Schilddrüsengewebe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E05.4",
+        "display": "Hyperthyreosis factitia"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E05.5",
+        "display": "Thyreotoxische Krise"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E05.8",
+        "display": "Sonstige Hyperthyreose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E05.9",
+        "display": "Hyperthyreose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

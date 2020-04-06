@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I89",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I89",
+  "name": "I89",
+  "title": "Sonstige nichtinfektiöse Krankheiten der Lymphgefäße und Lymphknoten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I89"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I89.0",
+        "display": "Lymphödem, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I89.1",
+        "display": "Lymphangitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I89.8",
+        "display": "Sonstige näher bezeichnete nichtinfektiöse Krankheiten der Lymphgefäße und Lymphknoten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I89.9",
+        "display": "Nichtinfektiöse Krankheit der Lymphgefäße und Lymphknoten, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

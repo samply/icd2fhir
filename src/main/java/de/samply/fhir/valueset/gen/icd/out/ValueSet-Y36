@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y36",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y36",
+  "name": "Y36",
+  "title": "Verletzungen durch Kriegshandlungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y36"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y36.0",
+        "display": "Kriegsverletzungen durch Explosion von Seewaffen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y36.1",
+        "display": "Kriegsverletzungen durch Zerstörung eines Luftfahrzeuges"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y36.2",
+        "display": "Kriegsverletzungen durch sonstige Explosionen oder Splitter"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y36.3",
+        "display": "Kriegsverletzungen durch Feuer, Brände und heiße Substanzen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y36.4",
+        "display": "Kriegsverletzungen durch Feuerwaffen [Schusswaffen] und sonstige Formen der konventionellen Kriegsführung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y36.5",
+        "display": "Kriegsverletzungen durch Kernwaffen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y36.6",
+        "display": "Kriegsverletzungen durch biologische Kampfstoffe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y36.7",
+        "display": "Kriegsverletzungen durch chemische Kampfstoffe und sonstige Formen der unkonventionellen Kriegsführung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y36.8",
+        "display": "Verletzungen durch Kriegshandlungen, die nach Einstellung der Feindseligkeiten auftreten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y36.9",
+        "display": "Verletzungen durch Kriegshandlungen, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T27",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T27",
+  "name": "T27",
+  "title": "Verbrennung oder Verätzung der Atemwege",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T27"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T27.0",
+        "display": "Verbrennung des Kehlkopfes und der Trachea"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T27.1",
+        "display": "Verbrennung des Kehlkopfes und der Trachea mit Beteiligung der Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T27.2",
+        "display": "Verbrennung sonstiger Teile der Atemwege"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T27.3",
+        "display": "Verbrennung der Atemwege, Teil nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T27.4",
+        "display": "Verätzung des Kehlkopfes und der Trachea"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T27.5",
+        "display": "Verätzung des Kehlkopfes und der Trachea mit Beteiligung der Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T27.6",
+        "display": "Verätzung sonstiger Teile der Atemwege"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T27.7",
+        "display": "Verätzung der Atemwege, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

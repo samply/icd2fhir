@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P59",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P59",
+  "name": "P59",
+  "title": "Neugeborenenikterus durch sonstige und nicht näher bezeichnete Ursachen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P59"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P59.0",
+        "display": "Neugeborenenikterus in Verbindung mit vorzeitiger Geburt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P59.1",
+        "display": "Gallepfropf-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P59.2",
+        "display": "Neugeborenenikterus durch sonstige und nicht näher bezeichnete Leberzellschädigung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P59.3",
+        "display": "Neugeborenenikterus durch Muttermilch-Inhibitor"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P59.8",
+        "display": "Neugeborenenikterus durch sonstige näher bezeichnete Ursachen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P59.9",
+        "display": "Neugeborenenikterus, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

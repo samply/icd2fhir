@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "I71",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/I71",
+  "name": "I71",
+  "title": "Aortenaneurysma und -dissektion",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "I71"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I71.0",
+        "display": "Dissektion der Aorta [jeder Abschnitt]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I71.1",
+        "display": "Aneurysma der Aorta thoracica, rupturiert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I71.2",
+        "display": "Aneurysma der Aorta thoracica, ohne Angabe einer Ruptur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I71.3",
+        "display": "Aneurysma der Aorta abdominalis, rupturiert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I71.4",
+        "display": "Aneurysma der Aorta abdominalis, ohne Angabe einer Ruptur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I71.5",
+        "display": "Aortenaneurysma, thorakoabdominal, rupturiert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I71.6",
+        "display": "Aortenaneurysma, thorakoabdominal, ohne Angabe einer Ruptur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I71.8",
+        "display": "Aortenaneurysma nicht näher bezeichneter Lokalisation, rupturiert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "I71.9",
+        "display": "Aortenaneurysma nicht näher bezeichneter Lokalisation, ohne Angabe einer Ruptur"
+      }
+    ]
+  }
+}

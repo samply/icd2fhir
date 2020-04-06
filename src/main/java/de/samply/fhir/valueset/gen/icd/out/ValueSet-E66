@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E66",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E66",
+  "name": "E66",
+  "title": "Adipositas",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E66"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E66.0",
+        "display": "Adipositas durch übermäßige Kalorienzufuhr"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E66.1",
+        "display": "Arzneimittelinduzierte Adipositas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E66.2",
+        "display": "Übermäßige Adipositas mit alveolärer Hypoventilation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E66.8",
+        "display": "Sonstige Adipositas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E66.9",
+        "display": "Adipositas, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

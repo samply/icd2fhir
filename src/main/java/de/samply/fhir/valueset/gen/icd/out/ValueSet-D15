@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D15",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D15",
+  "name": "D15",
+  "title": "Gutartige Neubildung sonstiger und nicht näher bezeichneter intrathorakaler Organe",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D15"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D15.0",
+        "display": "Thymus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D15.1",
+        "display": "Herz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D15.2",
+        "display": "Mediastinum"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D15.7",
+        "display": "Sonstige näher bezeichnete intrathorakale Organe"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D15.9",
+        "display": "Intrathorakales Organ, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

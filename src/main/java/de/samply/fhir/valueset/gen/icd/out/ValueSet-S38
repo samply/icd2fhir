@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S38",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S38",
+  "name": "S38",
+  "title": "Zerquetschung und traumatische Amputation von Teilen des Abdomens, der Lumbosakralgegend und des Beckens",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S38"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S38.0",
+        "display": "Zerquetschung der äußeren Genitalorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S38.1",
+        "display": "Zerquetschung sonstiger und nicht näher bezeichneter Teile des Abdomens, der Lumbosakralgegend und des Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S38.2",
+        "display": "Traumatische Amputation der äußeren Genitalorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S38.3",
+        "display": "Traumatische Abtrennung sonstiger und nicht näher bezeichneter Teile des Abdomens, der Lumbosakralgegend und des Beckens"
+      }
+    ]
+  }
+}

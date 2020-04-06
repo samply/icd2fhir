@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D18",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D18",
+  "name": "D18",
+  "title": "Hämangiom und Lymphangiom, jede Lokalisation",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D18"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D18.0",
+        "display": "Hämangiom, jede Lokalisation"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D18.1",
+        "display": "Lymphangiom, jede Lokalisation"
+      }
+    ]
+  }
+}

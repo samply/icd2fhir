@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z91",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z91",
+  "name": "Z91",
+  "title": "Risikofaktoren in der Eigenanamnese, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z91"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z91.0",
+        "display": "Allergie, ausgenommen Allergie gegenüber Arzneimitteln, Drogen oder biologisch aktiven Substanzen, in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z91.1",
+        "display": "Nichtbefolgung ärztlicher Anordnungen [Non-compliance] in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z91.2",
+        "display": "Mangelhafte persönliche Hygiene in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z91.3",
+        "display": "Ungesunder Schlaf-Wach-Rhythmus in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z91.4",
+        "display": "Psychisches Trauma in der Eigenanamnese, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z91.5",
+        "display": "Selbstbeschädigung in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z91.6",
+        "display": "Andere Körperverletzung in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z91.7",
+        "display": "Weibliche Genitalverstümmelung in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z91.8",
+        "display": "Sonstige näher bezeichnete Risikofaktoren in der Eigenanamnese, anderenorts nicht klassifiziert"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O22",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O22",
+  "name": "O22",
+  "title": "Venenkrankheiten und Hämorrhoiden als Komplikationen in der Schwangerschaft",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O22"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O22.0",
+        "display": "Varizen der unteren Extremitäten in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O22.1",
+        "display": "Varizen der Genitalorgane in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O22.2",
+        "display": "Oberflächliche Thrombophlebitis in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O22.3",
+        "display": "Tiefe Venenthrombose in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O22.4",
+        "display": "Hämorrhoiden in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O22.5",
+        "display": "Hirnvenenthrombose in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O22.8",
+        "display": "Sonstige Venenkrankheiten als Komplikation in der Schwangerschaft"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O22.9",
+        "display": "Venenkrankheit als Komplikation in der Schwangerschaft, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

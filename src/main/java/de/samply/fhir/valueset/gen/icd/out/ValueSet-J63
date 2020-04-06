@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J63",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J63",
+  "name": "J63",
+  "title": "Pneumokoniose durch sonstige anorganische Stäube",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J63"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J63.0",
+        "display": "Aluminose (Lunge)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J63.1",
+        "display": "Bauxitfibrose (Lunge)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J63.2",
+        "display": "Berylliose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J63.3",
+        "display": "Graphitfibrose (Lunge)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J63.4",
+        "display": "Siderose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J63.5",
+        "display": "Stannose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J63.8",
+        "display": "Pneumokoniose durch sonstige näher bezeichnete anorganische Stäube"
+      }
+    ]
+  }
+}

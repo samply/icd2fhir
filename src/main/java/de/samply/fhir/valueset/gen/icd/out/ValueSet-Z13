@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z13",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z13",
+  "name": "Z13",
+  "title": "Spezielle Verfahren zur Untersuchung auf sonstige Krankheiten oder Störungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z13"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z13.0",
+        "display": "Spezielle Verfahren zur Untersuchung auf Krankheiten des Blutes und der blutbildenden Organe und bestimmte Störungen mit Beteiligung des Immunsystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z13.1",
+        "display": "Spezielle Verfahren zur Untersuchung auf Diabetes mellitus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z13.2",
+        "display": "Spezielle Verfahren zur Untersuchung auf Ernährungsstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z13.3",
+        "display": "Spezielle Verfahren zur Untersuchung auf psychische Krankheiten und Verhaltensstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z13.4",
+        "display": "Spezielle Verfahren zur Untersuchung auf bestimmte Entwicklungsstörungen in der Kindheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z13.5",
+        "display": "Spezielle Verfahren zur Untersuchung auf Augen- oder Ohrenkrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z13.6",
+        "display": "Spezielle Verfahren zur Untersuchung auf kardiovaskuläre Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z13.7",
+        "display": "Spezielle Verfahren zur Untersuchung auf angeborene Fehlbildungen, Deformitäten und Chromosomenanomalien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z13.8",
+        "display": "Spezielle Verfahren zur Untersuchung auf sonstige näher bezeichnete Krankheiten oder Störungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z13.9",
+        "display": "Spezielle Verfahren zur Untersuchung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

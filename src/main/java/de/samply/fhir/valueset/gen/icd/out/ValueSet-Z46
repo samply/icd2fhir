@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z46",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z46",
+  "name": "Z46",
+  "title": "Versorgen mit und Anpassen von anderen medizinischen Geräten oder Hilfsmitteln",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z46"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z46.0",
+        "display": "Versorgen mit und Anpassen von Brillen oder Kontaktlinsen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z46.1",
+        "display": "Versorgen mit und Anpassen eines Hörgerätes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z46.2",
+        "display": "Versorgen mit und Anpassen von anderen medizinischen Geräten oder Hilfsmitteln für das Nervensystem oder für spezielle Sinnesorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z46.3",
+        "display": "Versorgen mit und Anpassen einer Zahnprothese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z46.4",
+        "display": "Versorgen mit und Anpassen von kieferorthopädischen Geräten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z46.5",
+        "display": "Versorgen mit und Anpassen eines Ileostomas oder von sonstigen Vorrichtungen im Darm-Trakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z46.6",
+        "display": "Versorgen mit und Anpassen eines Gerätes im Harntrakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z46.7",
+        "display": "Versorgen mit und Anpassen eines orthopädischen Hilfsmittels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z46.8",
+        "display": "Versorgen mit und Anpassen von sonstigen näher bezeichneten medizinischen Geräten oder Hilfsmitteln"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z46.9",
+        "display": "Versorgen mit und Anpassen eines nicht näher bezeichneten medizinischen Gerätes oder Hilfsmittels"
+      }
+    ]
+  }
+}

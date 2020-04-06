@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S12",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S12",
+  "name": "S12",
+  "title": "Fraktur im Bereich des Halses",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S12"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S12.0",
+        "display": "Fraktur des 1. Halswirbels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S12.1",
+        "display": "Fraktur des 2. Halswirbels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S12.2",
+        "display": "Fraktur eines sonstigen näher bezeichneten Halswirbels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S12.7",
+        "display": "Multiple Frakturen der Halswirbelsäule"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S12.8",
+        "display": "Fraktur sonstiger Teile im Bereich des Halses"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S12.9",
+        "display": "Fraktur im Bereich des Halses, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

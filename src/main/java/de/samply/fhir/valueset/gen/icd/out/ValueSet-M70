@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M70",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M70",
+  "name": "M70",
+  "title": "Krankheiten des Weichteilgewebes im Zusammenhang mit Beanspruchung, Überbeanspruchung und Druck",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M70"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M70.0",
+        "display": "Chronische Tenosynovitis crepitans der Hand und des Handgelenkes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M70.1",
+        "display": "Bursitis im Bereich der Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M70.2",
+        "display": "Bursitis olecrani"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M70.3",
+        "display": "Sonstige Bursitis im Bereich des Ellenbogens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M70.4",
+        "display": "Bursitis praepatellaris"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M70.5",
+        "display": "Sonstige Bursitis im Bereich des Knies"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M70.6",
+        "display": "Bursitis trochanterica"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M70.7",
+        "display": "Sonstige Bursitis im Bereich der Hüfte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M70.8",
+        "display": "Sonstige Krankheiten des Weichteilgewebes durch Beanspruchung, Überbeanspruchung und Druck"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M70.9",
+        "display": "Nicht näher bezeichnete Krankheit des Weichteilgewebes durch Beanspruchung, Überbeanspruchung und Druck"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H19",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H19",
+  "name": "H19",
+  "title": "Affektionen der Sklera und der Hornhaut bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H19"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H19.0",
+        "display": "Skleritis und Episkleritis bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H19.1",
+        "display": "Keratitis und Keratokonjunktivitis durch Herpesviren [B00.5 ]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H19.2",
+        "display": "Keratitis und Keratokonjunktivitis bei sonstigen anderenorts klassifizierten infektiösen und parasitären Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H19.3",
+        "display": "Keratitis und Keratokonjunktivitis bei sonstigen anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H19.8",
+        "display": "Sonstige Affektionen der Sklera und der Hornhaut bei anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

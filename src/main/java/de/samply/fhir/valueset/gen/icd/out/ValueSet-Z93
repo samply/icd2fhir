@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z93",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z93",
+  "name": "Z93",
+  "title": "Vorhandensein einer künstlichen Körperöffnung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z93"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z93.0",
+        "display": "Vorhandensein eines Tracheostomas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z93.1",
+        "display": "Vorhandensein eines Gastrostomas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z93.2",
+        "display": "Vorhandensein eines Ileostomas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z93.3",
+        "display": "Vorhandensein eines Kolostomas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z93.4",
+        "display": "Vorhandensein anderer künstlicher Körperöffnungen des Magen-Darm-Trakts"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z93.5",
+        "display": "Vorhandensein eines Zystostomas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z93.6",
+        "display": "Vorhandensein anderer künstlicher Körperöffnungen der Harnwege"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z93.8",
+        "display": "Vorhandensein sonstiger künstlicher Körperöffnungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z93.9",
+        "display": "Vorhandensein einer künstlichen Körperöffnung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

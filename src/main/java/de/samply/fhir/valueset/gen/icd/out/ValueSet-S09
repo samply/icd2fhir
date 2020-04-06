@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S09",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S09",
+  "name": "S09",
+  "title": "Sonstige und nicht näher bezeichnete Verletzungen des Kopfes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S09"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S09.0",
+        "display": "Verletzung von Blutgefäßen des Kopfes, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S09.1",
+        "display": "Verletzung von Muskeln und Sehnen des Kopfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S09.2",
+        "display": "Traumatische Trommelfellruptur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S09.7",
+        "display": "Multiple Verletzungen des Kopfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S09.8",
+        "display": "Sonstige näher bezeichnete Verletzungen des Kopfes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S09.9",
+        "display": "Nicht näher bezeichnete Verletzung des Kopfes"
+      }
+    ]
+  }
+}

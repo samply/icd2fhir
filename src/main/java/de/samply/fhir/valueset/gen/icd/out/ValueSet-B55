@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B55",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B55",
+  "name": "B55",
+  "title": "Leishmaniose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B55"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B55.0",
+        "display": "Viszerale Leishmaniose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B55.1",
+        "display": "Kutane Leishmaniose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B55.2",
+        "display": "Mukokutane Leishmaniose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B55.9",
+        "display": "Leishmaniose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

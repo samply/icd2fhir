@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F66",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F66",
+  "name": "F66",
+  "title": "Psychische und Verhaltensstörungen in Verbindung mit der sexuellen Entwicklung und Orientierung",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F66"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F66.0",
+        "display": "Sexuelle Reifungskrise"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F66.1",
+        "display": "Ichdystone Sexualorientierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F66.2",
+        "display": "Sexuelle Beziehungsstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F66.8",
+        "display": "Sonstige psychische und Verhaltensstörungen in Verbindung mit der sexuellen Entwicklung und Orientierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F66.9",
+        "display": "Psychische und Verhaltensstörung in Verbindung mit der sexuellen Entwicklung und Orientierung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

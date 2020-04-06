@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S74",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S74",
+  "name": "S74",
+  "title": "Verletzung von Nerven in Höhe der Hüfte und des Oberschenkels",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S74"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S74.0",
+        "display": "Verletzung des N. ischiadicus in Höhe der Hüfte und des Oberschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S74.1",
+        "display": "Verletzung des N. femoralis in Höhe der Hüfte und des Oberschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S74.2",
+        "display": "Verletzung sensibler Hautnerven in Höhe der Hüfte und des Oberschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S74.7",
+        "display": "Verletzung mehrerer Nerven in Höhe der Hüfte und des Oberschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S74.8",
+        "display": "Verletzung sonstiger Nerven in Höhe der Hüfte und des Oberschenkels"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S74.9",
+        "display": "Verletzung eines nicht näher bezeichneten Nervs in Höhe der Hüfte und des Oberschenkels"
+      }
+    ]
+  }
+}

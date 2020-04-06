@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S02",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S02",
+  "name": "S02",
+  "title": "Fraktur des Schädels und der Gesichtsschädelknochen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S02"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S02.0",
+        "display": "Schädeldachfraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S02.1",
+        "display": "Schädelbasisfraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S02.2",
+        "display": "Nasenbeinfraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S02.3",
+        "display": "Fraktur des Orbitabodens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S02.4",
+        "display": "Fraktur des Jochbeins und des Oberkiefers"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S02.5",
+        "display": "Zahnfraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S02.6",
+        "display": "Unterkieferfraktur"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S02.7",
+        "display": "Multiple Frakturen der Schädel- und Gesichtsschädelknochen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S02.8",
+        "display": "Frakturen sonstiger Schädel- und Gesichtsschädelknochen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S02.9",
+        "display": "Fraktur des Schädels und der Gesichtsschädelknochen, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

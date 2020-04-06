@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z87",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z87",
+  "name": "Z87",
+  "title": "Andere Krankheiten oder Zustände in der Eigenanamnese",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z87"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z87.0",
+        "display": "Krankheiten des Atmungssystems in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z87.1",
+        "display": "Krankheiten des Verdauungssystems in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z87.2",
+        "display": "Krankheiten der Haut und der Unterhaut in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z87.3",
+        "display": "Krankheiten des Muskel-Skelett-Systems und des Bindegewebes in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z87.4",
+        "display": "Krankheiten des Urogenitalsystems in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z87.5",
+        "display": "Komplikationen der Schwangerschaft, der Geburt und des Wochenbettes in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z87.6",
+        "display": "Bestimmte in der Perinatalperiode entstandene Zustände in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z87.7",
+        "display": "Angeborene Fehlbildungen, Deformitäten oder Chromosomenanomalien in der Eigenanamnese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z87.8",
+        "display": "Sonstige näher bezeichnete Krankheiten oder Zustände in der Eigenanamnese"
+      }
+    ]
+  }
+}

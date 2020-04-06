@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K55",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K55",
+  "name": "K55",
+  "title": "Gefäßkrankheiten des Darmes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K55"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K55.0",
+        "display": "Akute Gefäßkrankheiten des Darmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K55.1",
+        "display": "Chronische Gefäßkrankheiten des Darmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K55.2",
+        "display": "Angiodysplasie des Kolons"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K55.8",
+        "display": "Sonstige Gefäßkrankheiten des Darmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K55.9",
+        "display": "Gefäßkrankheit des Darmes, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

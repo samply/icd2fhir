@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q28",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q28",
+  "name": "Q28",
+  "title": "Sonstige angeborene Fehlbildungen des Kreislaufsystems",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q28"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q28.0",
+        "display": "Arteriovenöse Fehlbildung der präzerebralen Gefäße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q28.1",
+        "display": "Sonstige Fehlbildungen der präzerebralen Gefäße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q28.2",
+        "display": "Arteriovenöse Fehlbildung der zerebralen Gefäße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q28.3",
+        "display": "Sonstige Fehlbildungen der zerebralen Gefäße"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q28.8",
+        "display": "Sonstige näher bezeichnete angeborene Fehlbildungen des Kreislaufsystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q28.9",
+        "display": "Angeborene Fehlbildung des Kreislaufsystems, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

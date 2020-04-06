@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H33",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H33",
+  "name": "H33",
+  "title": "Netzhautablösung und Netzhautriss",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H33"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H33.0",
+        "display": "Netzhautablösung mit Netzhautriss"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H33.1",
+        "display": "Retinoschisis und Zysten der Netzhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H33.2",
+        "display": "Seröse Netzhautablösung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H33.3",
+        "display": "Netzhautriss ohne Netzhautablösung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H33.4",
+        "display": "Traktionsablösung der Netzhaut"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H33.5",
+        "display": "Sonstige Netzhautablösungen"
+      }
+    ]
+  }
+}

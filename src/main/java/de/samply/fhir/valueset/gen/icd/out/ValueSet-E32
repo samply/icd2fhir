@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "E32",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/E32",
+  "name": "E32",
+  "title": "Krankheiten des Thymus",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "E32"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E32.0",
+        "display": "Persistierende Thymushyperplasie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E32.1",
+        "display": "Abszess des Thymus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E32.8",
+        "display": "Sonstige Krankheiten des Thymus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "E32.9",
+        "display": "Krankheit des Thymus, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

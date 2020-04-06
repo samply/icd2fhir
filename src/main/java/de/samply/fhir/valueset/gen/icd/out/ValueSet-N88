@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N88",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N88",
+  "name": "N88",
+  "title": "Sonstige nichtentzündliche Krankheiten der Cervix uteri",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N88"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N88.0",
+        "display": "Leukoplakie der Cervix uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N88.1",
+        "display": "Alter Riss der Cervix uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N88.2",
+        "display": "Striktur und Stenose der Cervix uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N88.3",
+        "display": "Zervixinsuffizienz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N88.4",
+        "display": "Elongatio cervicis uteri, hypertrophisch"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N88.8",
+        "display": "Sonstige näher bezeichnete nichtentzündliche Krankheiten der Cervix uteri"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N88.9",
+        "display": "Nichtentzündliche Krankheit der Cervix uteri, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

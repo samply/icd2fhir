@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C25",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C25",
+  "name": "C25",
+  "title": "Bösartige Neubildung des Pankreas",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C25"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C25.0",
+        "display": "Pankreaskopf"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C25.1",
+        "display": "Pankreaskörper"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C25.2",
+        "display": "Pankreasschwanz"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C25.3",
+        "display": "Ductus pancreaticus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C25.4",
+        "display": "Endokriner Drüsenanteil des Pankreas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C25.7",
+        "display": "Sonstige Teile des Pankreas"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C25.8",
+        "display": "Pankreas, mehrere Teilbereiche überlappend"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C25.9",
+        "display": "Pankreas, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

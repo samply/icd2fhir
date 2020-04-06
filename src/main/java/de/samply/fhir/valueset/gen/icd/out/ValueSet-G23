@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "G23",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/G23",
+  "name": "G23",
+  "title": "Sonstige degenerative Krankheiten der Basalganglien",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "G23"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G23.0",
+        "display": "Hallervorden-Spatz-Syndrom"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G23.1",
+        "display": "Progressive supranukleäre Ophthalmoplegie [Steele-Richardson-Olszewski-Syndrom]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G23.2",
+        "display": "Multiple Systematrophie vom Parkinson-Typ [MSA-P]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G23.3",
+        "display": "Multiple Systematrophie vom zerebellären Typ [MSA-C]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G23.8",
+        "display": "Sonstige näher bezeichnete degenerative Krankheiten der Basalganglien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "G23.9",
+        "display": "Degenerative Krankheit der Basalganglien, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

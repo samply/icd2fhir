@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O41",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O41",
+  "name": "O41",
+  "title": "Sonstige Veränderungen des Fruchtwassers und der Eihäute",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O41"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O41.0",
+        "display": "Oligohydramnion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O41.1",
+        "display": "Infektion der Fruchtblase und der Eihäute"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O41.8",
+        "display": "Sonstige näher bezeichnete Veränderungen des Fruchtwassers und der Eihäute"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O41.9",
+        "display": "Veränderung des Fruchtwassers und der Eihäute, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

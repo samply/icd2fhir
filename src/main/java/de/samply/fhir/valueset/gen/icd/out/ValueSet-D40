@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D40",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D40",
+  "name": "D40",
+  "title": "Neubildung unsicheren oder unbekannten Verhaltens der männlichen Genitalorgane",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D40"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D40.0",
+        "display": "Prostata"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D40.1",
+        "display": "Hoden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D40.7",
+        "display": "Sonstige männliche Genitalorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D40.9",
+        "display": "Männliches Genitalorgan, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

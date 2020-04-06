@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "H53",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/H53",
+  "name": "H53",
+  "title": "Sehstörungen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "H53"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H53.0",
+        "display": "Amblyopia ex anopsia"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H53.1",
+        "display": "Subjektive Sehstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H53.2",
+        "display": "Diplopie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H53.3",
+        "display": "Sonstige Störungen des binokularen Sehens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H53.4",
+        "display": "Gesichtsfelddefekte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H53.5",
+        "display": "Farbsinnstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H53.6",
+        "display": "Nachtblindheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H53.8",
+        "display": "Sonstige Sehstörungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "H53.9",
+        "display": "Sehstörung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

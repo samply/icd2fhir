@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "F52",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/F52",
+  "name": "F52",
+  "title": "Sexuelle Funktionsstörungen, nicht verursacht durch eine organische Störung oder Krankheit",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "F52"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F52.0",
+        "display": "Mangel oder Verlust von sexuellem Verlangen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F52.1",
+        "display": "Sexuelle Aversion und mangelnde sexuelle Befriedigung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F52.2",
+        "display": "Versagen genitaler Reaktionen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F52.3",
+        "display": "Orgasmusstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F52.4",
+        "display": "Ejaculatio praecox"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F52.5",
+        "display": "Nichtorganischer Vaginismus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F52.6",
+        "display": "Nichtorganische Dyspareunie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F52.7",
+        "display": "Gesteigertes sexuelles Verlangen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F52.8",
+        "display": "Sonstige sexuelle Funktionsstörungen, nicht verursacht durch eine organische Störung oder Krankheit"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "F52.9",
+        "display": "Nicht näher bezeichnete sexuelle Funktionsstörung, nicht verursacht durch eine organische Störung oder Krankheit"
+      }
+    ]
+  }
+}

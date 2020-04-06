@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M16",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M16",
+  "name": "M16",
+  "title": "Koxarthrose [Arthrose des Hüftgelenkes]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M16"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M16.0",
+        "display": "Primäre Koxarthrose, beidseitig"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M16.1",
+        "display": "Sonstige primäre Koxarthrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M16.2",
+        "display": "Koxarthrose als Folge einer Dysplasie, beidseitig"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M16.3",
+        "display": "Sonstige dysplastische Koxarthrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M16.4",
+        "display": "Posttraumatische Koxarthrose, beidseitig"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M16.5",
+        "display": "Sonstige posttraumatische Koxarthrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M16.6",
+        "display": "Sonstige sekundäre Koxarthrose, beidseitig"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M16.7",
+        "display": "Sonstige sekundäre Koxarthrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M16.9",
+        "display": "Koxarthrose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

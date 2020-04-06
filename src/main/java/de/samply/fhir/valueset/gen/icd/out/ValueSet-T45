@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T45",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T45",
+  "name": "T45",
+  "title": "Vergiftung durch primär systemisch und auf das Blut wirkende Mittel, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T45"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T45.0",
+        "display": "Antiallergika und Antiemetika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T45.1",
+        "display": "Antineoplastika und Immunsuppressiva"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T45.2",
+        "display": "Vitamine, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T45.3",
+        "display": "Enzyme, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T45.4",
+        "display": "Eisen und dessen Verbindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T45.5",
+        "display": "Antikoagulanzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T45.6",
+        "display": "Fibrinolytika und Fibrinolyse-Hemmer"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T45.7",
+        "display": "Antikoagulanzien-Antagonisten, Vitamin K und sonstige Koagulanzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T45.8",
+        "display": "Sonstige primär systemisch und auf das Blut wirkende Mittel, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T45.9",
+        "display": "Primär systemisch und auf das Blut wirkendes Mittel, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

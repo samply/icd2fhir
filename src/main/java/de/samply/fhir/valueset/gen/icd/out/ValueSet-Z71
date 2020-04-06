@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z71",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z71",
+  "name": "Z71",
+  "title": "Personen, die das Gesundheitswesen zum Zwecke anderer Beratung oder ärztlicher Konsultation in Anspruch nehmen, anderenorts nicht klassifiziert",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z71"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z71.0",
+        "display": "Person, die sich im Namen einer anderen Person beraten lässt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z71.1",
+        "display": "Person mit Furcht vor Krankheit, bei der keine Diagnose gestellt wird"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z71.2",
+        "display": "Konsultation zur Erläuterung von Untersuchungsbefunden"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z71.3",
+        "display": "Diät-Beratung und -Überwachung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z71.4",
+        "display": "Beratung und Überwachung wegen Alkoholmissbrauchs"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z71.5",
+        "display": "Beratung und Überwachung wegen Arzneimittel- oder Drogenmissbrauchs"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z71.6",
+        "display": "Beratung wegen Tabakmissbrauchs"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z71.7",
+        "display": "Beratung in Bezug auf HIV [Humanes Immundefizienz-Virus]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z71.8",
+        "display": "Sonstige näher bezeichnete Beratung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z71.9",
+        "display": "Beratung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

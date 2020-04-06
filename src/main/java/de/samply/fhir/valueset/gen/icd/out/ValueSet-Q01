@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q01",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q01",
+  "name": "Q01",
+  "title": "Enzephalozele",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q01"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q01.0",
+        "display": "Frontale Enzephalozele"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q01.1",
+        "display": "Nasofrontale Enzephalozele"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q01.2",
+        "display": "Okzipitale Enzephalozele"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q01.8",
+        "display": "Enzephalozele sonstiger Lokalisationen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q01.9",
+        "display": "Enzephalozele, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

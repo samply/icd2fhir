@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O33",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O33",
+  "name": "O33",
+  "title": "Betreuung der Mutter bei festgestelltem oder vermutetem Missverhältnis zwischen Fetus und Becken",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O33"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O33.0",
+        "display": "Betreuung der Mutter bei Missverhältnis durch Deformität des mütterlichen knöchernen Beckens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O33.1",
+        "display": "Betreuung der Mutter bei Missverhältnis durch allgemein verengtes Becken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O33.2",
+        "display": "Betreuung der Mutter bei Missverhältnis durch Beckeneingangsverengung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O33.3",
+        "display": "Betreuung der Mutter bei Missverhältnis durch Beckenausgangsverengung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O33.4",
+        "display": "Betreuung der Mutter wegen Missverhältnis bei kombinierter mütterlicher und fetaler Ursache"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O33.5",
+        "display": "Betreuung der Mutter bei Missverhältnis durch ungewöhnlich großen Fetus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O33.6",
+        "display": "Betreuung der Mutter bei Missverhältnis durch Hydrozephalus des Fetus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O33.7",
+        "display": "Betreuung der Mutter bei Missverhältnis durch sonstige Deformitäten des Fetus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O33.8",
+        "display": "Betreuung der Mutter bei Missverhältnis sonstigen Ursprungs"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O33.9",
+        "display": "Betreuung der Mutter bei Missverhältnis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

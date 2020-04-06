@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K77",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K77",
+  "name": "K77",
+  "title": "Leberkrankheiten bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K77"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K77.0",
+        "display": "Leberkrankheiten bei anderenorts klassifizierten infektiösen und parasitären Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K77.8",
+        "display": "Leberkrankheiten bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

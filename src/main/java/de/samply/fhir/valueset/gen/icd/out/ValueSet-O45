@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O45",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O45",
+  "name": "O45",
+  "title": "Vorzeitige Plazentalösung [Abruptio placentae]",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O45"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O45.0",
+        "display": "Vorzeitige Plazentalösung bei Gerinnungsstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O45.8",
+        "display": "Sonstige vorzeitige Plazentalösung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O45.9",
+        "display": "Vorzeitige Plazentalösung, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

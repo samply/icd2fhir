@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "N51",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/N51",
+  "name": "N51",
+  "title": "Krankheiten der männlichen Genitalorgane bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "N51"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N51.0",
+        "display": "Krankheiten der Prostata bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N51.1",
+        "display": "Krankheiten des Hodens und des Nebenhodens bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N51.2",
+        "display": "Balanitis bei anderenorts klassifizierten Krankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "N51.8",
+        "display": "Sonstige Krankheiten der männlichen Genitalorgane bei anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

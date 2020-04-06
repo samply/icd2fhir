@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Q42",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Q42",
+  "name": "Q42",
+  "title": "Angeborene(s) Fehlen, Atresie und Stenose des Dickdarmes",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Q42"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q42.0",
+        "display": "Angeborene(s) Fehlen, Atresie und Stenose des Rektums mit Fistel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q42.1",
+        "display": "Angeborene(s) Fehlen, Atresie und Stenose des Rektums ohne Fistel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q42.2",
+        "display": "Angeborene(s) Fehlen, Atresie und Stenose des Anus mit Fistel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q42.3",
+        "display": "Angeborene(s) Fehlen, Atresie und Stenose des Anus ohne Fistel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q42.8",
+        "display": "Angeborene(s) Fehlen, Atresie und Stenose sonstiger Teile des Dickdarmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Q42.9",
+        "display": "Angeborene(s) Fehlen, Atresie und Stenose des Dickdarmes, Teil nicht näher bezeichnet"
+      }
+    ]
+  }
+}

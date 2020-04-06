@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "A56",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/A56",
+  "name": "A56",
+  "title": "Sonstige durch Geschlechtsverkehr übertragene Chlamydienkrankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "A56"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A56.0",
+        "display": "Chlamydieninfektion des unteren Urogenitaltraktes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A56.1",
+        "display": "Chlamydieninfektion des Pelviperitoneums und sonstiger Urogenitalorgane"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A56.2",
+        "display": "Chlamydieninfektion des Urogenitaltraktes, nicht näher bezeichnet"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A56.3",
+        "display": "Chlamydieninfektion des Anus und des Rektums"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A56.4",
+        "display": "Chlamydieninfektion des Pharynx"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "A56.8",
+        "display": "Durch Geschlechtsverkehr übertragene Chlamydieninfektion an sonstigen Lokalisationen"
+      }
+    ]
+  }
+}

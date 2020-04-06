@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T22",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T22",
+  "name": "T22",
+  "title": "Verbrennung oder Verätzung der Schulter und des Armes, ausgenommen Handgelenk und Hand",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T22"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T22.0",
+        "display": "Verbrennung nicht näher bezeichneten Grades der Schulter und des Armes, ausgenommen Handgelenk und Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T22.1",
+        "display": "Verbrennung 1. Grades der Schulter und des Armes, ausgenommen Handgelenk und Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T22.2",
+        "display": "Verbrennung 2. Grades der Schulter und des Armes, ausgenommen Handgelenk und Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T22.3",
+        "display": "Verbrennung 3. Grades der Schulter und des Armes, ausgenommen Handgelenk und Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T22.4",
+        "display": "Verätzung nicht näher bezeichneten Grades der Schulter und des Armes, ausgenommen Handgelenk und Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T22.5",
+        "display": "Verätzung 1. Grades der Schulter und des Armes, ausgenommen Handgelenk und Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T22.6",
+        "display": "Verätzung 2. Grades der Schulter und des Armes, ausgenommen Handgelenk und Hand"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T22.7",
+        "display": "Verätzung 3. Grades der Schulter und des Armes, ausgenommen Handgelenk und Hand"
+      }
+    ]
+  }
+}

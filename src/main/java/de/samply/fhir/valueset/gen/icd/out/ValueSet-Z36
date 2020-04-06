@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Z36",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Z36",
+  "name": "Z36",
+  "title": "Pränatales Screening",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Z36"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z36.0",
+        "display": "Pränatales Screening auf Chromosomenanomalien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z36.1",
+        "display": "Pränatales Screening auf erhöhten Alpha-Fetoproteinspiegel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z36.2",
+        "display": "Anderes pränatales Screening mittels Amniozentese"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z36.3",
+        "display": "Pränatales Screening auf Fehlbildungen mittels Ultraschall oder anderer physikalischer Verfahren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z36.4",
+        "display": "Pränatales Screening auf fetale Wachstumsretardierung mittels Ultraschall oder anderer physikalischer Verfahren"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z36.5",
+        "display": "Pränatales Screening auf Isoimmunisierung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z36.8",
+        "display": "Sonstiges pränatales Screening"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Z36.9",
+        "display": "Pränatales Screening, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "V80",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/V80",
+  "name": "V80",
+  "title": "Reiter oder Benutzer eines tierbespannten Fahrzeuges bei Transportmittelunfall verletzt",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "V80"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V80.0",
+        "display": "Reiter oder Benutzer eines tierbespannten Fahrzeuges durch Sturz oder Abgeworfenwerden von Tier oder tierbespanntem Fahrzeug bei Unfall ohne Zusammenstoß verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V80.1",
+        "display": "Reiter oder Benutzer eines tierbespannten Fahrzeuges bei Zusammenstoß mit Fußgänger oder Tier verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V80.2",
+        "display": "Reiter oder Benutzer eines tierbespannten Fahrzeuges bei Zusammenstoß mit Fahrrad verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V80.3",
+        "display": "Reiter oder Benutzer eines tierbespannten Fahrzeuges bei Zusammenstoß mit zwei- oder dreirädrigem Kraftfahrzeug verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V80.4",
+        "display": "Reiter oder Benutzer eines tierbespannten Fahrzeuges bei Zusammenstoß mit Personenkraftwagen, Lieferwagen, Lastkraftwagen oder Autobus verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V80.5",
+        "display": "Reiter oder Benutzer eines tierbespannten Fahrzeuges bei Zusammenstoß mit sonstigem näher bezeichnetem Kraftfahrzeug verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V80.6",
+        "display": "Reiter oder Benutzer eines tierbespannten Fahrzeuges bei Zusammenstoß mit Eisenbahnzug oder Eisenbahnfahrzeug verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V80.7",
+        "display": "Reiter oder Benutzer eines tierbespannten Fahrzeuges bei Zusammenstoß mit sonstigem nichtmotorisiertem Fahrzeug verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V80.8",
+        "display": "Reiter oder Benutzer eines tierbespannten Fahrzeuges bei Zusammenstoß mit feststehendem Gegenstand verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V80.9",
+        "display": "Reiter oder Benutzer eines tierbespannten Fahrzeuges bei sonstigen und nicht näher bezeichneten Transportmittelunfällen verletzt"
+      }
+    ]
+  }
+}

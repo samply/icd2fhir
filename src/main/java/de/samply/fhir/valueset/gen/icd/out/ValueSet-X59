@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "X59",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/X59",
+  "name": "X59",
+  "title": "Exposition gegenüber nicht näher bezeichnetem Faktor",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "X59"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "X59.0",
+        "display": "Fraktur infolge Exposition gegenüber nicht näher bezeichnetem Faktor"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "X59.9",
+        "display": "Sonstige und nicht näher bezeichnete Verletzung infolge Exposition gegenüber nicht näher bezeichnetem Faktor"
+      }
+    ]
+  }
+}

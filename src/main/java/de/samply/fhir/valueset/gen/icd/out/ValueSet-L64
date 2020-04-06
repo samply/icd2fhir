@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L64",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L64",
+  "name": "L64",
+  "title": "Alopecia androgenetica",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L64"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L64.0",
+        "display": "Arzneimittelinduzierte Alopecia androgenetica"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L64.8",
+        "display": "Sonstige Alopecia androgenetica"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L64.9",
+        "display": "Alopecia androgenetica, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Y55",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/Y55",
+  "name": "Y55",
+  "title": "Primär auf die glatte Muskulatur, die Skelettmuskulatur und das Atmungssystem wirkende Mittel",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "Y55"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y55.0",
+        "display": "Oxytozin [Ocytocin] und ähnlich wirkende Wehenmittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y55.1",
+        "display": "Muskelrelaxanzien [Neuromuskuläre Blocker]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y55.2",
+        "display": "Sonstige und nicht näher bezeichnete, primär auf die Muskeln wirkende Mittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y55.3",
+        "display": "Antitussiva"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y55.4",
+        "display": "Expektoranzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y55.5",
+        "display": "Arzneimittel gegen Erkältungskrankheiten"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y55.6",
+        "display": "Antiasthmatika, anderenorts nicht klassifiziert"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "Y55.7",
+        "display": "Sonstige und nicht näher bezeichnete, primär auf das Atmungssystem wirkende Mittel"
+      }
+    ]
+  }
+}

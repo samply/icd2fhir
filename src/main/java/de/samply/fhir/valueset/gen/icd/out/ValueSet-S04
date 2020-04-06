@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "S04",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/S04",
+  "name": "S04",
+  "title": "Verletzung von Hirnnerven",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "S04"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S04.0",
+        "display": "Sehnerv- und Sehbahnenverletzung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S04.1",
+        "display": "Verletzung des N. oculomotorius"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S04.2",
+        "display": "Verletzung des N. trochlearis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S04.3",
+        "display": "Verletzung des N. trigeminus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S04.4",
+        "display": "Verletzung des N. abducens"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S04.5",
+        "display": "Verletzung des N. facialis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S04.6",
+        "display": "Verletzung des N. vestibulocochlearis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S04.7",
+        "display": "Verletzung des N. accessorius"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S04.8",
+        "display": "Verletzung sonstiger Hirnnerven"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "S04.9",
+        "display": "Verletzung eines nicht näher bezeichneten Hirnnervs"
+      }
+    ]
+  }
+}

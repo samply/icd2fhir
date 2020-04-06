@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P78",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P78",
+  "name": "P78",
+  "title": "Sonstige Krankheiten des Verdauungssystems in der Perinatalperiode",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P78"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P78.0",
+        "display": "Darmperforation in der Perinatalperiode"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P78.1",
+        "display": "Sonstige Peritonitis beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P78.2",
+        "display": "Hämatemesis und Meläna beim Neugeborenen durch Verschlucken mütterlichen Blutes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P78.3",
+        "display": "Nichtinfektiöse Diarrhoe beim Neugeborenen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P78.8",
+        "display": "Sonstige näher bezeichnete Krankheiten des Verdauungssystems in der Perinatalperiode"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P78.9",
+        "display": "Krankheit des Verdauungssystems in der Perinatalperiode, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

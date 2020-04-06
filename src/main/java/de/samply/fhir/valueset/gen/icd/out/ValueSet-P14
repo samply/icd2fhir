@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "P14",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/P14",
+  "name": "P14",
+  "title": "Geburtsverletzung des peripheren Nervensystems",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "P14"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P14.0",
+        "display": "Erb-Lähmung durch Geburtsverletzung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P14.1",
+        "display": "Klumpke-Lähmung durch Geburtsverletzung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P14.2",
+        "display": "Lähmung des N. phrenicus durch Geburtsverletzung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P14.3",
+        "display": "Sonstige Geburtsverletzungen des Plexus brachialis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P14.8",
+        "display": "Geburtsverletzungen sonstiger Teile des peripheren Nervensystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "P14.9",
+        "display": "Geburtsverletzung des peripheren Nervensystems, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

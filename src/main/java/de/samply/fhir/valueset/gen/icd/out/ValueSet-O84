@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "O84",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/O84",
+  "name": "O84",
+  "title": "Mehrlingsgeburt",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "O84"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O84.0",
+        "display": "Mehrlingsgeburt, Spontangeburt aller Kinder"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O84.1",
+        "display": "Mehrlingsgeburt, Geburt aller Kinder durch Vakuum- oder Zangenextraktion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O84.2",
+        "display": "Mehrlingsgeburt, Geburt aller Kinder durch Schnittentbindung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O84.8",
+        "display": "Sonstige Mehrlingsgeburt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "O84.9",
+        "display": "Mehrlingsgeburt, Art der Geburt nicht näher bezeichnet"
+      }
+    ]
+  }
+}

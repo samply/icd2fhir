@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "T56",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/T56",
+  "name": "T56",
+  "title": "Toxische Wirkung von Metallen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "T56"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T56.0",
+        "display": "Blei und dessen Verbindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T56.1",
+        "display": "Quecksilber und dessen Verbindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T56.2",
+        "display": "Chrom und dessen Verbindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T56.3",
+        "display": "Kadmium und dessen Verbindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T56.4",
+        "display": "Kupfer und dessen Verbindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T56.5",
+        "display": "Zink und dessen Verbindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T56.6",
+        "display": "Zinn und dessen Verbindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T56.7",
+        "display": "Beryllium und dessen Verbindungen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T56.8",
+        "display": "Sonstige Metalle"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "T56.9",
+        "display": "Metall, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

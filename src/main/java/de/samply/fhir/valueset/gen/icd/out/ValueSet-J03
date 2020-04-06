@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "J03",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/J03",
+  "name": "J03",
+  "title": "Akute Tonsillitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "J03"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J03.0",
+        "display": "Streptokokken-Tonsillitis"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J03.8",
+        "display": "Akute Tonsillitis durch sonstige näher bezeichnete Erreger"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "J03.9",
+        "display": "Akute Tonsillitis, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

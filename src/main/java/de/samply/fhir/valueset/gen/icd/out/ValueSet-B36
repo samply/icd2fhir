@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "B36",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/B36",
+  "name": "B36",
+  "title": "Sonstige oberflächliche Mykosen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "B36"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B36.0",
+        "display": "Pityriasis versicolor"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B36.1",
+        "display": "Tinea nigra"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B36.2",
+        "display": "Piedra alba [weiße Piedra]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B36.3",
+        "display": "Piedra nigra [schwarze Piedra]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B36.8",
+        "display": "Sonstige näher bezeichnete oberflächliche Mykosen"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "B36.9",
+        "display": "Oberflächliche Mykose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

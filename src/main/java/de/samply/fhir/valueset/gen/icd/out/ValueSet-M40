@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M40",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M40",
+  "name": "M40",
+  "title": "Kyphose und Lordose",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M40"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M40.0",
+        "display": "Kyphose als Haltungsstörung"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M40.1",
+        "display": "Sonstige sekundäre Kyphose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M40.2",
+        "display": "Sonstige und nicht näher bezeichnete Kyphose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M40.3",
+        "display": "Flachrücken"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M40.4",
+        "display": "Sonstige Lordose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M40.5",
+        "display": "Lordose, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

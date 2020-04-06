@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "D02",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/D02",
+  "name": "D02",
+  "title": "Carcinoma in situ des Mittelohres und des Atmungssystems",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "D02"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D02.0",
+        "display": "Larynx"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D02.1",
+        "display": "Trachea"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D02.2",
+        "display": "Bronchus und Lunge"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D02.3",
+        "display": "Sonstige Teile des Atmungssystems"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "D02.4",
+        "display": "Atmungssystem, nicht näher bezeichnet"
+      }
+    ]
+  }
+}

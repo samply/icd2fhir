@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "M09",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/M09",
+  "name": "M09",
+  "title": "Juvenile Arthritis bei anderenorts klassifizierten Krankheiten",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "M09"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M09.0",
+        "display": "Juvenile Arthritis bei Psoriasis[L40.5]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M09.1",
+        "display": "Juvenile Arthritis bei Crohn-Krankheit [Enteritis regionalis][K50.-]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M09.2",
+        "display": "Juvenile Arthritis bei Colitis ulcerosa[K51.-]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "M09.8",
+        "display": "Juvenile Arthritis bei sonstigen anderenorts klassifizierten Krankheiten"
+      }
+    ]
+  }
+}

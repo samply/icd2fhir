@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "L24",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/L24",
+  "name": "L24",
+  "title": "Toxische Kontaktdermatitis",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "L24"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L24.0",
+        "display": "Toxische Kontaktdermatitis durch Detergenzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L24.1",
+        "display": "Toxische Kontaktdermatitis durch Öle und Fette"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L24.2",
+        "display": "Toxische Kontaktdermatitis durch Lösungsmittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L24.3",
+        "display": "Toxische Kontaktdermatitis durch Kosmetika"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L24.4",
+        "display": "Toxische Kontaktdermatitis durch Drogen oder Arzneimittel bei Hautkontakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L24.5",
+        "display": "Toxische Kontaktdermatitis durch sonstige chemische Produkte"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L24.6",
+        "display": "Toxische Kontaktdermatitis durch Nahrungsmittel bei Hautkontakt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L24.7",
+        "display": "Toxische Kontaktdermatitis durch Pflanzen, ausgenommen Nahrungsmittel"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L24.8",
+        "display": "Toxische Kontaktdermatitis durch sonstige Agenzien"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "L24.9",
+        "display": "Toxische Kontaktdermatitis, nicht näher bezeichnete Ursache"
+      }
+    ]
+  }
+}

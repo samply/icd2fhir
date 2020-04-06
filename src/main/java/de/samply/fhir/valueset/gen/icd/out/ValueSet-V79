@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "V79",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/V79",
+  "name": "V79",
+  "title": "Autobusbenutzer bei sonstigen und nicht näher bezeichneten Transportmittelunfällen verletzt",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "V79"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V79.0",
+        "display": "Fahrer bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V79.1",
+        "display": "Fahrgast bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V79.2",
+        "display": "Nicht näher bezeichneter Autobusbenutzer bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V79.3",
+        "display": "Autobusbenutzer [jeder Art] bei nicht näher bezeichnetem Transportmittelunfall außerhalb des Verkehrs verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V79.4",
+        "display": "Fahrer bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Verkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V79.5",
+        "display": "Fahrgast bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Verkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V79.6",
+        "display": "Nicht näher bezeichneter Autobusbenutzer bei Zusammenstoß mit sonstigen und nicht näher bezeichneten Kraftfahrzeugen bei Verkehrsunfall verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V79.8",
+        "display": "Autobusbenutzer [jeder Art] bei sonstigen näher bezeichneten Transportmittelunfällen verletzt"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "V79.9",
+        "display": "Autobusbenutzer [jeder Art] bei nicht näher bezeichnetem Verkehrsunfall verletzt"
+      }
+    ]
+  }
+}

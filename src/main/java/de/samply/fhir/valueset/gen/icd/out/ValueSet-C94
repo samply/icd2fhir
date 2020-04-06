@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "C94",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/C94",
+  "name": "C94",
+  "title": "Sonstige Leukämien näher bezeichneten Zelltyps",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "C94"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C94.0",
+        "display": "Akute Erythroleukämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C94.2",
+        "display": "Akute Megakaryoblastenleukämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C94.3",
+        "display": "Mastzellenleukämie"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C94.4",
+        "display": "Akute Panmyelose mit Myelofibrose"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C94.6",
+        "display": "Myelodysplastische und myeloproliferative Krankheit, nicht klassifizierbar"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "C94.7",
+        "display": "Sonstige näher bezeichnete Leukämien"
+      }
+    ]
+  }
+}

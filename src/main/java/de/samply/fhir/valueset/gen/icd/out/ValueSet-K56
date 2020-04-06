@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "K56",
+  "url": "http://hl7.org/fhir/sid/icd-10-gm/K56",
+  "name": "K56",
+  "title": "Paralytischer Ileus und intestinale Obstruktion ohne Hernie",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "filter": [
+          {
+            "property": "parent",
+            "op": "is-a",
+            "value": "K56"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K56.0",
+        "display": "Paralytischer Ileus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K56.1",
+        "display": "Invagination"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K56.2",
+        "display": "Volvulus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K56.3",
+        "display": "Gallensteinileus"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K56.4",
+        "display": "Sonstige Obturation des Darmes"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K56.5",
+        "display": "Intestinale Adhäsionen [Briden] mit Obstruktion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K56.6",
+        "display": "Sonstige und nicht näher bezeichnete intestinale Obstruktion"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-gm",
+        "version": "2016",
+        "code": "K56.7",
+        "display": "Ileus, nicht näher bezeichnet"
+      }
+    ]
+  }
+}
